@@ -1,0 +1,25 @@
+{
+  "name": "allocator-portal",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Portal do ALLocator v2 - o pipeline contábil roda no navegador (src/core), a API só lê documento, julga e persiste.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
+  }
+}

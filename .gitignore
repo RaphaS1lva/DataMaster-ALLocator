@@ -1,0 +1,43 @@
+# Segredos - NUNCA commitar
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependências
+node_modules/
+server/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Build
+portal/dist/
+portal/.vite/
+*.egg-info/
+
+# Dados sensíveis de cliente. Balanço de empresa fechada não vai para
+# repositório público, mesmo privado. As fixtures de teste em
+# server/eval/datasets/ são derivadas e já anonimizadas na origem.
+*.xlsx
+*.xlsm
+*.pdf
+!server/eval/datasets/*.json
+
+# Ferramentas locais
+.claude/
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Saída de execução
+*.log
+.logs/
+server/eval/saida/
+
+# Lockfile do npm: DEVE ser commitado (build reprodutível). Está listado aqui
+# apenas como lembrete - não o ignore. O primeiro job de CI o publica como
+# artefato, porque o registry está bloqueado na máquina de desenvolvimento.
+# !portal/package-lock.json

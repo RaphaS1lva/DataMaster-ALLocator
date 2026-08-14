@@ -1,0 +1,30 @@
+# Dependências do servidor. VERSÕES PINADAS EXATAS de propósito: build
+# reprodutível é pré-requisito de leitura determinística - se pdfplumber muda a
+# heurística de extract_words numa release menor, as coordenadas mudam e a
+# detecção de colunas muda com elas, silenciosamente.
+#
+# Todas as versões abaixo estavam publicadas há mais de 7 dias em 13/08/2026.
+
+# --- API ---
+fastapi==0.141.1
+uvicorn[standard]==0.51.0
+pydantic==2.13.4
+python-multipart==0.0.32
+python-dotenv==1.2.2
+httpx==0.28.1
+
+# --- Leitura de PDF ---
+# pdfplumber: extract_words() com x0/x1/top/bottom por palavra - é a única coisa
+#   de que a detecção de colunas por coordenada X precisa.
+# pypdfium2: rasteriza página escaneada (wheel com binário do PDFium, ~10MB).
+# NÃO usar Docling: TableFormer erra tabela sem borda alinhada por whitespace
+#   (docling-project/docling#3749) e arrasta ~2GB de PyTorch.
+pdfplumber==0.11.10
+pypdfium2==5.12.1
+pillow==12.3.0
+
+# --- Persistência, auth e planilha ---
+psycopg[binary]==3.3.4
+bcrypt==5.0.0
+pyjwt==2.13.0
+openpyxl==3.1.5

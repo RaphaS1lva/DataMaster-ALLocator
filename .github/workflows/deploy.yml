@@ -1,0 +1,83 @@
+name: Deploy do portal (GitHub Pages)
+
+# Publica APENAS o portal. O servidor de inferência roda no notebook pessoal e o
+# plano de dados no Render - nenhum dos dois é implantado aqui.
+#
+# Nada de segredo nesta build: as URLs de API são lidas em RUNTIME de
+# `portal/public/runtime-config.json`, não embutidas. Isso resolve o hostname
+# variável do Cloudflare Tunnel gratuito, que na v1 exigiria rebuild e redeploy
+# a cada reinício do tunnel.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'portal/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write     # exigido pelo actions/deploy-pages
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Não publica sem os testes passarem. Roda antes do build porque falhar em
+      # 3s é melhor que falhar depois de um bundle de 30s.
+      - name: Testes do núcleo contábil
+        working-directory: portal
+        run: node --test test/*.test.mjs
+
+      - name: Instalar dependências
+        working-directory: portal
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --no-audit --no-fund
+          else
+            echo "::warning::package-lock.json ausente - build não reprodutível. Veja o job de CI."
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Build
+        working-directory: portal
+        run: npm run build
+
+      # Sanidade: `base: './'` no vite.config é o que faz o portal funcionar em
+      # qualquer subcaminho do Pages. Um caminho absoluto aqui daria tela branca
+      # em `usuario.github.io/repo/` e é o erro clássico deste deploy.
+      - name: Conferir se os caminhos são relativos
+        working-directory: portal
+        run: |
+          if grep -qE '(src|href)="/(assets|vite)' dist/index.html; then
+            echo "::error::dist/index.html tem caminho absoluto - confirme base: './' no vite.config.js"
+            exit 1
+          fi
+          test -f dist/runtime-config.json || {
+            echo "::error::runtime-config.json não foi copiado para dist/"; exit 1; }
+          echo "caminhos relativos e runtime-config presentes"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: portal/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

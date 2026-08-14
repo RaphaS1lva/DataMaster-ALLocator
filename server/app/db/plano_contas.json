@@ -1,0 +1,965 @@
+[
+ {
+  "row": 5,
+  "side": "AP",
+  "destino": "Caixa",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 6,
+  "side": "AP",
+  "destino": "Aplicações Financeiras",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 7,
+  "side": "AP",
+  "destino": "Disponibilidades",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 8,
+  "side": "AP",
+  "destino": "Clientes",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 9,
+  "side": "AP",
+  "destino": "Clientes - Grupo",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 10,
+  "side": "AP",
+  "destino": "-PDD",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 11,
+  "side": "AP",
+  "destino": "Clientes Líquido",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 12,
+  "side": "AP",
+  "destino": "Matéria-Prima",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 13,
+  "side": "AP",
+  "destino": "Produtos em Elaboração",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 14,
+  "side": "AP",
+  "destino": "Produtos Acabados",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 15,
+  "side": "AP",
+  "destino": "Estoques",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 16,
+  "side": "AP",
+  "destino": "Ajustes derivativos / cambio (AC)",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 17,
+  "side": "AP",
+  "destino": "Adiantamento a Fornecedores",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 18,
+  "side": "AP",
+  "destino": "Mútuo Financeiro",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 19,
+  "side": "AP",
+  "destino": "Impostos a Recuperar",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 20,
+  "side": "AP",
+  "destino": "Outros Operacionais (AC)",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 21,
+  "side": "AP",
+  "destino": "Outros Não Operacionais (AC)",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 22,
+  "side": "AP",
+  "destino": "TOTAL ATIVO CIRCULANTE",
+  "grupo": "Ativo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 23,
+  "side": "AP",
+  "destino": "Ajustes derivativos / cambio (ANC)",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 24,
+  "side": "AP",
+  "destino": "Impostos Diferidos",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 25,
+  "side": "AP",
+  "destino": "Impostos a recuperar/Crédito tributário",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 26,
+  "side": "AP",
+  "destino": "Mútuo Financeiro LP",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 27,
+  "side": "AP",
+  "destino": "Aplicações Financeiras de LP",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 28,
+  "side": "AP",
+  "destino": "Outros Operacionais (ANC)",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 29,
+  "side": "AP",
+  "destino": "Outros Não Operacionais LP (ANC)",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 30,
+  "side": "AP",
+  "destino": "TOTAL ATIVO REALIZÁVEL LP",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 31,
+  "side": "AP",
+  "destino": "Direito de Uso",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 32,
+  "side": "AP",
+  "destino": "- Depreciação acumulada (Direito de uso)",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 33,
+  "side": "AP",
+  "destino": "Direito de Uso Líquido",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 34,
+  "side": "AP",
+  "destino": "Terreno",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 35,
+  "side": "AP",
+  "destino": "Edificios, maquinas e outros",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 36,
+  "side": "AP",
+  "destino": "-Depreciação Acumulada",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 37,
+  "side": "AP",
+  "destino": "Imobilizado líquido",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 38,
+  "side": "AP",
+  "destino": "Investimentos",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 39,
+  "side": "AP",
+  "destino": "Outros Ativos Intangiveis / Goodwill",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 40,
+  "side": "AP",
+  "destino": "TOTAL ATIVO FIXO",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 41,
+  "side": "AP",
+  "destino": "TOTAL ATIVO",
+  "grupo": "Ativo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 44,
+  "side": "AP",
+  "destino": "PASSIVO",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 45,
+  "side": "AP",
+  "destino": "Bancos",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 46,
+  "side": "AP",
+  "destino": "Outras Dividas Financeiras",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 47,
+  "side": "AP",
+  "destino": "Confirming",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 48,
+  "side": "AP",
+  "destino": "Dividas Fiscais de Curto Prazo",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 49,
+  "side": "AP",
+  "destino": "Ajustes derivativos / cambio (+)",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 50,
+  "side": "AP",
+  "destino": "Fornecedores",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 51,
+  "side": "AP",
+  "destino": "Fornecedores - Partes Relacionadas",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 52,
+  "side": "AP",
+  "destino": "Fornecedores Totais",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 53,
+  "side": "AP",
+  "destino": "Passivo de Arrendamento Circulante",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 54,
+  "side": "AP",
+  "destino": "Mútuo Financeiro",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 55,
+  "side": "AP",
+  "destino": "Salários",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 56,
+  "side": "AP",
+  "destino": "Impostos",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 57,
+  "side": "AP",
+  "destino": "Adiantamento de Clientes",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 58,
+  "side": "AP",
+  "destino": "Dividendos a Pagar",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 59,
+  "side": "AP",
+  "destino": "Outros Operacionais (PC)",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 60,
+  "side": "AP",
+  "destino": "Outros Não Operacionais (PC)",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 61,
+  "side": "AP",
+  "destino": "TOTAL PASSIVO CIRCULANTE",
+  "grupo": "Passivo",
+  "subCategoria": "Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 62,
+  "side": "AP",
+  "destino": "Bancos LP",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 63,
+  "side": "AP",
+  "destino": "Outras Dividas Financeiras LP",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 64,
+  "side": "AP",
+  "destino": "Dividas Fiscais LP",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 65,
+  "side": "AP",
+  "destino": "Ajustes derivativos / cambio (PNC)",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 66,
+  "side": "AP",
+  "destino": "Passivo de Arrendamento LP",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 67,
+  "side": "AP",
+  "destino": "Mútuo Financeiro LP",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 68,
+  "side": "AP",
+  "destino": "Provisões",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 69,
+  "side": "AP",
+  "destino": "Outros Operacionais (PNC)",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 70,
+  "side": "AP",
+  "destino": "Outros Não Operacionais (PNC)",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 71,
+  "side": "AP",
+  "destino": "TOTAL PASSIVO NÃO CIRCULANTE",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 72,
+  "side": "AP",
+  "destino": "TOTAL PASSIVO",
+  "grupo": "Passivo",
+  "subCategoria": "Não Circulante",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 75,
+  "side": "AP",
+  "destino": "PARTICIPAÇÕES MINORITÁRIAS",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 76,
+  "side": "AP",
+  "destino": "Capital Social",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 77,
+  "side": "AP",
+  "destino": "Lucros Acumulados",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 78,
+  "side": "AP",
+  "destino": "Outras Reservas",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 79,
+  "side": "AP",
+  "destino": "PATRIMÔNIO LÍQUIDO",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 80,
+  "side": "AP",
+  "destino": "RECURSOS PROPRIOS - Reportado com IFRS16",
+  "grupo": "Passivo",
+  "subCategoria": "PL",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 5,
+  "side": "DRE",
+  "destino": "Vendas Totais",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 6,
+  "side": "DRE",
+  "destino": "-Impostos",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 7,
+  "side": "DRE",
+  "destino": "Vendas Líquidas",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 8,
+  "side": "DRE",
+  "destino": "-Custo de Produtos Vendidos",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 9,
+  "side": "DRE",
+  "destino": "Resultado Bruto",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 10,
+  "side": "DRE",
+  "destino": "- Despesas com Vendas",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 11,
+  "side": "DRE",
+  "destino": "- Despesas Administrativas",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 12,
+  "side": "DRE",
+  "destino": "Resultado da Exploração ",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 13,
+  "side": "DRE",
+  "destino": "+/-Outras Receitas/Despesas Operacionais",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 14,
+  "side": "DRE",
+  "destino": "+/-Provisões Operacionais",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 15,
+  "side": "DRE",
+  "destino": "Resultado Operacional (EBIT)",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 16,
+  "side": "DRE",
+  "destino": "- Depreciação e amortização (imob e intang)",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 17,
+  "side": "DRE",
+  "destino": "- Depreciação/Amortização dos Arrendamentos Op.",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 18,
+  "side": "DRE",
+  "destino": "EBITDA",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 19,
+  "side": "DRE",
+  "destino": "- Despesas/Custo de Aluguel",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 20,
+  "side": "DRE",
+  "destino": "EBITDA ex-IFRS16",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 21,
+  "side": "DRE",
+  "destino": "-  Despesas Financeiras",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 22,
+  "side": "DRE",
+  "destino": "+ Receitas Financeiras",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pos"
+ },
+ {
+  "row": 23,
+  "side": "DRE",
+  "destino": "+/- Resultado Financeiro",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "pm"
+ },
+ {
+  "row": 24,
+  "side": "DRE",
+  "destino": "+/- Variações Cambiais",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 25,
+  "side": "DRE",
+  "destino": "+/- Equivalência Patrimonial",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 26,
+  "side": "DRE",
+  "destino": "Lucro antes de Impostos e Extraordinários",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 27,
+  "side": "DRE",
+  "destino": "Outros não recorrentes e/ou não operacionais",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "none"
+ },
+ {
+  "row": 28,
+  "side": "DRE",
+  "destino": "+/- Créditos Tributários",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 29,
+  "side": "DRE",
+  "destino": "+/- Resultado de alienação do Imobilizado",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 30,
+  "side": "DRE",
+  "destino": "- Juros de Arrendamento Operacional",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 31,
+  "side": "DRE",
+  "destino": "+/- Resultado Extraordinário",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "pm"
+ },
+ {
+  "row": 32,
+  "side": "DRE",
+  "destino": "Lucro antes de Impostos ",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 33,
+  "side": "DRE",
+  "destino": "- Impostos Pagos",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 34,
+  "side": "DRE",
+  "destino": "+/- Impostos Diferidos",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 35,
+  "side": "DRE",
+  "destino": "Lucro Liquido",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 36,
+  "side": "DRE",
+  "destino": "+/- Resultados Abrangentes",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ },
+ {
+  "row": 37,
+  "side": "DRE",
+  "destino": "Lucro Líquido+Resultado Abrangente a Distribuir",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "subtotal",
+  "sign": "none"
+ },
+ {
+  "row": 39,
+  "side": "DRE",
+  "destino": "- Dividendos",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "neg"
+ },
+ {
+  "row": 40,
+  "side": "DRE",
+  "destino": "+/- Participações Minoritárias",
+  "grupo": "DRE",
+  "subCategoria": "DRE",
+  "tipo": "conta",
+  "sign": "pm"
+ }
+]

@@ -1,0 +1,4924 @@
+{
+ "fatos": {
+  "arquivo": "balancete_exemplo_05.2026.xlsx",
+  "aba": "01-XXXXXX - Balancete de Verif",
+  "competencia": "05/2026",
+  "linhas": 358,
+  "folhas": 224,
+  "sinteticas": 134,
+  "retificadoras": 13,
+  "saldoAtual": {
+   "ativo": 118035576.14,
+   "passivoPl": 118724714.55,
+   "receitas": 28281223.87,
+   "despesas": 28970362.28,
+   "resultado": -689138.41,
+   "difSimples": -689138.41,
+   "difEstendida": 0.0
+  },
+  "totaisDeclarados": {
+   "1": {
+    "origem": "ATIVO",
+    "saldoAtual": 118035576.14
+   },
+   "2": {
+    "origem": "PASSIVO",
+    "saldoAtual": -118724714.55
+   },
+   "24": {
+    "origem": "PATRIMONIO LIQUIDO",
+    "saldoAtual": -13428998.48
+   },
+   "3": {
+    "origem": "CUSTOS E DESPESAS",
+    "saldoAtual": 28970362.28
+   },
+   "4": {
+    "origem": "RECEITAS",
+    "saldoAtual": -28281223.87
+   }
+  },
+  "anonimizado": true,
+  "nota": "Fixture anonimizada por scripts/anonimizar_fixture.py. Razão social, agência e conta bancária foram substituídas. Códigos contábeis, valores e naturezas D/C estão INTACTOS - é isso que o golden dataset precisa preservar para provar o invariante."
+ },
+ "rows": [
+  {
+   "codigo": "1",
+   "origem": "ATIVO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 115949377.44,
+    "Mov Periodo": 2086198.7,
+    "Saldo Atual": 118035576.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11",
+   "origem": "ATIVO CIRCULANTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11664857.68,
+    "Mov Periodo": 2086977.14,
+    "Saldo Atual": 13751834.82
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1101",
+   "origem": "DISPONIBILIDADES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1662433.47,
+    "Mov Periodo": 2027628.37,
+    "Saldo Atual": 3690061.84
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110101",
+   "origem": "CAIXAS E FUNDO FIXO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 3000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010100000071",
+   "origem": "PRF - MOBI",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 3000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110102",
+   "origem": "BANCOS COM MOVIMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 26.28,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 26.28
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010200000151",
+   "origem": "BCO BRASIL EMPRESA AG XXXX CC XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11010200000152",
+   "origem": "BCO ITAU EMPRESA AG XXXX CC XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010200000191",
+   "origem": "BRADESCO EMPRESA AG XXXX CC XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6.15,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 6.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010200000211",
+   "origem": "BANCO BRADESCO AG XXXX C/C XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 9.99,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 9.99
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010200000228",
+   "origem": "BANCO OT EMPRESA AG XXXX C/C XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 9.14,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 9.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110104",
+   "origem": "APLICACOES FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1659407.19,
+    "Mov Periodo": 2027628.37,
+    "Saldo Atual": 3687035.56
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010400000085",
+   "origem": "APLIC. AUT ITAU EMPRESA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3950.49,
+    "Mov Periodo": 1906.3,
+    "Saldo Atual": 2044.19
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010400000122",
+   "origem": "APL.CDB ITAU EMPRESA AG XXXX C. XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 636206.26,
+    "Mov Periodo": 2016362.86,
+    "Saldo Atual": 2652569.12
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010400000123",
+   "origem": "APL.BRADESCO EMPRESA AG XXXX C. XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1829.76,
+    "Mov Periodo": 117.96,
+    "Saldo Atual": 1711.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010400000169",
+   "origem": "BCO DO BRASIL AG XXXX C. XXXXX APLIC AUT",
+   "valoresPorSlot": {
+    "Saldo Anterior": 730.99,
+    "Mov Periodo": 72.67,
+    "Saldo Atual": 658.32
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11010400000197",
+   "origem": "BCO BRADESCO AG XXXX C. XXXXX APLIC AUT",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1016689.69,
+    "Mov Periodo": 13362.44,
+    "Saldo Atual": 1030052.13
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1103",
+   "origem": "CREDITOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6706108.35,
+    "Mov Periodo": 93740.01,
+    "Saldo Atual": 6612368.34
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110301",
+   "origem": "CLIENTES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5311251.18,
+    "Mov Periodo": 380.29,
+    "Saldo Atual": 5310870.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11030100000001",
+   "origem": "CLIENTES NACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5311251.18,
+    "Mov Periodo": 380.29,
+    "Saldo Atual": 5310870.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110302",
+   "origem": "CLIENTES LOCACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2897470.09,
+    "Mov Periodo": 6013.01,
+    "Saldo Atual": 2891457.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11030200000001",
+   "origem": "CLIENTES LOCACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1855656.19,
+    "Mov Periodo": 3197.55,
+    "Saldo Atual": 1858853.74
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11030200000004",
+   "origem": "CLIENTES LOCACAO - PARCELAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1041813.9,
+    "Mov Periodo": 9210.56,
+    "Saldo Atual": 1032603.34
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110303",
+   "origem": "DUPLICATAS A RECEBER - PJ",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11030300000001",
+   "origem": "DUPLICATAS A RECEBER - PJ",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "110305",
+   "origem": "PERDAS DE CREDITOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1502612.92,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 1589959.63
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "11030500000002",
+   "origem": "( - ) PCLD PERDAS CRED.LIQUIDACAO DUVIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1502612.92,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 1589959.63
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "1104",
+   "origem": "BANCO CONTA VINCULADA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110401",
+   "origem": "BANCO CONTA GARANTIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11040100000139",
+   "origem": "BCO BRADESCO AG XXXX C/C XXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1105",
+   "origem": "CREDITOS TRIBUTARIOS A COMPENSAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2825380.86,
+    "Mov Periodo": 208147.65,
+    "Saldo Atual": 3033528.51
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110501",
+   "origem": "CREDITOS TRIB. FEDERAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2825380.86,
+    "Mov Periodo": 208147.65,
+    "Saldo Atual": 3033528.51
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11050100000006",
+   "origem": "PIS RETIDO S/ FATURAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11050100000007",
+   "origem": "COFINS RETIDO S/FATURAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11050100000008",
+   "origem": "INSS RETIDO S/FATURAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 673475.75,
+    "Mov Periodo": 70874.24,
+    "Saldo Atual": 744349.99
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11050100000009",
+   "origem": "IRPJ RETIDO S/FATURAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1106052.5,
+    "Mov Periodo": 76128.27,
+    "Saldo Atual": 1182180.77
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11050100000010",
+   "origem": "CSLL RETIDO S/FATURAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 860844.25,
+    "Mov Periodo": 59878.12,
+    "Saldo Atual": 920722.37
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11050100000012",
+   "origem": "IRRF S/APLICACOES FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 185008.36,
+    "Mov Periodo": 1267.02,
+    "Saldo Atual": 186275.38
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110503",
+   "origem": "CREDITOS TRIB. MUNICIPAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11050300000001",
+   "origem": "ISS - IMPOSTO SOBRE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "110504",
+   "origem": "CREDITOS TRIBUTARIOS A RECUPERAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11050400000001",
+   "origem": "PIS A RECUPERAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11050400000002",
+   "origem": "COFINS A RECUPERAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "1108",
+   "origem": "ADIANTAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 161234.66,
+    "Mov Periodo": 25859.6,
+    "Saldo Atual": 135375.06
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110801",
+   "origem": "ADIANTAMENTOS E ANTECIPACOES SALARIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 121838.26,
+    "Mov Periodo": 25859.6,
+    "Saldo Atual": 95978.66
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11080100000001",
+   "origem": "ADIANT. E ANTECIPACOES SALARIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "11080100000002",
+   "origem": "ADIANT. FERIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 117738.34,
+    "Mov Periodo": 25859.6,
+    "Saldo Atual": 91878.74
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11080100000003",
+   "origem": "ADIANT. 13. SALARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3950.12,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 3950.12
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11080100000013",
+   "origem": "ADIANT. CONVENIO ACADEMIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 149.8,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 149.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "110802",
+   "origem": "ADIANTAMENTOS A FORNECEDORES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 39396.4,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 39396.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11080200000001",
+   "origem": "ADIANT. FORNECEDORES NACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 39396.4,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 39396.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1113",
+   "origem": "DESPESAS ANTECIPADAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 309699.34,
+    "Mov Periodo": 29199.27,
+    "Saldo Atual": 280500.07
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "111301",
+   "origem": "PREMIOS DE SEGUROS A APROPRIAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 154167.06,
+    "Mov Periodo": 11939.56,
+    "Saldo Atual": 142227.5
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11130100000001",
+   "origem": "SEGUROS PATRIMONIAIS / PREDIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 62762.78,
+    "Mov Periodo": 7442.22,
+    "Saldo Atual": 55320.56
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11130100000004",
+   "origem": "SEGUROS GARANTIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 91404.28,
+    "Mov Periodo": 4497.34,
+    "Saldo Atual": 86906.94
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "111302",
+   "origem": "OUTRAS DESPESAS A APROPRIAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 155532.28,
+    "Mov Periodo": 17259.71,
+    "Saldo Atual": 138272.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11130200000001",
+   "origem": "IPVA A APROPRIAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 1927.78,
+    "Saldo Atual": 1927.78
+   },
+   "naturezaPorSlot": {
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11130200000002",
+   "origem": "SEGURO / LIC. OBRIG. A APROPRIAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 254.04,
+    "Saldo Atual": 254.04
+   },
+   "naturezaPorSlot": {
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "11130200000015",
+   "origem": "CUSTOS EMISSAO DE DEBENTURES A APROPRIAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 155532.28,
+    "Mov Periodo": 19441.53,
+    "Saldo Atual": 136090.75
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12",
+   "origem": "ATIVO NAO CIRCULANTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 104284519.76,
+    "Mov Periodo": 778.44,
+    "Saldo Atual": 104283741.32
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1201",
+   "origem": "ATIVO REALIZAVEL A LONGO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14280208.35,
+    "Mov Periodo": 712.0,
+    "Saldo Atual": 14280920.35
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "120101",
+   "origem": "DEPOSITOS JUDICIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 19166.04,
+    "Mov Periodo": 712.0,
+    "Saldo Atual": 19878.04
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12010100000001",
+   "origem": "DEP.JUDICIAIS - TRABALHISTAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 19166.04,
+    "Mov Periodo": 712.0,
+    "Saldo Atual": 19878.04
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "120106",
+   "origem": "CREDITOS TRIB. FEDERAIS - L.PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 12472421.15,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 12472421.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12010600000001",
+   "origem": "IRPJ - DIFERIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10149373.8,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 10149373.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12010600000002",
+   "origem": "CSLL - DIFERIDA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2323047.35,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 2323047.35
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "120108",
+   "origem": "DESPESAS A APROPRIAR - L.PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1788621.16,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1788621.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12010800000004",
+   "origem": "CUSTOS EMISSAO DE DEBENTURES A APROPR LP",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1788621.16,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1788621.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "1222",
+   "origem": "INTANGIVEL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 85840366.71,
+    "Mov Periodo": 402660.32,
+    "Saldo Atual": 85437706.39
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "122204",
+   "origem": "BENS DE CONCESSAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 96882131.71,
+    "Mov Periodo": 37746.54,
+    "Saldo Atual": 96919878.25
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000002",
+   "origem": "BENFEITORIAS EM PROP.TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 57186241.39,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 57186241.39
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000003",
+   "origem": "MAQ. APARELHOS,EQUIP.E INSTALACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2591196.68,
+    "Mov Periodo": 20486.54,
+    "Saldo Atual": 2611683.22
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000004",
+   "origem": "EQUIPAMENTOS DE INFORMATICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5178533.52,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 5178533.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000005",
+   "origem": "MOVEIS, UTENSILIOS E INSTALACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 776443.55,
+    "Mov Periodo": 17260.0,
+    "Saldo Atual": 793703.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000006",
+   "origem": "VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 87000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 87000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000007",
+   "origem": "SOFTWARES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3762602.64,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 3762602.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000014",
+   "origem": "VIABILIDADE TECNICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4747728.36,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 4747728.36
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220400000015",
+   "origem": "BENFEITORIAS - ENCARGOS FINANCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 22552385.57,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 22552385.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "122205",
+   "origem": "AMORTIZACAO ACUMULADA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11074265.0,
+    "Mov Periodo": 437156.86,
+    "Saldo Atual": 11511421.86
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000002",
+   "origem": "(-) AMORT.ACUM.BENFEITORIAS PROP.TERC.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2431968.75,
+    "Mov Periodo": 168883.15,
+    "Saldo Atual": 2600851.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000003",
+   "origem": "(-) AMORT.ACUM.MAQ.,APAR.,EQUIPAM.E INST",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1088436.45,
+    "Mov Periodo": 25752.98,
+    "Saldo Atual": 1114189.43
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000004",
+   "origem": "(-) AMORT.ACUM.EQUIPAMENTOS DE INFORM.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3764096.36,
+    "Mov Periodo": 85810.33,
+    "Saldo Atual": 3849906.69
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000005",
+   "origem": "(-) AMORT.ACUM.MOVEIS,UTENSILIOS E INST.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 261440.09,
+    "Mov Periodo": 6416.8,
+    "Saldo Atual": 267856.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000006",
+   "origem": "(-) AMORT.ACUM.VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 31495.16,
+    "Mov Periodo": 1450.0,
+    "Saldo Atual": 32945.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000007",
+   "origem": "(-) AMORT.ACUM.SOFTWARES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1966102.53,
+    "Mov Periodo": 62710.06,
+    "Saldo Atual": 2028812.59
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000012",
+   "origem": "(-) AMORT.ACUM.VIABILIDADE TECNICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 815026.64,
+    "Mov Periodo": 15825.76,
+    "Saldo Atual": 830852.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220500000013",
+   "origem": "(-) AMORT.ACUM.BENFEITORIAS ENCARGOS FIN",
+   "valoresPorSlot": {
+    "Saldo Anterior": 715699.02,
+    "Mov Periodo": 70307.78,
+    "Saldo Atual": 786006.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "122206",
+   "origem": "LEASING FINANCEIRO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 195000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 195000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12220600000004",
+   "origem": "LEASING VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 195000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 195000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "122207",
+   "origem": "AMORTIZACAO ACUMULADA LEASING",
+   "valoresPorSlot": {
+    "Saldo Anterior": 162500.0,
+    "Mov Periodo": 3250.0,
+    "Saldo Atual": 165750.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "12220700000004",
+   "origem": "(-) AMORT.ACUM.LEASING VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 162500.0,
+    "Mov Periodo": 3250.0,
+    "Saldo Atual": 165750.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "1223",
+   "origem": "CONSTRUCAO EM ANDAMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4163944.7,
+    "Mov Periodo": 401169.88,
+    "Saldo Atual": 4565114.58
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "122301",
+   "origem": "CONSTRUCAO EM ANDAMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4163944.7,
+    "Mov Periodo": 401169.88,
+    "Saldo Atual": 4565114.58
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000001",
+   "origem": "MATERIAIS CONSTRUCAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 83605.66,
+    "Mov Periodo": 7258.02,
+    "Saldo Atual": 90863.68
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000005",
+   "origem": "ESTRUTURAS, BASES E PAVIMENTACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 254702.7,
+    "Mov Periodo": 85435.1,
+    "Saldo Atual": 340137.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000009",
+   "origem": "COBERTURAS, ISOLAMENTO E IMPERMEBILIZ.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 27142.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 27142.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000010",
+   "origem": "SERV.INSTAL.MONTAG. HIDR.ELETR. E MECANI",
+   "valoresPorSlot": {
+    "Saldo Anterior": 245507.5,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 245507.5
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000013",
+   "origem": "MAQ., APARELHOS E EQUIPAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8928.68,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 8928.68
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000014",
+   "origem": "MOVEIS E UTENSILIOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 16540.96,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 16540.96
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000015",
+   "origem": "EQUIPAMENTOS INFORMATICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 13722.8,
+    "Mov Periodo": 2370.84,
+    "Saldo Atual": 16093.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000016",
+   "origem": "OUTROS SERVICOS COMPLEMENTARES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1315794.46,
+    "Mov Periodo": 295900.92,
+    "Saldo Atual": 1611695.38
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "12230100000017",
+   "origem": "OUTROS GASTOS COM OBRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2197999.94,
+    "Mov Periodo": 10205.0,
+    "Saldo Atual": 2208204.94
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "2",
+   "origem": "PASSIVO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 116280553.96,
+    "Mov Periodo": 2444160.59,
+    "Saldo Atual": 118724714.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21",
+   "origem": "PASSIVO CIRCULANTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10795788.81,
+    "Mov Periodo": 345731.64,
+    "Saldo Atual": 11141520.45
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2101",
+   "origem": "OBRIGACOES A CURTO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 976260.63,
+    "Mov Periodo": 305555.28,
+    "Saldo Atual": 1281815.91
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210101",
+   "origem": "FORNECEDORES NACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 623231.33,
+    "Mov Periodo": 41762.32,
+    "Saldo Atual": 581469.01
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21010100000001",
+   "origem": "FORNECEDORES NACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 623231.33,
+    "Mov Periodo": 41762.32,
+    "Saldo Atual": 581469.01
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210107",
+   "origem": "OUTROS VALORES A PAGAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 353029.3,
+    "Mov Periodo": 347317.6,
+    "Saldo Atual": 700346.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21010700000001",
+   "origem": "RDV - REEMBOLSO DESPESA VIAGENS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "21010700000003",
+   "origem": "REEMB. A PAGAR - SAP",
+   "valoresPorSlot": {
+    "Saldo Anterior": 353029.3,
+    "Mov Periodo": 347317.6,
+    "Saldo Atual": 700346.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2102",
+   "origem": "OBRIGACOES TRABALHISTAS E PREVIDENC.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1850229.01,
+    "Mov Periodo": 19704.59,
+    "Saldo Atual": 1869933.6
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210201",
+   "origem": "OBRIGACOES TRABALHISTAS E PREVIDENC.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1850229.01,
+    "Mov Periodo": 19704.59,
+    "Saldo Atual": 1869933.6
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000001",
+   "origem": "SALARIOS E ORDENADOS A PAGAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1094126.37,
+    "Mov Periodo": 8352.45,
+    "Saldo Atual": 1085773.92
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000003",
+   "origem": "INSS A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 390928.89,
+    "Mov Periodo": 42.65,
+    "Saldo Atual": 390971.54
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000004",
+   "origem": "FGTS A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 116261.4,
+    "Mov Periodo": 915.55,
+    "Saldo Atual": 117176.95
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000005",
+   "origem": "IRRF S/FOLHA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 27795.97,
+    "Mov Periodo": 164.78,
+    "Saldo Atual": 27631.19
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000006",
+   "origem": "PENSAO ALIMENTICIA A PAGAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7728.6,
+    "Mov Periodo": 1552.57,
+    "Saldo Atual": 6176.03
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000007",
+   "origem": "EMPRESTIMO CONSIGNADO P/FUNC.",
+   "valoresPorSlot": {
+    "Saldo Anterior": 128526.7,
+    "Mov Periodo": 8712.8,
+    "Saldo Atual": 137239.5
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21020100000009",
+   "origem": "QUITACOES / RESCISOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "21020100000014",
+   "origem": "CONTRIBUICAO SINDICAL/ASSOCIATIVA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 84861.08,
+    "Mov Periodo": 20103.39,
+    "Saldo Atual": 104964.47
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2103",
+   "origem": "OBRIGACOES TRIBUTARIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1827864.58,
+    "Mov Periodo": 187999.96,
+    "Saldo Atual": 1639864.62
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210301",
+   "origem": "OBRIGACOES TRIBUTARIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 231702.62,
+    "Mov Periodo": 2296.6,
+    "Saldo Atual": 229406.02
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030100000001",
+   "origem": "PIS A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 41371.51,
+    "Mov Periodo": 472.04,
+    "Saldo Atual": 40899.47
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030100000002",
+   "origem": "COFINS A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 190331.11,
+    "Mov Periodo": 1824.56,
+    "Saldo Atual": 188506.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030100000006",
+   "origem": "ISSQN A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {}
+  },
+  {
+   "codigo": "210302",
+   "origem": "TRIBUTOS RETIDOS A RECOLHER",
+   "valoresPorSlot": {
+    "Saldo Anterior": 161885.69,
+    "Mov Periodo": 14249.54,
+    "Saldo Atual": 147636.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030200000001",
+   "origem": "CSRF - 4,65%",
+   "valoresPorSlot": {
+    "Saldo Anterior": 31291.61,
+    "Mov Periodo": 2271.06,
+    "Saldo Atual": 29020.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030200000002",
+   "origem": "IRRF RETIDO S/ TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6944.08,
+    "Mov Periodo": 1434.75,
+    "Saldo Atual": 5509.33
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030200000003",
+   "origem": "INSS RETIDO S/ TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 69533.5,
+    "Mov Periodo": 2315.88,
+    "Saldo Atual": 67217.62
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030200000004",
+   "origem": "ISSQN RETIDO S/TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 54116.5,
+    "Mov Periodo": 8227.85,
+    "Saldo Atual": 45888.65
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210303",
+   "origem": "PARCELAMENTOS DE IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1434276.27,
+    "Mov Periodo": 171453.82,
+    "Saldo Atual": 1262822.45
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030300000013",
+   "origem": "PARCELAMENTO INSS (FOLHA)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 634202.79,
+    "Mov Periodo": 73936.58,
+    "Saldo Atual": 560266.21
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030300000166",
+   "origem": "PARCELAMENTO PIS E COFINS - Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 60882.38,
+    "Mov Periodo": 7420.66,
+    "Saldo Atual": 53461.72
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030300000168",
+   "origem": "REPARCELAMENTO PIS E COFINS Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 147787.18,
+    "Mov Periodo": 18013.1,
+    "Saldo Atual": 129774.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21030300000171",
+   "origem": "REPARCELAMENTO INSS - Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 591403.92,
+    "Mov Periodo": 72083.48,
+    "Saldo Atual": 519320.44
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2105",
+   "origem": "ADIANTAMENTOS DE CLIENTES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1433.94,
+    "Mov Periodo": 1244.3,
+    "Saldo Atual": 189.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210501",
+   "origem": "RECEBIMENTOS ANTECIPADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1433.94,
+    "Mov Periodo": 1244.3,
+    "Saldo Atual": 189.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21050100000001",
+   "origem": "RA - RECEBIMENTOS ANTECIPADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1433.94,
+    "Mov Periodo": 1244.3,
+    "Saldo Atual": 189.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2107",
+   "origem": "EMPRESTIMOS E FINANCIAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1914.1,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1914.1
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210701",
+   "origem": "CHEQUES A COMPENSAR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1914.1,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1914.1
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21070100000002",
+   "origem": "DEPOSITOS NAO IDENTIFICADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1914.1,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1914.1
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2109",
+   "origem": "PROVISOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3269232.01,
+    "Mov Periodo": 209716.03,
+    "Saldo Atual": 3478948.04
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "210902",
+   "origem": "PROVISOES TRABALHISTAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3269232.01,
+    "Mov Periodo": 209716.03,
+    "Saldo Atual": 3478948.04
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000001",
+   "origem": "PROVISAO 13. SALARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 500561.68,
+    "Mov Periodo": 123261.76,
+    "Saldo Atual": 623823.44
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000002",
+   "origem": "INSS S/ PROV. 13. SALARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 145042.46,
+    "Mov Periodo": 35863.69,
+    "Saldo Atual": 180906.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000003",
+   "origem": "FGTS S/ PROV. 13. SALARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 39305.68,
+    "Mov Periodo": 9650.39,
+    "Saldo Atual": 48956.07
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000004",
+   "origem": "PROVISAO DE FERIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1887737.86,
+    "Mov Periodo": 30049.27,
+    "Saldo Atual": 1917787.13
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000005",
+   "origem": "INSS S/ PROV. FERIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 548742.8,
+    "Mov Periodo": 8735.14,
+    "Saldo Atual": 557477.94
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21090200000006",
+   "origem": "FGTS S/ PROV. FERIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 147841.53,
+    "Mov Periodo": 2155.78,
+    "Saldo Atual": 149997.31
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2111",
+   "origem": "DEBENTURES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2868854.54,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 2868854.54
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "211101",
+   "origem": "DEBENTURES NAO CONVERSIVEIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11837076.94,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 11837076.94
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "21110100000010",
+   "origem": "DEBENTURES EMPRESA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11837076.94,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 11837076.94
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "211102",
+   "origem": "JUROS E CUSTAS DE DEBENTURES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8968222.4,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 8968222.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "21110200000009",
+   "origem": "( - ) JUROS DEBENTURES EMPRESA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8968222.4,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 8968222.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "22",
+   "origem": "PASSIVO NAO CIRCULANTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 92055766.67,
+    "Mov Periodo": 2098428.95,
+    "Saldo Atual": 94154195.62
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2202",
+   "origem": "TITULOS A PAGAR A LONGO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5451917.48,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 5451917.48
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220202",
+   "origem": "PARCELAMENTOS DE IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5451917.48,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 5451917.48
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22020200000024",
+   "origem": "PARCELAMENTO INSS (FOLHA)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2485953.51,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 2485953.51
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22020200000166",
+   "origem": "PARCELAMENTO PIS E COFINS Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 225698.22,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 225698.22
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22020200000169",
+   "origem": "REPARCELAMENTO PIS E COFINS - Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 547864.02,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 547864.02
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22020200000171",
+   "origem": "REPARCELAMENTO INSS - Nº XXXXXX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2192401.73,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 2192401.73
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2203",
+   "origem": "IMPOSTOS DIFERIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4679435.86,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 4655531.21
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220301",
+   "origem": "IMPOSTOS DIFERIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4679435.86,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 4655531.21
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22030100000001",
+   "origem": "IRPJ DIFERIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3440761.64,
+    "Mov Periodo": 17576.95,
+    "Saldo Atual": 3423184.69
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22030100000002",
+   "origem": "CSLL DIFERIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1238674.22,
+    "Mov Periodo": 6327.7,
+    "Saldo Atual": 1232346.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2204",
+   "origem": "OUTRAS CONTAS DE LONGO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10704833.33,
+    "Mov Periodo": 1100000.0,
+    "Saldo Atual": 11804833.33
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220402",
+   "origem": "CONTA CORRENTE L.PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10704833.33,
+    "Mov Periodo": 1100000.0,
+    "Saldo Atual": 11804833.33
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22040200000001",
+   "origem": "SOCICAM ADM. PROJETOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6422900.0,
+    "Mov Periodo": 660000.0,
+    "Saldo Atual": 7082900.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22040200000052",
+   "origem": "TERRA TRANSPORTES E PARTICIPACOES S.A",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3619333.33,
+    "Mov Periodo": 440000.0,
+    "Saldo Atual": 4059333.33
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22040200000061",
+   "origem": "TERRA TRANSP. PARTICIPACOES - RESP. TERC",
+   "valoresPorSlot": {
+    "Saldo Anterior": 662600.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 662600.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2207",
+   "origem": "OUTRAS PROVISOES LONGO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 209240.72,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 209240.72
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220701",
+   "origem": "OUTRAS PROVISOES LONGO PRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 209240.72,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 209240.72
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22070101000001",
+   "origem": "CONTINGENCIA TRABALHISTA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 209240.72,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 209240.72
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2208",
+   "origem": "DEBENTURES LPRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 71010339.28,
+    "Mov Periodo": 1022333.6,
+    "Saldo Atual": 72032672.88
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220801",
+   "origem": "DEBENTURES NAO CONVERSIVEIS LPRAZO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 123180591.1,
+    "Mov Periodo": 1022333.6,
+    "Saldo Atual": 124202924.7
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "22080100000009",
+   "origem": "DEBENTURES EMPRESA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 123180591.1,
+    "Mov Periodo": 1022333.6,
+    "Saldo Atual": 124202924.7
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "220802",
+   "origem": "( - ) JUROS E CUSTAS DE DEBENTURES - LPR",
+   "valoresPorSlot": {
+    "Saldo Anterior": 52170251.82,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 52170251.82
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "22080200000009",
+   "origem": "( - ) JUROS DEBENTURES EMPRESA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 52170251.82,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 52170251.82
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "24",
+   "origem": "PATRIMONIO LIQUIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 13428998.48,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 13428998.48
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2401",
+   "origem": "CAPITAL REALIZADO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14600000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 14600000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "240101",
+   "origem": "CAPITAL SOCIAL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14600000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 14600000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "24010100000001",
+   "origem": "CAPITAL SOCIAL SUBSCRITO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14600000.0,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 14600000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "2404",
+   "origem": "RESULTADOS ACUMULADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1171001.52,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1171001.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "240401",
+   "origem": "RESULTADO ACUMULADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1171001.52,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1171001.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "24040100000001",
+   "origem": "(-) PREJUIZOS ACUMULADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1171001.52,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 1171001.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "3",
+   "origem": "CUSTOS E DESPESAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 22943874.42,
+    "Mov Periodo": 6026487.86,
+    "Saldo Atual": 28970362.28
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31",
+   "origem": "CUSTOS E DESP. DA PRODUCAO DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 19120151.76,
+    "Mov Periodo": 4880814.49,
+    "Saldo Atual": 24000966.25
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "3101",
+   "origem": "CUSTOS DA PRODUCAO DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 17192187.78,
+    "Mov Periodo": 4265893.02,
+    "Saldo Atual": 21458080.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310101",
+   "origem": "MAO-DE-OBRA E ENCARGOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11200412.7,
+    "Mov Periodo": 2782295.76,
+    "Saldo Atual": 13982708.46
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101",
+   "origem": "SALARIOS, ORDENADOS E ADICIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5756845.28,
+    "Mov Periodo": 1439466.08,
+    "Saldo Atual": 7196311.36
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000001",
+   "origem": "SALARIOS E ORDENADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4741889.21,
+    "Mov Periodo": 1154479.37,
+    "Saldo Atual": 5896368.58
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000003",
+   "origem": "HORAS EXTRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 299359.24,
+    "Mov Periodo": 97532.17,
+    "Saldo Atual": 396891.41
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000005",
+   "origem": "INDENIZACOES DE RESCISOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 35883.0,
+    "Mov Periodo": 16672.83,
+    "Saldo Atual": 52555.83
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000006",
+   "origem": "AVISO PREVIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 46702.43,
+    "Mov Periodo": 14109.33,
+    "Saldo Atual": 60811.76
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000007",
+   "origem": "ADICIONAL DE INSALUBRIDADE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 415451.47,
+    "Mov Periodo": 104738.22,
+    "Saldo Atual": 520189.69
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000008",
+   "origem": "ADICIONAL DE PERICULOSIDADE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 39607.26,
+    "Mov Periodo": 8894.04,
+    "Saldo Atual": 48501.3
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000009",
+   "origem": "ADICIONAL NOTURNO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 146904.96,
+    "Mov Periodo": 35157.46,
+    "Saldo Atual": 182062.42
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010101000013",
+   "origem": "DESPESAS TRABALHISTAS/ACORDOS JUDICIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 31047.71,
+    "Mov Periodo": 7882.66,
+    "Saldo Atual": 38930.37
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010102",
+   "origem": "IMPOSTOS E ENCARGOS COM PESSOAL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2086115.84,
+    "Mov Periodo": 518411.4,
+    "Saldo Atual": 2604527.24
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010102000003",
+   "origem": "INSS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1638524.11,
+    "Mov Periodo": 407087.15,
+    "Saldo Atual": 2045611.26
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010102000004",
+   "origem": "FGTS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 447591.73,
+    "Mov Periodo": 111324.25,
+    "Saldo Atual": 558915.98
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010103",
+   "origem": "PROVISOES TRABALHISTAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1727985.99,
+    "Mov Periodo": 422001.59,
+    "Saldo Atual": 2149987.58
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010103000001",
+   "origem": "DECIMO TERCEIRO SALARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 515915.1,
+    "Mov Periodo": 129540.72,
+    "Saldo Atual": 645455.82
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010103000002",
+   "origem": "FERIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 772720.35,
+    "Mov Periodo": 184169.24,
+    "Saldo Atual": 956889.59
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010103000003",
+   "origem": "INSS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 345804.17,
+    "Mov Periodo": 85268.78,
+    "Saldo Atual": 431072.95
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010103000004",
+   "origem": "FGTS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 93546.37,
+    "Mov Periodo": 23022.85,
+    "Saldo Atual": 116569.22
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199",
+   "origem": "OUTROS CUSTOS C/FUNCIONARIOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1629465.59,
+    "Mov Periodo": 402416.69,
+    "Saldo Atual": 2031882.28
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000001",
+   "origem": "VALE TRANSPORTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 124330.86,
+    "Mov Periodo": 42330.84,
+    "Saldo Atual": 166661.7
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000002",
+   "origem": "TREINAMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 26000.0,
+    "Mov Periodo": 6500.0,
+    "Saldo Atual": 32500.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000003",
+   "origem": "CESTA BASICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 66.18,
+    "Mov Periodo": 66.18,
+    "Saldo Atual": 0.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "D"
+   }
+  },
+  {
+   "codigo": "31010199000004",
+   "origem": "VALE ALIMENTACAO / VALE REFEICAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1126757.61,
+    "Mov Periodo": 278856.44,
+    "Saldo Atual": 1405614.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000005",
+   "origem": "UNIFORMES E EPI'S",
+   "valoresPorSlot": {
+    "Saldo Anterior": 149913.15,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 149913.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000006",
+   "origem": "MEDICINA OCUPACIONAL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 30161.6,
+    "Mov Periodo": 11587.39,
+    "Saldo Atual": 41748.99
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000007",
+   "origem": "SEGUROS DE VIDA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 53067.15,
+    "Mov Periodo": 13200.03,
+    "Saldo Atual": 66267.18
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000009",
+   "origem": "CONVENIOS DIVERSOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5700.0,
+    "Mov Periodo": 1710.0,
+    "Saldo Atual": 7410.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199000010",
+   "origem": "COPA E REFEITORIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 72695.76,
+    "Mov Periodo": 21091.56,
+    "Saldo Atual": 93787.32
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010199999999",
+   "origem": "AJUDA DE CUSTO E OUTROS CUSTOS C/FUNCION",
+   "valoresPorSlot": {
+    "Saldo Anterior": 40905.64,
+    "Mov Periodo": 27074.25,
+    "Saldo Atual": 67979.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310102",
+   "origem": "UTILIDADES E SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 5553711.75,
+    "Mov Periodo": 1376895.04,
+    "Saldo Atual": 6930606.79
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010201",
+   "origem": "SERVICOS PUBLICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1223857.93,
+    "Mov Periodo": 310267.36,
+    "Saldo Atual": 1534125.29
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010201000001",
+   "origem": "ENERGIA ELETRICA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 611367.41,
+    "Mov Periodo": 184151.27,
+    "Saldo Atual": 795518.68
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010201000002",
+   "origem": "AGUA E SANEAMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 544856.38,
+    "Mov Periodo": 118633.69,
+    "Saldo Atual": 663490.07
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010201000004",
+   "origem": "TELEFONIA MOVEL / MODEM",
+   "valoresPorSlot": {
+    "Saldo Anterior": 53011.66,
+    "Mov Periodo": 2202.96,
+    "Saldo Atual": 55214.62
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010201000006",
+   "origem": "LINKS COM INTERNET E COMUNICACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14622.48,
+    "Mov Periodo": 5279.44,
+    "Saldo Atual": 19901.92
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010202",
+   "origem": "SEGUROS E FIANCAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 44648.07,
+    "Mov Periodo": 11094.41,
+    "Saldo Atual": 55742.48
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010202000001",
+   "origem": "SEGUROS PREDIAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 16200.47,
+    "Mov Periodo": 3656.88,
+    "Saldo Atual": 19857.35
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010202000003",
+   "origem": "SEGUROS GARANTIA E FIANCAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14044.71,
+    "Mov Periodo": 3652.19,
+    "Saldo Atual": 17696.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010202000006",
+   "origem": "SEGUROS DE RESPONSABILIDADE CIVIL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14402.89,
+    "Mov Periodo": 3785.34,
+    "Saldo Atual": 18188.23
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203",
+   "origem": "SERVICOS CONTRATADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4285205.75,
+    "Mov Periodo": 1055533.27,
+    "Saldo Atual": 5340739.02
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000001",
+   "origem": "SERVICOS DE TERC .SEGURANCA E BOMBEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1942271.55,
+    "Mov Periodo": 483573.71,
+    "Saldo Atual": 2425845.26
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000002",
+   "origem": "TRANSPORTE E COLETA DE VALORES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3349.44,
+    "Mov Periodo": 2335.0,
+    "Saldo Atual": 5684.44
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000003",
+   "origem": "SERVICOS CONSULTORIA E ASSESSORIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 324094.07,
+    "Mov Periodo": 22641.09,
+    "Saldo Atual": 346735.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000004",
+   "origem": "HONORARIOS ADVOCATICIOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 286517.32,
+    "Mov Periodo": 106007.21,
+    "Saldo Atual": 392524.53
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000005",
+   "origem": "SERVICOS DE MAO DE OBRA TEMPORARIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 943.8,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 943.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000006",
+   "origem": "SERVICOS DE CONSERVACAO E LIMPEZA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 63420.0,
+    "Mov Periodo": 35894.16,
+    "Saldo Atual": 99314.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000007",
+   "origem": "SERVICOS DE TERCEIROS - MANUTENCAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 623999.98,
+    "Mov Periodo": 99828.17,
+    "Saldo Atual": 723828.15
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000008",
+   "origem": "CORREIOS E SEDEX",
+   "valoresPorSlot": {
+    "Saldo Anterior": 84.86,
+    "Mov Periodo": 44.19,
+    "Saldo Atual": 129.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000009",
+   "origem": "MALOTES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2781.15,
+    "Mov Periodo": 548.62,
+    "Saldo Atual": 3329.77
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000010",
+   "origem": "FRETES E CARRETOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1823.0,
+    "Mov Periodo": 1474.25,
+    "Saldo Atual": 3297.25
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000011",
+   "origem": "GERENCIAMENTO E ADMINISTRACAO (SOCICAM)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 792560.54,
+    "Mov Periodo": 243118.83,
+    "Saldo Atual": 1035679.37
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000012",
+   "origem": "SERVICOS GRAFICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1659.87,
+    "Mov Periodo": 3066.7,
+    "Saldo Atual": 4726.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010203000016",
+   "origem": "SERVICOS E CONSULTORIAS DE TECNOLOGIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 241700.17,
+    "Mov Periodo": 57001.34,
+    "Saldo Atual": 298701.51
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310103",
+   "origem": "MANUTENCAO, CONSERVACAO E LIMPEZA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 532952.0,
+    "Mov Periodo": 153640.03,
+    "Saldo Atual": 686592.03
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010301",
+   "origem": "CONSERVACAO E LIMPEZA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 281803.76,
+    "Mov Periodo": 64125.88,
+    "Saldo Atual": 345929.64
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010301000001",
+   "origem": "MATERIAIS DE LIMPEZA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 277012.5,
+    "Mov Periodo": 62747.38,
+    "Saldo Atual": 339759.88
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010301000003",
+   "origem": "MATERIAIS DE CONSERVACAO-OUTROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4791.26,
+    "Mov Periodo": 1378.5,
+    "Saldo Atual": 6169.76
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010302",
+   "origem": "MANUTENCAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 251148.24,
+    "Mov Periodo": 89514.15,
+    "Saldo Atual": 340662.39
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010302000001",
+   "origem": "MATERIAIS ELETRICOS E TELEFONIA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 76829.42,
+    "Mov Periodo": 58998.36,
+    "Saldo Atual": 135827.78
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010302000002",
+   "origem": "MATERIAIS CIVIL E HIDRAULICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 171229.64,
+    "Mov Periodo": 30515.79,
+    "Saldo Atual": 201745.43
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010302000003",
+   "origem": "MATERIAIS DE SINALIZACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3089.18,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 3089.18
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310104",
+   "origem": "CUSTOS GERAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 55961.36,
+    "Mov Periodo": 7989.29,
+    "Saldo Atual": 47972.07
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010401",
+   "origem": "OUTROS TRIBUTOS, TAXAS E CONTRIBUICOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 55961.36,
+    "Mov Periodo": 7989.29,
+    "Saldo Atual": 47972.07
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010401000002",
+   "origem": "CONTRIBUICAO PATRONAL / SINDICAL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 20781.08,
+    "Mov Periodo": 15017.11,
+    "Saldo Atual": 5763.97
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010401000003",
+   "origem": "ASSOCIACOES E ENTIDADES DE CLASSE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 13260.0,
+    "Mov Periodo": 6370.0,
+    "Saldo Atual": 19630.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31010401999999",
+   "origem": "OUTROS TRIBUTOS, TAXAS E CONTRIBUICOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 21920.28,
+    "Mov Periodo": 657.82,
+    "Saldo Atual": 22578.1
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310105",
+   "origem": "( - ) QMCL (QUOTA MANUT, CONS. E LIMP.)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 150850.03,
+    "Mov Periodo": 38948.52,
+    "Saldo Atual": 189798.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "31010501",
+   "origem": "( - ) QMCL (QUOTA MANUT, CONS. E LIMP.)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 150850.03,
+    "Mov Periodo": 38948.52,
+    "Saldo Atual": 189798.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "31010501000001",
+   "origem": "( - ) QMCL (QUOTA MANUT, CONS. E LIMP.)",
+   "valoresPorSlot": {
+    "Saldo Anterior": 150850.03,
+    "Mov Periodo": 38948.52,
+    "Saldo Atual": 189798.55
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "3102",
+   "origem": "DESPESAS DA PRODUCAO DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1927963.98,
+    "Mov Periodo": 614921.47,
+    "Saldo Atual": 2542885.45
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310201",
+   "origem": "DESPESAS OPERACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1926070.04,
+    "Mov Periodo": 602358.75,
+    "Saldo Atual": 2528428.79
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020101",
+   "origem": "ESCRITORIO E INFORMATICA OPERACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 23874.98,
+    "Mov Periodo": 7459.81,
+    "Saldo Atual": 31334.79
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020101000001",
+   "origem": "ESCRITORIO - OPERACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10765.88,
+    "Mov Periodo": 2152.24,
+    "Saldo Atual": 12918.12
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020101000002",
+   "origem": "INFORMATICA - OPERACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8638.64,
+    "Mov Periodo": 5307.57,
+    "Saldo Atual": 13946.21
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020101000005",
+   "origem": "DESPESAS COM CARTORIOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4470.46,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 4470.46
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020102",
+   "origem": "VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 118788.65,
+    "Mov Periodo": 30799.65,
+    "Saldo Atual": 149588.3
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020102000001",
+   "origem": "COMBUSTIVEIS E LUBRIFICANTES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 108972.53,
+    "Mov Periodo": 29241.19,
+    "Saldo Atual": 138213.72
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020102000002",
+   "origem": "REVISAO E PECAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 9816.12,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 9816.12
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020102000003",
+   "origem": "DOCUMENTACAO E IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 1558.46,
+    "Saldo Atual": 1558.46
+   },
+   "naturezaPorSlot": {
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020103",
+   "origem": "ALUGUEIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 242688.27,
+    "Mov Periodo": 142032.61,
+    "Saldo Atual": 384720.88
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020103000001",
+   "origem": "ALUGUEL DE IMOVEL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8800.0,
+    "Mov Periodo": 2200.0,
+    "Saldo Atual": 11000.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020103000002",
+   "origem": "ALUGUEL DE VEICULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 153407.63,
+    "Mov Periodo": 58637.88,
+    "Saldo Atual": 212045.51
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020103000003",
+   "origem": "ALUGUEL DE EQUIPAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 80480.64,
+    "Mov Periodo": 81194.73,
+    "Saldo Atual": 161675.37
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020105",
+   "origem": "VIAGENS E REPRESENTACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14577.65,
+    "Mov Periodo": 6056.16,
+    "Saldo Atual": 20633.81
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020105000001",
+   "origem": "PASSAGENS AEREAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 0.0,
+    "Mov Periodo": 2282.26,
+    "Saldo Atual": 2282.26
+   },
+   "naturezaPorSlot": {
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020105000002",
+   "origem": "CONDUCAO URBANA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 9454.73,
+    "Mov Periodo": 2507.16,
+    "Saldo Atual": 11961.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020105000003",
+   "origem": "ESTADIAS E REFEICOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4948.42,
+    "Mov Periodo": 1243.74,
+    "Saldo Atual": 6192.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020105000006",
+   "origem": "ESTACIONAMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 174.5,
+    "Mov Periodo": 23.0,
+    "Saldo Atual": 197.5
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020106",
+   "origem": "GASTOS COM CONTRATADOS - TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 16130.13,
+    "Mov Periodo": 6721.66,
+    "Saldo Atual": 22851.79
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020106999999",
+   "origem": "OUTROS CUSTOS COM CONTRATADOS- TERCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 16130.13,
+    "Mov Periodo": 6721.66,
+    "Saldo Atual": 22851.79
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020198",
+   "origem": "DEPRECIACAO E AMORTIZACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1486327.01,
+    "Mov Periodo": 406321.73,
+    "Saldo Atual": 1892648.74
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020198000003",
+   "origem": "DEPRECIACAO S/LEASING LEI 12973",
+   "valoresPorSlot": {
+    "Saldo Anterior": 11743.85,
+    "Mov Periodo": 2949.37,
+    "Saldo Atual": 14693.22
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020198000009",
+   "origem": "AMORTIZACAO DE ENCARGOS FINANCEIROS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 234651.22,
+    "Mov Periodo": 70307.78,
+    "Saldo Atual": 304959.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020198999998",
+   "origem": "AMORTIZACAO DO INTANGIVEL",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1239931.94,
+    "Mov Periodo": 333064.58,
+    "Saldo Atual": 1572996.52
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020199",
+   "origem": "OUTROS DESPESAS GERAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 23683.35,
+    "Mov Periodo": 2967.13,
+    "Saldo Atual": 26650.48
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020199000001",
+   "origem": "BENS DE NATUREZA PERMANENTE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 14326.01,
+    "Mov Periodo": 2730.13,
+    "Saldo Atual": 17056.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020199000002",
+   "origem": "EVENTOS E MATERIAIS PROMOCIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7938.39,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 7938.39
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31020199000004",
+   "origem": "DESPESAS COM PROCESSOS E INDENIZACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1418.95,
+    "Mov Periodo": 237.0,
+    "Saldo Atual": 1655.95
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "310299",
+   "origem": "OUTRAS DESPESAS E PROVISOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1893.94,
+    "Mov Periodo": 12562.72,
+    "Saldo Atual": 14456.66
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31029901",
+   "origem": "DESPESAS NAO DEDUTIVEIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1893.94,
+    "Mov Periodo": 12562.72,
+    "Saldo Atual": 14456.66
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "31029901000001",
+   "origem": "MULTAS DE TRANSITO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1893.94,
+    "Mov Periodo": 12562.72,
+    "Saldo Atual": 14456.66
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "32",
+   "origem": "DESPESAS ADMINISTRATIVAS E GERAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 53386.53,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 140733.24
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "3201",
+   "origem": "DESPESAS ADMINISTRATIVAS E GERAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 53386.53,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 140733.24
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "320199",
+   "origem": "OUTRAS DESPESAS E PROVISOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 53386.53,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 140733.24
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "32019903",
+   "origem": "CONTINGENCIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 169538.14,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 169538.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "32019903000008",
+   "origem": "REVERSAO DE CONTINGENCIAS TRABALHISTAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 169538.14,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 169538.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "32019904",
+   "origem": "PROVISOES DE CRED. COM LIQ. DUVIDOSA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 222924.67,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 310271.38
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "32019904000001",
+   "origem": "PROVISOES DE CRED. CONSIDERADOS INCOBRAV",
+   "valoresPorSlot": {
+    "Saldo Anterior": 222924.67,
+    "Mov Periodo": 87346.71,
+    "Saldo Atual": 310271.38
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33",
+   "origem": "RESULTADOS FINANCEIROS LIQUIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3648098.49,
+    "Mov Periodo": 1082231.31,
+    "Saldo Atual": 4730329.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "3301",
+   "origem": "RESULTADOS FINANCEIROS LIQUIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3648098.49,
+    "Mov Periodo": 1082231.31,
+    "Saldo Atual": 4730329.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "330101",
+   "origem": "DESPESAS/RECEITAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3648098.49,
+    "Mov Periodo": 1082231.31,
+    "Saldo Atual": 4730329.8
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101",
+   "origem": "DESPESAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3769470.58,
+    "Mov Periodo": 1128119.91,
+    "Saldo Atual": 4897590.49
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000002",
+   "origem": "DESPESAS BANCARIAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 18332.93,
+    "Mov Periodo": 4264.47,
+    "Saldo Atual": 22597.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000003",
+   "origem": "TARIFA DE EMISSAO DE BOLETOS E TITULOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6735.45,
+    "Mov Periodo": 1547.95,
+    "Saldo Atual": 8283.4
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000004",
+   "origem": "IOF - IMP. S/OPERACOES FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 6514.72,
+    "Mov Periodo": 7985.11,
+    "Saldo Atual": 14499.83
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000005",
+   "origem": "JUROS PAGOS OU INCORRIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 203589.33,
+    "Mov Periodo": 55025.52,
+    "Saldo Atual": 258614.85
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000009",
+   "origem": "VARIACOES MONETARIAS PASSIVAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3364126.31,
+    "Mov Periodo": 1022333.6,
+    "Saldo Atual": 4386459.91
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000011",
+   "origem": "MULTAS E CORRECOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 4625.17,
+    "Mov Periodo": 3993.53,
+    "Saldo Atual": 8618.7
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000012",
+   "origem": "DESCONTOS CONCEDIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 283.19,
+    "Mov Periodo": 171.89,
+    "Saldo Atual": 455.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000017",
+   "origem": "JUROS TRIBUTARIOS/ATUALIZACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 46517.68,
+    "Mov Periodo": 5778.66,
+    "Saldo Atual": 52296.34
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000019",
+   "origem": "DESPESAS COM EMISSOES FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 77766.12,
+    "Mov Periodo": 19441.53,
+    "Saldo Atual": 97207.65
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101000020",
+   "origem": "OPERACOES FINANCEIRAS ESTRUTURADAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 40945.0,
+    "Mov Periodo": 7577.65,
+    "Saldo Atual": 48522.65
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010101999999",
+   "origem": "OUTRAS DESPESAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 34.68,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 34.68
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010102",
+   "origem": "RECEITAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 121372.09,
+    "Mov Periodo": 45888.6,
+    "Saldo Atual": 167260.69
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "33010102000001",
+   "origem": "DESCONTOS OBTIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 700.44,
+    "Mov Periodo": 2.88,
+    "Saldo Atual": 703.32
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "33010102000002",
+   "origem": "JUROS/ MULTAS RECEBIDOS OU AUFERIDOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 28594.24,
+    "Mov Periodo": 18616.33,
+    "Saldo Atual": 47210.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "33010102000003",
+   "origem": "RECEITAS DE APLICACOES FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 17883.21,
+    "Mov Periodo": 29499.36,
+    "Saldo Atual": 47382.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "33010102000005",
+   "origem": "VARIACOES MONETARIAS ATIVAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 76393.98,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 76393.98
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "33010102000010",
+   "origem": "(-) PIS S/ RECEITAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 307.52,
+    "Mov Periodo": 311.73,
+    "Saldo Atual": 619.25
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "33010102000011",
+   "origem": "(-) COFINS S/ RECEITAS FINANCEIRAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1892.26,
+    "Mov Periodo": 1918.24,
+    "Saldo Atual": 3810.5
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "34",
+   "origem": "DESPESAS COM IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 231315.54,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 207410.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "3401",
+   "origem": "DESPESAS COM IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 231315.54,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 207410.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "340101",
+   "origem": "DESPESAS COM IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 231315.54,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 207410.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "34010102",
+   "origem": "DESPESAS COM IMPOSTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 231315.54,
+    "Mov Periodo": 23904.65,
+    "Saldo Atual": 207410.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "34010102000003",
+   "origem": "IRPJ DIFERIDO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 170084.95,
+    "Mov Periodo": 17576.95,
+    "Saldo Atual": 152508.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "34010102000004",
+   "origem": "CSLL DIFERIDA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 61230.59,
+    "Mov Periodo": 6327.7,
+    "Saldo Atual": 54902.89
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "C",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "39",
+   "origem": "OUTRAS RECEITAS E OUTRAS DESPESAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 109077.9,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 109077.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "3901",
+   "origem": "OUTRAS RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 109077.9,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 109077.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "390101",
+   "origem": "OUTRAS RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 109077.9,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 109077.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "39010101",
+   "origem": "OUTRAS RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 109077.9,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 109077.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "39010101000003",
+   "origem": "RECUPERACAO DE DESPESAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 109077.9,
+    "Mov Periodo": 0.0,
+    "Saldo Atual": 109077.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "4",
+   "origem": "RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 22612697.9,
+    "Mov Periodo": 5668525.97,
+    "Saldo Atual": 28281223.87
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41",
+   "origem": "RECEITAS OPERACIONAIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 26231925.71,
+    "Mov Periodo": 6587751.29,
+    "Saldo Atual": 32819677.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "4101",
+   "origem": "RECEITAS BRUTA DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 26231925.71,
+    "Mov Periodo": 6587751.29,
+    "Saldo Atual": 32819677.0
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "410105",
+   "origem": "RECEITAS COMERCIAIS / LOCACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2577408.33,
+    "Mov Periodo": 600368.53,
+    "Saldo Atual": 3177776.86
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501",
+   "origem": "LOCACOES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 2577408.33,
+    "Mov Periodo": 600368.53,
+    "Saldo Atual": 3177776.86
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000001",
+   "origem": "LOJAS DE DEPARTAMENTOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 27602.62,
+    "Mov Periodo": 13760.0,
+    "Saldo Atual": 41362.62
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000002",
+   "origem": "ALIMENTACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 816310.98,
+    "Mov Periodo": 178076.85,
+    "Saldo Atual": 994387.83
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000003",
+   "origem": "ARTIGOS DIVERSOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 107441.55,
+    "Mov Periodo": 19037.02,
+    "Saldo Atual": 126478.57
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000004",
+   "origem": "UTILIDADES",
+   "valoresPorSlot": {
+    "Saldo Anterior": 19845.76,
+    "Mov Periodo": 4961.44,
+    "Saldo Atual": 24807.2
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000005",
+   "origem": "VESTUARIO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 133531.65,
+    "Mov Periodo": 30193.41,
+    "Saldo Atual": 163725.06
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000006",
+   "origem": "LAZER E ENTRETENIMENTO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 9308.1,
+    "Mov Periodo": 2500.0,
+    "Saldo Atual": 11808.1
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000007",
+   "origem": "SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 489352.96,
+    "Mov Periodo": 119545.94,
+    "Saldo Atual": 608898.9
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000008",
+   "origem": "SALAS ADMINISTRATIVAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 8580.68,
+    "Mov Periodo": 2145.17,
+    "Saldo Atual": 10725.85
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010501000011",
+   "origem": "PUBLICIDADE",
+   "valoresPorSlot": {
+    "Saldo Anterior": 965434.03,
+    "Mov Periodo": 230148.7,
+    "Saldo Atual": 1195582.73
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "410107",
+   "origem": "ORDENS DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 23654517.38,
+    "Mov Periodo": 5987382.76,
+    "Saldo Atual": 29641900.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010701",
+   "origem": "ORDENS DE SERVICOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 23654517.38,
+    "Mov Periodo": 5987382.76,
+    "Saldo Atual": 29641900.14
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010701000001",
+   "origem": "OS - TERMINAIS URBANOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 10811134.79,
+    "Mov Periodo": 2736492.19,
+    "Saldo Atual": 13547626.98
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "41010701000007",
+   "origem": "OS - ADM. DE TERMINAS URBANOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 12843382.59,
+    "Mov Periodo": 3250890.57,
+    "Saldo Atual": 16094273.16
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "C",
+    "Mov Periodo": "C",
+    "Saldo Atual": "C"
+   }
+  },
+  {
+   "codigo": "43",
+   "origem": "DEDUCOES DA RECEITA BRUTA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3619227.81,
+    "Mov Periodo": 919225.32,
+    "Saldo Atual": 4538453.13
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "4301",
+   "origem": "DEDUCAO DA RECEITA BRUTA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7804.05,
+    "Mov Periodo": 11550.0,
+    "Saldo Atual": 19354.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "430101",
+   "origem": "ABATIMENTOS E SERVICOS CANCELADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7804.05,
+    "Mov Periodo": 11550.0,
+    "Saldo Atual": 19354.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43010101",
+   "origem": "ABATIMENTOS E SERVIÇOS CANCELADOS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7804.05,
+    "Mov Periodo": 11550.0,
+    "Saldo Atual": 19354.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43010101000002",
+   "origem": "ABATIMENTOS CONCEDIDOS E CANC DE LOCACAO",
+   "valoresPorSlot": {
+    "Saldo Anterior": 7804.05,
+    "Mov Periodo": 11550.0,
+    "Saldo Atual": 19354.05
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "4302",
+   "origem": "IMPOSTOS INCIDENTES SOBRE RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3611423.76,
+    "Mov Periodo": 907675.32,
+    "Saldo Atual": 4519099.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "430201",
+   "origem": "IMPOSTOS INCIDENTES SOBRE RECEITAS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3611423.76,
+    "Mov Periodo": 907675.32,
+    "Saldo Atual": 4519099.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43020101",
+   "origem": "IMPOSTOS INCIDENTES SOBRE RECEITA",
+   "valoresPorSlot": {
+    "Saldo Anterior": 3611423.76,
+    "Mov Periodo": 907675.32,
+    "Saldo Atual": 4519099.08
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43020101000001",
+   "origem": "PIS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 433112.67,
+    "Mov Periodo": 108508.37,
+    "Saldo Atual": 541621.04
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43020101000002",
+   "origem": "COFINS",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1995585.2,
+    "Mov Periodo": 499797.81,
+    "Saldo Atual": 2495383.01
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  },
+  {
+   "codigo": "43020101000003",
+   "origem": "ISSQN",
+   "valoresPorSlot": {
+    "Saldo Anterior": 1182725.89,
+    "Mov Periodo": 299369.14,
+    "Saldo Atual": 1482095.03
+   },
+   "naturezaPorSlot": {
+    "Saldo Anterior": "D",
+    "Mov Periodo": "D",
+    "Saldo Atual": "D"
+   }
+  }
+ ]
+}

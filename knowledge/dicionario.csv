@@ -1,0 +1,1261 @@
+origem,destino,grupo,sub_categoria
+Acessórios,Produtos Acabados,Ativo,Circulante
+Adiantamento a fornecedor,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamento a fornecedores,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamento a sócios,Mútuo Financeiro,Ativo,Circulante
+adiantamento a titular,Mútuo Financeiro,Ativo,Circulante
+Adiantamento de 13º salário,Outros Operacionais (AC),Ativo,Circulante
+Adiantamento de férias,Outros Operacionais (AC),Ativo,Circulante
+adiantamento de lucros,Mútuo Financeiro,Ativo,Circulante
+Adiantamento p futuro aumento de capital,Mútuo Financeiro,Ativo,Circulante
+Adiantamentos,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamentos a credores,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamentos a empregados,Outros Operacionais (AC),Ativo,Circulante
+Adiantamentos a funcionários,Outros Operacionais (AC),Ativo,Circulante
+Adiantamentos a funcionários / pró labore,Outros Operacionais (AC),Ativo,Circulante
+Adiantamentos a sócios,Mútuo Financeiro,Ativo,Circulante
+Adiantamentos de estoques,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamentos de importação,Adiantamento a Fornecedores,Ativo,Circulante
+Adiantamentos de viagens,Outros Operacionais (AC),Ativo,Circulante
+ADIANTAMENTOS DIVERSOS,Outros Operacionais (AC),Ativo,Circulante
+Adiantamentos para compra de estoques,Adiantamento a Fornecedores,Ativo,Circulante
+ADIANTFORNECEDORESMERCADORIA,Adiantamento a Fornecedores,Ativo,Circulante
+ADTO A FORNECEDORES,Adiantamento a Fornecedores,Ativo,Circulante
+Ajuste a Valor Presente,-PDD,Ativo,Circulante
+Almoxarifado,Produtos Acabados,Ativo,Circulante
+antecipacao de lucros,Mútuo Financeiro,Ativo,Circulante
+Aplicações,Aplicações Financeiras,Ativo,Circulante
+Aplicações de liquidez imediata,Aplicações Financeiras,Ativo,Circulante
+Aplicações financeiras,Aplicações Financeiras,Ativo,Circulante
+Aplicações financeiras de curto prazo,Aplicações Financeiras,Ativo,Circulante
+APLICACOES FINANCEIRAS LIQUIDEZ MEDIATA,Aplicações Financeiras,Ativo,Circulante
+Aplicações garantidoras de provisões técnicas,Aplicações Financeiras,Ativo,Circulante
+Aplicações interfinanceira de liquidez,Aplicações Financeiras,Ativo,Circulante
+Aplicações Livres,Aplicações Financeiras,Ativo,Circulante
+Ativo biológico,Produtos em Elaboração,Ativo,Circulante
+Ativo de contrato,Outros Operacionais (AC),Ativo,Circulante
+Ativo fiscal corrente,Impostos a Recuperar,Ativo,Circulante
+ativos com partes relacionadas,Mútuo Financeiro,Ativo,Circulante
+Ativos financeiros,Aplicações Financeiras,Ativo,Circulante
+Banco,Caixa,Ativo,Circulante
+banco c/aplicação,Aplicações Financeiras,Ativo,Circulante
+Banco com Aplicacao de Liquidez Imediata,Aplicações Financeiras,Ativo,Circulante
+BANCO INVESTIMENTOS,Aplicações Financeiras,Ativo,Circulante
+Bancos,Caixa,Ativo,Circulante
+Bancos c/disposição,Caixa,Ativo,Circulante
+Bancos C/Movimento,Caixa,Ativo,Circulante
+Bancos conta aplicação,Aplicações Financeiras,Ativo,Circulante
+Bancos conta capitalização,Aplicações Financeiras,Ativo,Circulante
+Bancos conta disposição,Caixa,Ativo,Circulante
+Bancos Conta Movimento,Caixa,Ativo,Circulante
+Bancos contas correntes,Caixa,Ativo,Circulante
+Bens numerários,Caixa,Ativo,Circulante
+Caixa,Caixa,Ativo,Circulante
+Caixa e Equivalentes de Caixa,Caixa,Ativo,Circulante
+Caixa Geral,Caixa,Ativo,Circulante
+Caixa numerários,Caixa,Ativo,Circulante
+Caixa restrito,Aplicações Financeiras,Ativo,Circulante
+"Caixas, bancos e aplicações",Caixa,Ativo,Circulante
+Caixas e depósitos bancários à vista,Caixa,Ativo,Circulante
+cartao de credito,Clientes,Ativo,Circulante
+Cartões,Clientes,Ativo,Circulante
+Cartões de crédito,Clientes,Ativo,Circulante
+Cartões de crédito a compensar,Clientes,Ativo,Circulante
+Cartões de crédito a receber,Clientes,Ativo,Circulante
+Cartões de débito e crédito,Clientes,Ativo,Circulante
+cash,Caixa,Ativo,Circulante
+Cash and cash equivalents,Caixa,Ativo,Circulante
+cheque pre datado,Clientes,Ativo,Circulante
+Cheques,Clientes,Ativo,Circulante
+Cheques a compensar,Clientes,Ativo,Circulante
+Cheques a receber,Clientes,Ativo,Circulante
+Cliente Coligadas,Clientes - Grupo,Ativo,Circulante
+Cliente de Incorporação de Imóveis,Clientes,Ativo,Circulante
+Cliente Empreendimento,Clientes,Ativo,Circulante
+Cliente no país,Clientes,Ativo,Circulante
+Cliente Obras por Empreitada,Clientes,Ativo,Circulante
+Clientes,Clientes,Ativo,Circulante
+Clientes a faturar gerencial,Clientes,Ativo,Circulante
+Clientes a receber,Clientes,Ativo,Circulante
+Clientes a receber mercado externo,Clientes,Ativo,Circulante
+Clientes a receber mercado interno,Clientes,Ativo,Circulante
+Clientes a recuperar,-PDD,Ativo,Circulante
+Clientes cartão de crédito,Clientes,Ativo,Circulante
+Clientes de Serviços,Clientes,Ativo,Circulante
+Clientes diversos,Clientes,Ativo,Circulante
+Clientes Edificações e Loteamentos,Clientes,Ativo,Circulante
+Clientes em cobrança,Clientes,Ativo,Circulante
+Clientes - Grupo,Clientes - Grupo,Ativo,Circulante
+Clientes incobráveis,Clientes,Ativo,Circulante
+Clientes Incorporação,Clientes,Ativo,Circulante
+Clientes nacionais,Clientes,Ativo,Circulante
+Clientes no exterior,Clientes,Ativo,Circulante
+Clientes no país,Clientes,Ativo,Circulante
+Clientes Vencidos,-PDD,Ativo,Circulante
+Cobrança vinculada,Clientes,Ativo,Circulante
+Cofins,Impostos a Recuperar,Ativo,Circulante
+Cofins a compensar,Impostos a Recuperar,Ativo,Circulante
+Cofins a recuperar,Impostos a Recuperar,Ativo,Circulante
+Consórcio em andamento,Outros Operacionais (AC),Ativo,Circulante
+Consórcios,Outros Operacionais (AC),Ativo,Circulante
+Conta Corrente Ativa,Mútuo Financeiro,Ativo,Circulante
+conta corrente coligada,Mútuo Financeiro,Ativo,Circulante
+conta corrente de socios,Mútuo Financeiro,Ativo,Circulante
+Conta Corrente no Exterior,Caixa,Ativo,Circulante
+Conta corrente no país,Caixa,Ativo,Circulante
+Contas a receber - clientes,Clientes,Ativo,Circulante
+Contas a receber da consorciada,Clientes,Ativo,Circulante
+Contas a receber de clientes,Clientes,Ativo,Circulante
+Contas a receber de clientes e outros recebíveis,Clientes,Ativo,Circulante
+contas a receber de incorporacao e servicos prestados,Clientes,Ativo,Circulante
+Contas a receber de partes relacionadas,Mútuo Financeiro,Ativo,Circulante
+Contas Transitórias,Outros Não Operacionais (AC),Ativo,Circulante
+contrato de mutuo,Mútuo Financeiro,Ativo,Circulante
+Contratos comercialização de energia,Clientes,Ativo,Circulante
+contratos de mutuos empresas,Mútuo Financeiro,Ativo,Circulante
+contribuição social,Impostos a Recuperar,Ativo,Circulante
+contribuição social diferidos,Outros Não Operacionais (AC),Ativo,Circulante
+CREDITO COM FORNECEDORES,Adiantamento a Fornecedores,Ativo,Circulante
+Créditos a Receber Mútuos,Clientes - Grupo,Ativo,Circulante
+Créditos c/clientes no país,Clientes,Ativo,Circulante
+Créditos com Clientes,Clientes,Ativo,Circulante
+Créditos com Empresas Ligadas,Mútuo Financeiro,Ativo,Circulante
+Créditos com Pessoas Relacionadas,Mútuo Financeiro,Ativo,Circulante
+Créditos com sócios,Mútuo Financeiro,Ativo,Circulante
+Créditos de clientes,Clientes,Ativo,Circulante
+Créditos de funcionários,Outros Operacionais (AC),Ativo,Circulante
+Creditos de Obras por Administração,Clientes,Ativo,Circulante
+Créditos de operações com planos de assistência,Clientes,Ativo,Circulante
+Créditos de operações de assistência a saúde,Clientes,Ativo,Circulante
+Créditos de pessoas ligadas - Mútuo,Mútuo Financeiro,Ativo,Circulante
+Créditos de sócios,Mútuo Financeiro,Ativo,Circulante
+creditos fiscais,Impostos a Recuperar,Ativo,Circulante
+creditos pessoas ligadas,Mútuo Financeiro,Ativo,Circulante
+Créditos tributários,Impostos a Recuperar,Ativo,Circulante
+Créditos tributários e previdenciários,Impostos a Recuperar,Ativo,Circulante
+Créditos vencidos e não liquidados,-PDD,Ativo,Circulante
+Depósitos Bancários Vinculados,Aplicações Financeiras,Ativo,Circulante
+Depósitos judiciais,Outros Não Operacionais (AC),Ativo,Circulante
+Despesas a apropriar,Outros Operacionais (AC),Ativo,Circulante
+Despesas antecipadas,Outros Operacionais (AC),Ativo,Circulante
+despesas de exercícios futuros,Outros Operacionais (AC),Ativo,Circulante
+Despesas de meses seguintes,Outros Operacionais (AC),Ativo,Circulante
+Despesas diferidas,Outros Operacionais (AC),Ativo,Circulante
+Despesas do exercício seguinte,Outros Operacionais (AC),Ativo,Circulante
+Despesas pagas antecipadamente,Outros Operacionais (AC),Ativo,Circulante
+Despesas pagas antecipadas,Outros Operacionais (AC),Ativo,Circulante
+Dinheiro,Caixa,Ativo,Circulante
+DIREITOS OPERACOES,Clientes,Ativo,Circulante
+Direitos realizáveis a longo prazo,Outros Operacionais (AC),Ativo,Circulante
+Disponibilidades,Caixa,Ativo,Circulante
+Disponível,Caixa,Ativo,Circulante
+Distribuição de lucros antecipada,Mútuo Financeiro,Ativo,Circulante
+Distribuição de lucros antecipados,Mútuo Financeiro,Ativo,Circulante
+dividendos a receber,Mútuo Financeiro,Ativo,Circulante
+Duplicatas a Receber,Clientes,Ativo,Circulante
+Duplicatas diversas,Clientes,Ativo,Circulante
+Duplicatas e cheques a receber,Clientes,Ativo,Circulante
+Em Transito,Produtos Acabados,Ativo,Circulante
+EMPRÉSTIMO A EMPREGADOS,Outros Operacionais (AC),Ativo,Circulante
+EMPRESTIMO CONSIGNADO A FOLHA,Outros Operacionais (AC),Ativo,Circulante
+Empréstimos,Mútuo Financeiro,Ativo,Circulante
+Empréstimos a sócios,Mútuo Financeiro,Ativo,Circulante
+Empréstimos a sócios e diretores,Mútuo Financeiro,Ativo,Circulante
+Empréstimos a terceiros,Mútuo Financeiro,Ativo,Circulante
+emprestimos empresas ligadas,Mútuo Financeiro,Ativo,Circulante
+Equivalentes de caixa,Caixa,Ativo,Circulante
+Especie,Caixa,Ativo,Circulante
+Estoque de materiais,Produtos Acabados,Ativo,Circulante
+Estoque de produtos,Produtos Acabados,Ativo,Circulante
+ESTOQUE VEICULOS NOVOS,Matéria-Prima,Ativo,Circulante
+Estoques,Produtos Acabados,Ativo,Circulante
+Estoques concluídos e em construção,Produtos Acabados,Ativo,Circulante
+Estoques de Produtos Acabados,Produtos Acabados,Ativo,Circulante
+Estoques de Produtos em fabricação,Produtos em Elaboração,Ativo,Circulante
+Estoques em poder de terceiros,Produtos Acabados,Ativo,Circulante
+estoques para revenda,Produtos Acabados,Ativo,Circulante
+faturas a receber,Clientes,Ativo,Circulante
+FORNECEDORES DIVERSOS,Adiantamento a Fornecedores,Ativo,Circulante
+fundo de investimento,Aplicações Financeiras,Ativo,Circulante
+ICMS,Impostos a Recuperar,Ativo,Circulante
+Icms a compensar,Impostos a Recuperar,Ativo,Circulante
+Icms a recuperar,Impostos a Recuperar,Ativo,Circulante
+Icms s/imobilizado a compensar,Impostos a Recuperar,Ativo,Circulante
+Icms s/imobilizado a recuperar,Impostos a Recuperar,Ativo,Circulante
+Icms sobre imobilizado a compensar,Impostos a Recuperar,Ativo,Circulante
+Icms sobre imobilizado a recuperar,Impostos a Recuperar,Ativo,Circulante
+Imóveis a comercializar,Produtos Acabados,Ativo,Circulante
+Imposto de renda,Impostos a Recuperar,Ativo,Circulante
+imposto de renda diferido,Outros Não Operacionais (AC),Ativo,Circulante
+Imposto de Renda e Contribuição Social,Impostos a Recuperar,Ativo,Circulante
+Imposto de Renda e Contribuição Social a Compensar,Impostos a Recuperar,Ativo,Circulante
+Imposto de renda e contribuição social a recuperar,Impostos a Recuperar,Ativo,Circulante
+Impostos a Compensar,Impostos a Recuperar,Ativo,Circulante
+Impostos a recuperar,Impostos a Recuperar,Ativo,Circulante
+Impostos Antecipados,Impostos a Recuperar,Ativo,Circulante
+Impostos e Contribuições a Compensar,Impostos a Recuperar,Ativo,Circulante
+Impostos IR CSLL Diferidos CP,Outros Não Operacionais (AC),Ativo,Circulante
+Income taxes,Impostos a Recuperar,Ativo,Circulante
+Inventories,Produtos Acabados,Ativo,Circulante
+IPI,Impostos a Recuperar,Ativo,Circulante
+IPI a compensar,Impostos a Recuperar,Ativo,Circulante
+IPI a recuperar,Impostos a Recuperar,Ativo,Circulante
+IR e CSL a Recuperar,Impostos a Recuperar,Ativo,Circulante
+IRPJ,Impostos a Recuperar,Ativo,Circulante
+IRRF,Impostos a Recuperar,Ativo,Circulante
+LUCROS DISTRIBUIDOS NO EXERCICIO,Mútuo Financeiro,Ativo,Circulante
+Matéria-Prima,Matéria-Prima,Ativo,Circulante
+medicao a faturar,Clientes,Ativo,Circulante
+mercadoria produto e insumo,Produtos Acabados,Ativo,Circulante
+Mercadorias para Revenda,Produtos Acabados,Ativo,Circulante
+Mercadorias RemetIndizc,Produtos Acabados,Ativo,Circulante
+MÚTUO ENTRE COLIGADAS,Mútuo Financeiro,Ativo,Circulante
+MUTUOS,Mútuo Financeiro,Ativo,Circulante
+Mútuos com partes relacionadas,Mútuo Financeiro,Ativo,Circulante
+Numerários,Caixa,Ativo,Circulante
+Numerários em caixa,Caixa,Ativo,Circulante
+Operações de Mutuo,Mútuo Financeiro,Ativo,Circulante
+Other receivables and other assets,Outros Operacionais (AC),Ativo,Circulante
+Outras contas,Outros Operacionais (AC),Ativo,Circulante
+Outras Contas a Receber,Outros Operacionais (AC),Ativo,Circulante
+Outras Contas Operacionais,Outros Operacionais (AC),Ativo,Circulante
+OUTRAS DISPONIBILIDADES,Aplicações Financeiras,Ativo,Circulante
+Outros,Outros Operacionais (AC),Ativo,Circulante
+Outros Impostos,Impostos a Recuperar,Ativo,Circulante
+Outros tributos a compensar,Impostos a Recuperar,Ativo,Circulante
+Partes relaciondas,Mútuo Financeiro,Ativo,Circulante
+Participação dos beneficiários em eventos/sinistros,Clientes,Ativo,Circulante
+(-)PCLD,-PDD,Ativo,Circulante
+(-)PDD,-PDD,Ativo,Circulante
+Peças,Produtos Acabados,Ativo,Circulante
+PIS,Impostos a Recuperar,Ativo,Circulante
+Pis a compensar,Impostos a Recuperar,Ativo,Circulante
+Pis a recuperar,Impostos a Recuperar,Ativo,Circulante
+Produto em poder de terceiros,Produtos Acabados,Ativo,Circulante
+produto final,Produtos Acabados,Ativo,Circulante
+Produtos Diversos,Produtos Acabados,Ativo,Circulante
+Promitentes Compradores,Clientes,Ativo,Circulante
+PROV PERDAS LUCROS,-PDD,Ativo,Circulante
+Provisão p crédito liquidação duvidosa,-PDD,Ativo,Circulante
+Provisão para Dev Duvidosos nota,-PDD,Ativo,Circulante
+(-)Provisão para devedores duvidosos,-PDD,Ativo,Circulante
+Realizável de longo prazo,Outros Operacionais (AC),Ativo,Circulante
+(-)Serviços executados a faturar,Clientes,Ativo,Circulante
+Sociedades ligadas,Mútuo Financeiro,Ativo,Circulante
+SÓCIOS ADMINISTRADORES E PESSOAS LIGADAS,Mútuo Financeiro,Ativo,Circulante
+SOCIOS CONTA ÉSPECIAL,Mútuo Financeiro,Ativo,Circulante
+SOCIOS E CONTROLADORAS,Mútuo Financeiro,Ativo,Circulante
+Terrenos a comercializar,Produtos Acabados,Ativo,Circulante
+tickets convenios cartoes de credito,Clientes,Ativo,Circulante
+TÍTULOS A RECEBER,Clientes,Ativo,Circulante
+Títulos de capitalização,Aplicações Financeiras,Ativo,Circulante
+Títulos e ações,Aplicações Financeiras,Ativo,Circulante
+titulos e valores mobiliarios,Aplicações Financeiras,Ativo,Circulante
+Trade receivables,Clientes,Ativo,Circulante
+Transações com partes relacionadas,Mútuo Financeiro,Ativo,Circulante
+transacoes intercompanhia,Mútuo Financeiro,Ativo,Circulante
+TransferenciasMercadorias,Produtos em Elaboração,Ativo,Circulante
+Tributos a compensar,Impostos a Recuperar,Ativo,Circulante
+Tributos a recuperar,Impostos a Recuperar,Ativo,Circulante
+Tributos a recuperar/compensar,Impostos a Recuperar,Ativo,Circulante
+Tributos e Contribuições a Compensar,Impostos a Recuperar,Ativo,Circulante
+Tributos e Contribuições a Recuperar,Impostos a Recuperar,Ativo,Circulante
+Valores a receber,Clientes,Ativo,Circulante
+valores a receber de partes relacionadas,Mútuo Financeiro,Ativo,Circulante
+Veículos Usados,Produtos em Elaboração,Ativo,Circulante
+Venda de Imóveis Repasse do SFH,Clientes,Ativo,Circulante
+Adiantamento a fornecedor,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamento a fornecedores,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamento a sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+adiantamento a titular,Mútuo Financeiro LP,Ativo,Não Circulante
+Adiantamento de 13º salário,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamento de férias,Outros Operacionais (ANC),Ativo,Não Circulante
+adiantamento de lucros,Mútuo Financeiro LP,Ativo,Não Circulante
+Adiantamento p futuro aumento de capital,Mútuo Financeiro LP,Ativo,Não Circulante
+Adiantamento por conta de lucros,Mútuo Financeiro LP,Ativo,Não Circulante
+Adiantamentos,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos a empregados,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos a funcionários,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos a funcionários / pró labore,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos a sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+Adiantamentos a Terceiros,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos de viagens,Outros Operacionais (ANC),Ativo,Não Circulante
+Adiantamentos Diversos,Outros Operacionais (ANC),Ativo,Não Circulante
+Administradores e Sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+Amortização de Intangivel,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+antecipacacao de lucros,Mútuo Financeiro LP,Ativo,Não Circulante
+antecipacao de dividendos,Mútuo Financeiro LP,Ativo,Não Circulante
+antecipacao de lucros,Mútuo Financeiro LP,Ativo,Não Circulante
+Assets of the disposal group held for sale,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Ativo biológico,Terreno,Ativo,Não Circulante
+Ativo de direito de uso,Direito de Uso,Ativo,Não Circulante
+Ativo fiscal corrente,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Ativo fiscal diferido,Impostos Diferidos,Ativo,Não Circulante
+Ativo intangível,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+ativos com partes relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Ativos diferidos,Impostos Diferidos,Ativo,Não Circulante
+Ativos intangíveis,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+bens,"Edificios, maquinas e outros",Ativo,Não Circulante
+Bens Intangiveis,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+-c/c controlada coremal quimica,Mútuo Financeiro LP,Ativo,Não Circulante
+Cartões,Outros Operacionais (ANC),Ativo,Não Circulante
+Cartões de crédito,Outros Operacionais (ANC),Ativo,Não Circulante
+Cartões de crédito a compensar,Outros Operacionais (ANC),Ativo,Não Circulante
+Cartões de crédito a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Cartões de débito e crédito,Outros Operacionais (ANC),Ativo,Não Circulante
+Cauções e Depósitos,Outros Operacionais (ANC),Ativo,Não Circulante
+Cheques,Outros Operacionais (ANC),Ativo,Não Circulante
+Cheques a compensar,Outros Operacionais (ANC),Ativo,Não Circulante
+Cheques a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Cliente de Incorporação de Imóveis,Outros Operacionais (ANC),Ativo,Não Circulante
+Cliente Empreendimento,Outros Operacionais (ANC),Ativo,Não Circulante
+Cliente no país,Outros Operacionais (ANC),Ativo,Não Circulante
+Cliente Obras por Empreitada,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes a receber mercado externo,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes a receber mercado interno,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes cartão de crédito,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes de Serviços,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes diversos,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes Edificações e Loteamentos,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes Incorporação,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes nacionais,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes no exterior,Outros Operacionais (ANC),Ativo,Não Circulante
+Clientes no país,Outros Operacionais (ANC),Ativo,Não Circulante
+Cobrança vinculada,Outros Operacionais (ANC),Ativo,Não Circulante
+Cofins,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Cofins a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Cofins a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Consórcio em andamento,Outros Operacionais (ANC),Ativo,Não Circulante
+Consórcios,Outros Operacionais (ANC),Ativo,Não Circulante
+Conta Corrente Ativa,Mútuo Financeiro LP,Ativo,Não Circulante
+conta corrente coligada,Mútuo Financeiro LP,Ativo,Não Circulante
+conta corrente de socios,Mútuo Financeiro LP,Ativo,Não Circulante
+Contas a receber - clientes,Outros Operacionais (ANC),Ativo,Não Circulante
+Contas a receber da consorciada,Outros Operacionais (ANC),Ativo,Não Circulante
+Contas a receber de clientes,Outros Operacionais (ANC),Ativo,Não Circulante
+Contas a receber de clientes e outros recebíveis,Outros Operacionais (ANC),Ativo,Não Circulante
+Contas a receber de partes relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+contrato de mutuo,Mútuo Financeiro LP,Ativo,Não Circulante
+Contratos comercialização de energia,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+contratos de mutuos empresas,Mútuo Financeiro LP,Ativo,Não Circulante
+contribuição social,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Créditos c/clientes no país,Outros Operacionais (ANC),Ativo,Não Circulante
+Créditos com Clientes,Outros Operacionais (ANC),Ativo,Não Circulante
+Créditos com Empresas Ligadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Créditos com Pessoas Relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Créditos com sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+Créditos de clientes,Outros Operacionais (ANC),Ativo,Não Circulante
+Créditos de funcionários,Outros Operacionais (ANC),Ativo,Não Circulante
+CRÉDITOS DE IMPOSTOS,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Creditos de Obras por Administração,Outros Operacionais (ANC),Ativo,Não Circulante
+Créditos de pessoas ligadas - Mútuo,Mútuo Financeiro LP,Ativo,Não Circulante
+Créditos de sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+creditos pessoas ligadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Créditos tributários,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Créditos tributários e previdenciários,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+csll fiscal diferido,Impostos Diferidos,Ativo,Não Circulante
+Debêntures,Aplicações Financeiras de LP,Ativo,Não Circulante
+DEP ACUM VEICULOS MAQS E EQUIPS,-Depreciação Acumulada,Ativo,Não Circulante
+DEP E EXAUST ACUM,-Depreciação Acumulada,Ativo,Não Circulante
+depositos judiciais,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Depósitos judiciais e indenizações a receber,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Depreciação,-Depreciação Acumulada,Ativo,Não Circulante
+depreciacao acumulada outras imobilizacoes,-Depreciação Acumulada,Ativo,Não Circulante
+"depreciações, amort. e exaus.",-Depreciação Acumulada,Ativo,Não Circulante
+"depreciações, amortizações e exaustão acumulada",-Depreciação Acumulada,Ativo,Não Circulante
+Despesas a apropriar,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas antecipadas,Outros Operacionais (ANC),Ativo,Não Circulante
+despesas de exercícios futuros,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas de meses seguintes,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas diferidas,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas do exercício seguinte,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas pagas antecipadamente,Outros Operacionais (ANC),Ativo,Não Circulante
+Despesas pagas antecipadas,Outros Operacionais (ANC),Ativo,Não Circulante
+Devedores diversos,Outros Operacionais (ANC),Ativo,Não Circulante
+Diferido,Impostos Diferidos,Ativo,Não Circulante
+Direito de uso,Direito de Uso,Ativo,Não Circulante
+direito de uso em arrendamento,Direito de Uso,Ativo,Não Circulante
+Direitos realizáveis a longo prazo,Outros Operacionais (ANC),Ativo,Não Circulante
+Distribuição de lucros antecipada,Mútuo Financeiro LP,Ativo,Não Circulante
+Distribuição de lucros antecipados,Mútuo Financeiro LP,Ativo,Não Circulante
+DIVIDENDOS A RECEBER,Mútuo Financeiro LP,Ativo,Não Circulante
+dividendos e juros sobre capital proprio a receber,Mútuo Financeiro LP,Ativo,Não Circulante
+Duplicatas a Receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Duplicatas diversas,Outros Operacionais (ANC),Ativo,Não Circulante
+Duplicatas e cheques a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Empréstimos,Mútuo Financeiro LP,Ativo,Não Circulante
+Empréstimos a sócios,Mútuo Financeiro LP,Ativo,Não Circulante
+Empréstimos a sócios e diretores,Mútuo Financeiro LP,Ativo,Não Circulante
+Empréstimos a terceiros,Mútuo Financeiro LP,Ativo,Não Circulante
+emprestimos empresas ligadas,Mútuo Financeiro LP,Ativo,Não Circulante
+ICMS,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Icms a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Icms a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+-.icms/irpj/csl.diferido,Impostos Diferidos,Ativo,Não Circulante
+Icms s/imobilizado a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Icms s/imobilizado a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Icms sobre imobilizado a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Icms sobre imobilizado a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+imobilizado,"Edificios, maquinas e outros",Ativo,Não Circulante
+Imóveis a comercializar,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Imposto de renda,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Imposto de Renda e Contribuição Social,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Imposto de Renda e Contribuição Social a Compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Imposto de renda e contribuição social a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Imposto de renda e contribuição social diferidos,Impostos Diferidos,Ativo,Não Circulante
+Impostos a Compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Impostos a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Impostos Antecipados,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Impostos diferidos,Impostos Diferidos,Ativo,Não Circulante
+Impostos e Contribuições a Compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Intangíveis,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+Intangível,Outros Ativos Intangiveis / Goodwill,Ativo,Não Circulante
+Interligada Transporte e Comercio Fassina Ltda,Mútuo Financeiro LP,Ativo,Não Circulante
+Investimentos,Investimentos,Ativo,Não Circulante
+Investimentos em coligadas e controladas,Investimentos,Ativo,Não Circulante
+Investimentos em outras empresas,Investimentos,Ativo,Não Circulante
+INVESTIMENTOS LONGO PRAZO,Investimentos,Ativo,Não Circulante
+IPI,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+IPI a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+IPI a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+IR e CSL a Recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+IRPJ,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+IRRF,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+LUCROS DISTRIBUIDOS NO EXERCICIO,Mútuo Financeiro LP,Ativo,Não Circulante
+MÚTUO ENTRE COLIGADAS,Mútuo Financeiro LP,Ativo,Não Circulante
+MUTUOS,Mútuo Financeiro LP,Ativo,Não Circulante
+Mútuos com partes relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Operações de Mutuo,Mútuo Financeiro LP,Ativo,Não Circulante
+Outras contas,Outros Operacionais (ANC),Ativo,Não Circulante
+Outras contas a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+Outras Contas Operacionais,Outros Operacionais (ANC),Ativo,Não Circulante
+Outros,Outros Operacionais (ANC),Ativo,Não Circulante
+Outros ativos realizáveis a longo prazo,Outros Operacionais (ANC),Ativo,Não Circulante
+Outros bens e direitos,Outros Operacionais (ANC),Ativo,Não Circulante
+Outros créditos a receber a longo prazo,Outros Operacionais (ANC),Ativo,Não Circulante
+Outros Impostos,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Outros investimentos permanentes,Investimentos,Ativo,Não Circulante
+Outros Não Operacionais LP,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Outros tributos a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Partes relaciondas,Mútuo Financeiro LP,Ativo,Não Circulante
+partic. em sociedades coligadas/controla,Investimentos,Ativo,Não Circulante
+participacao em consorcios,Investimentos,Ativo,Não Circulante
+PARTICIPACAO NA EMPRESA,Investimentos,Ativo,Não Circulante
+Participações,Investimentos,Ativo,Não Circulante
+Participações financeiras método da equivalência patrimonial,Investimentos,Ativo,Não Circulante
+Participações societárias,Investimentos,Ativo,Não Circulante
+PIS,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Pis a compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Pis a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Plano de Capitalização,Aplicações Financeiras de LP,Ativo,Não Circulante
+Prêmios de seguros a apropriar,Outros Operacionais (ANC),Ativo,Não Circulante
+Prêmios seguros,Outros Operacionais (ANC),Ativo,Não Circulante
+Processos Judiciais,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Promitentes Compradores,Outros Operacionais (ANC),Ativo,Não Circulante
+Propriedade para investimentos,Terreno,Ativo,Não Circulante
+Propriedades para investimentos,Terreno,Ativo,Não Circulante
+(-)Provisão para devedores duvidosos,Outros Operacionais (ANC),Ativo,Não Circulante
+(-)Serviços executados a faturar,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Sociedades ligadas,Mútuo Financeiro LP,Ativo,Não Circulante
+SÓCIOS ADMINISTRADORES E PESSOAS LIGADAS,Mútuo Financeiro LP,Ativo,Não Circulante
+SOCIOS CONTA ÉSPECIAL,Mútuo Financeiro LP,Ativo,Não Circulante
+SOCIOS E CONTROLADORAS,Mútuo Financeiro LP,Ativo,Não Circulante
+TITULOS DE CAPITALIZACAO,Aplicações Financeiras de LP,Ativo,Não Circulante
+Títulos e ações,Aplicações Financeiras de LP,Ativo,Não Circulante
+Títulos e Valores Investimentos,Investimentos,Ativo,Não Circulante
+Titulos e Valores Mobiliários,Aplicações Financeiras de LP,Ativo,Não Circulante
+Títulos precatórios,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+Transações com partes relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+transacoes intercompanhia,Mútuo Financeiro LP,Ativo,Não Circulante
+Tributos a recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Tributos a recuperar/compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Tributos Diferidos,Impostos Diferidos,Ativo,Não Circulante
+Tributos e Contribuições a Compensar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Tributos e Contribuições a Recuperar,Impostos a recuperar/Crédito tributário,Ativo,Não Circulante
+Valores a receber,Outros Operacionais (ANC),Ativo,Não Circulante
+valores a receber de partes relacionadas,Mútuo Financeiro LP,Ativo,Não Circulante
+Veículos e Maquinas,"Edificios, maquinas e outros",Ativo,Não Circulante
+Venda de Imóveis Repasse do SFH,Outros Não Operacionais LP (ANC),Ativo,Não Circulante
+administrativas,- Despesas Administrativas,DRE,DRE
+Ajuste a Valor Presente,-Impostos,DRE,DRE
+- -.ajuste provisão irpj e csll,- Impostos Pagos,DRE,DRE
+Amortização,-Custo de Produtos Vendidos,DRE,DRE
+Amortização despesas,- Despesas Administrativas,DRE,DRE
+(-) anulacao/abatimentos de servico de transporte,-Impostos,DRE,DRE
+baixa de imobilizado,+/- Resultado de alienação do Imobilizado,DRE,DRE
+(-) cancelamento e devoluções,-Impostos,DRE,DRE
+Cancelamentos e Devoluções,-Impostos,DRE,DRE
+CMV,-Custo de Produtos Vendidos,DRE,DRE
+Cofins,-Impostos,DRE,DRE
+COFINS sobre a prestação de serviço,-Impostos,DRE,DRE
+COFINS SOBRE RECEITA BRUTA,-Impostos,DRE,DRE
+Com vendas,- Despesas com Vendas,DRE,DRE
+Comerciais,- Despesas com Vendas,DRE,DRE
+Contribuição Social,- Impostos Pagos,DRE,DRE
+Contribuição Social sobre o Lucro,- Impostos Pagos,DRE,DRE
+Corrente,- Impostos Pagos,DRE,DRE
+CPV,-Custo de Produtos Vendidos,DRE,DRE
+CSV,-Custo de Produtos Vendidos,DRE,DRE
+Custo Administração de Obras,-Custo de Produtos Vendidos,DRE,DRE
+Custo da Aliencao de Bens do Ativo,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Custo das Mercadorias Vendidas,-Custo de Produtos Vendidos,DRE,DRE
+Custo das vendas e serviços,-Custo de Produtos Vendidos,DRE,DRE
+Custo de Incorporação de Imóveis,-Custo de Produtos Vendidos,DRE,DRE
+Custo de mercadorias vendidas,-Custo de Produtos Vendidos,DRE,DRE
+CUSTO DO SERVIÇO DE TRANSPORTE,-Custo de Produtos Vendidos,DRE,DRE
+Custo Dos Produtos De Fabricação Própria,-Custo de Produtos Vendidos,DRE,DRE
+Custo dos produtos e ou serviços vendidos,-Custo de Produtos Vendidos,DRE,DRE
+Custo Empreitda,-Custo de Produtos Vendidos,DRE,DRE
+Custo mão de obra direta,-Custo de Produtos Vendidos,DRE,DRE
+Custo mercadorias revendidas,-Custo de Produtos Vendidos,DRE,DRE
+custo venda imobilizado,+/- Resultado de alienação do Imobilizado,DRE,DRE
+CustoBensServiços Vendidos,-Custo de Produtos Vendidos,DRE,DRE
+Custos,-Custo de Produtos Vendidos,DRE,DRE
+CUSTOS COM FOLHA,- Despesas Administrativas,DRE,DRE
+Custos da Receitas,-Custo de Produtos Vendidos,DRE,DRE
+Custos das mercadorias vendidas,-Custo de Produtos Vendidos,DRE,DRE
+Custos das vendas,-Custo de Produtos Vendidos,DRE,DRE
+Custos dos Bens e Serviços,-Custo de Produtos Vendidos,DRE,DRE
+Custos dos Produtos e Serviços Vendidos,-Custo de Produtos Vendidos,DRE,DRE
+Custos dos produtos/serviços vendidos,-Custo de Produtos Vendidos,DRE,DRE
+Custos dos produtos vendidos,-Custo de Produtos Vendidos,DRE,DRE
+Custos dos Serviços Prestados,-Custo de Produtos Vendidos,DRE,DRE
+Custos gerais de funcionamento,-Custo de Produtos Vendidos,DRE,DRE
+Custos indiretos de produção,-Custo de Produtos Vendidos,DRE,DRE
+DE VENDAS,- Despesas Administrativas,DRE,DRE
+Deduções,-Impostos,DRE,DRE
+Deduções da Receita,-Impostos,DRE,DRE
+(-) deduções da receita bruta,-Impostos,DRE,DRE
+(-) deduções da receita industrial,-Impostos,DRE,DRE
+Deduções da receita operacional bruta,-Impostos,DRE,DRE
+deduções das Receitas,-Impostos,DRE,DRE
+deducoes das receitas com vendas e servicos,-Impostos,DRE,DRE
+Deduções das vendas,-Impostos,DRE,DRE
+Deduções de tributos abatimentos e devoluções,-Impostos,DRE,DRE
+depesas financeiras,-  Despesas Financeiras,DRE,DRE
+Depreciação,-Custo de Produtos Vendidos,DRE,DRE
+Depreciação despesas,- Despesas Administrativas,DRE,DRE
+Depreciação e Amortização,-Custo de Produtos Vendidos,DRE,DRE
+Depreciações e amortizações,-Custo de Produtos Vendidos,DRE,DRE
+DESCONTOS CONDICIONAIS,-Impostos,DRE,DRE
+DESCONTOS DE CONTRATOS,-Impostos,DRE,DRE
+Despesa de depreciação,- Despesas Administrativas,DRE,DRE
+Despesas administrativas e comerciais,- Despesas Administrativas,DRE,DRE
+Despesas bancárias,-  Despesas Financeiras,DRE,DRE
+despesas c/retirada dos socios,- Despesas Administrativas,DRE,DRE
+Despesas c/vendas,- Despesas com Vendas,DRE,DRE
+Despesas com Comissões,- Despesas com Vendas,DRE,DRE
+DESPESAS COM DEPRECIAÇÃO AMORTIZAÇÃO,- Despesas Administrativas,DRE,DRE
+DESPESAS COM ESCRITORIO,- Despesas Administrativas,DRE,DRE
+Despesas com financiamentos,-  Despesas Financeiras,DRE,DRE
+Despesas com Fretes,- Despesas com Vendas,DRE,DRE
+DESPESAS COM INFORMATICA,- Despesas Administrativas,DRE,DRE
+Despesas com Juros,-  Despesas Financeiras,DRE,DRE
+despesas com leasing,- Juros de Arrendamento Operacional,DRE,DRE
+DESPESAS COM LOGISTICA,- Despesas Administrativas,DRE,DRE
+Despesas com Logisticas e Distribuição,- Despesas com Vendas,DRE,DRE
+DESPESAS COM MANUTENCAO,- Despesas Administrativas,DRE,DRE
+Despesas com Marketing,- Despesas com Vendas,DRE,DRE
+Despesas com Pessoal,- Despesas Administrativas,DRE,DRE
+despesas com salarios e beneficios,- Despesas Administrativas,DRE,DRE
+Despesas com veículos,- Despesas com Vendas,DRE,DRE
+DESPESAS COM VIAGENS,- Despesas com Vendas,DRE,DRE
+Despesas Comerciais,- Despesas com Vendas,DRE,DRE
+despesas de aluguel,- Despesas Administrativas,DRE,DRE
+Despesas de comercialização,- Despesas com Vendas,DRE,DRE
+Despesas de IRPJ e CSLL,- Impostos Pagos,DRE,DRE
+Despesas de Variação Cambial,+/- Variações Cambiais,DRE,DRE
+Despesas de vendas,- Despesas com Vendas,DRE,DRE
+despesas gerais,- Despesas Administrativas,DRE,DRE
+Despesas Gerais e Administrativas,- Despesas Administrativas,DRE,DRE
+DESPESAS MÃO DE OBRA ADMINISTRATIVO,- Despesas Administrativas,DRE,DRE
+Despesas não Operacionais,Outros não recorrentes e/ou não operacionais,DRE,DRE
+despesas operacionais,- Despesas Administrativas,DRE,DRE
+despesas trabalhista,- Despesas Administrativas,DRE,DRE
+Despesas Tributárias,- Despesas Administrativas,DRE,DRE
+(-) devolução de venda de mercadorias,-Impostos,DRE,DRE
+Devolução de Vendas,-Impostos,DRE,DRE
+devolucoes de moveis,-Impostos,DRE,DRE
+(-) devoluções de vendas,-Impostos,DRE,DRE
+DEVOLUCOES E DESCONTOS E ABATIMENTOS,-Impostos,DRE,DRE
+DEVOLUÇÕES EFETIVAS,-Impostos,DRE,DRE
+devoluções recebidas,-Impostos,DRE,DRE
+Diferido,+/- Impostos Diferidos,DRE,DRE
+Diferidos,+/- Impostos Diferidos,DRE,DRE
+Encargos De Depreciação,-Custo de Produtos Vendidos,DRE,DRE
+Encargos pagamentos em atraso,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Equivalências patrimoniais,+/- Equivalência Patrimonial,DRE,DRE
+financeiras,-  Despesas Financeiras,DRE,DRE
+Ganho na venda de permanente,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Ganho (Perda) por redução ao valor recuperável de contas a receber,- Despesas Administrativas,DRE,DRE
+Ganhos de capital,+/- Equivalência Patrimonial,DRE,DRE
+Ganhos e Perdas na Alienação de Imobilizados,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Gastos Gerais de Fabricação,-Custo de Produtos Vendidos,DRE,DRE
+Gerais e Administrativas,- Despesas Administrativas,DRE,DRE
+Honorários da Diretoria,- Despesas Administrativas,DRE,DRE
+ICMS,-Impostos,DRE,DRE
+ICMS Sobre Vendas,-Impostos,DRE,DRE
+Imposto de renda,- Impostos Pagos,DRE,DRE
+Imposto de renda e contribuição social,- Impostos Pagos,DRE,DRE
+Imposto de renda e contribuição social diferido,+/- Impostos Diferidos,DRE,DRE
+Imposto de renda e contribuição social diferidos,+/- Impostos Diferidos,DRE,DRE
+(-) imposto simples,-Impostos,DRE,DRE
+impostos,- Despesas Administrativas,DRE,DRE
++/- Impostos Diferidos,+/- Impostos Diferidos,DRE,DRE
+impostos e contribuições e outras deduções,-Impostos,DRE,DRE
+Impostos incidentes,-Impostos,DRE,DRE
+IMPOSTOS INCIDENTES SAS VENDAS E SEVIÇOS,-Impostos,DRE,DRE
+Impostos incidentes sobre revendas e serviços,-Impostos,DRE,DRE
+Impostos incidentes sobre Vendas,-Impostos,DRE,DRE
+(-) impostos s/ vendas,-Impostos,DRE,DRE
+IMPOSTOS SOBRE FATURAMENTO,-Impostos,DRE,DRE
+(-) impostos sobre ingressos e receitas,-Impostos,DRE,DRE
+(-) impostos sobre vendas e serviços,-Impostos,DRE,DRE
+"impostos, taxas e contribuições",- Despesas Administrativas,DRE,DRE
+IPI Sobre Vendas,-Impostos,DRE,DRE
+ISS sobre a prestação de serviço,-Impostos,DRE,DRE
+ISS Sobre Vendas,-Impostos,DRE,DRE
+Issqn,-Impostos,DRE,DRE
+Juros Ativos,+ Receitas Financeiras,DRE,DRE
+Juros de aplicações,+ Receitas Financeiras,DRE,DRE
+juros de arrendamento,- Juros de Arrendamento Operacional,DRE,DRE
+Juros de financiamentos,-  Despesas Financeiras,DRE,DRE
+Juros Passivos,-  Despesas Financeiras,DRE,DRE
+Juros sobre Passivo de Arrendamento,- Juros de Arrendamento Operacional,DRE,DRE
+Net foreign exchange gainslosses,+/- Variações Cambiais,DRE,DRE
+Net results of associated companies and joint ventures,+/- Equivalência Patrimonial,DRE,DRE
+Net sales,Vendas Totais,DRE,DRE
+Ordenados Salários Gratificações E Outras Re,- Despesas Administrativas,DRE,DRE
+Other operating income,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Outras Despesas,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+OUTRAS DESPESAS ADMINISTRATIVAS,- Despesas Administrativas,DRE,DRE
+Outras despesas não operacionais,Outros não recorrentes e/ou não operacionais,DRE,DRE
+Outras despesas operacionais líquidas,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+OUTRAS DESPESAS TRIBUTARIAS,- Despesas Administrativas,DRE,DRE
+Outras receitas não operacionais,Outros não recorrentes e/ou não operacionais,DRE,DRE
+OUTRAS RECEITAS OPERACIONAIS,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Participação nos Lucros das Empresas Investidas por Equivalência Patrimonial,+/- Equivalência Patrimonial,DRE,DRE
+Participação nos Lucros de Coligada,+/- Equivalência Patrimonial,DRE,DRE
+Participação nos Lucros de Controladas,+/- Equivalência Patrimonial,DRE,DRE
+Perda na venda de permanente,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Pessoal,- Despesas Administrativas,DRE,DRE
+Pessoal e Administradores,- Despesas Administrativas,DRE,DRE
+Pis não Cumulativo,-Impostos,DRE,DRE
+PIS sobre a prestação de serviço,-Impostos,DRE,DRE
+pise,-Impostos,DRE,DRE
+Prejuízo da Alienação de Bens do Ativo,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Pro Labore,- Despesas Administrativas,DRE,DRE
+Production costs,-Custo de Produtos Vendidos,DRE,DRE
+Profit from discontinued operation net of tax,Outros não recorrentes e/ou não operacionais,DRE,DRE
+Provisão contribuição social,- Impostos Pagos,DRE,DRE
+-. provisão ereversão de tributos diferido,+/- Impostos Diferidos,DRE,DRE
+Provisão imposto de renda,- Impostos Pagos,DRE,DRE
+Provisão p/contribuição social,- Impostos Pagos,DRE,DRE
+Provisão p/imposto de renda,- Impostos Pagos,DRE,DRE
+Provisão para CSLL Operações Descontinuadas,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Provisão para IRPJ Operações Descontinuadas,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Provisões dos tributos sobre o lucro,- Impostos Pagos,DRE,DRE
++/-Provisões Operacionais,+/-Provisões Operacionais,DRE,DRE
+RD costs,- Despesas Administrativas,DRE,DRE
+Receita Administração de Obras,Vendas Totais,DRE,DRE
+Receita Bruta,Vendas Totais,DRE,DRE
+Receita bruta de vendas,Vendas Totais,DRE,DRE
+Receita bruta de vendas e serviços,Vendas Totais,DRE,DRE
+Receita com Alienação de Imobilizado,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Receita com operações de assistência à saúde,Vendas Totais,DRE,DRE
+receita com venda de veiculos,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Receita da Alienação de Bens do Ativo,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Receita da Prestação de Serviços,Vendas Totais,DRE,DRE
+Receita de apliações financeiras,+ Receitas Financeiras,DRE,DRE
+Receita De Empreitada,Vendas Totais,DRE,DRE
+Receita de Incorporação de Imóveis,Vendas Totais,DRE,DRE
+RECEITA LIQUIDA,Vendas Totais,DRE,DRE
+Receita líquida dos serviços prestados e mercadorias vendidas,Vendas Totais,DRE,DRE
+Receita operacional bruta,Vendas Totais,DRE,DRE
+Receitas de aluguéis,Vendas Totais,DRE,DRE
+Receitas de comissões,Vendas Totais,DRE,DRE
+RECEITAS DE JUROS,+ Receitas Financeiras,DRE,DRE
+Receitas de Seguros,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Receitas de Subvenção Fiscal,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Receitas de vendas,Vendas Totais,DRE,DRE
+Receitas despesas financeiras líquidas,+ Receitas Financeiras,DRE,DRE
+RECEITAS EVENTUAIS,+/-Outras Receitas/Despesas Operacionais,DRE,DRE
+Receitas financeiras,+ Receitas Financeiras,DRE,DRE
+Receitas não Operacionais,Outros não recorrentes e/ou não operacionais,DRE,DRE
+receitas operacionais,Vendas Totais,DRE,DRE
+redução do irpj,- Impostos Pagos,DRE,DRE
+Remuneração da Administração,- Despesas Administrativas,DRE,DRE
+RENDAS FINANCEIRAS,+ Receitas Financeiras,DRE,DRE
+Resultado de Equivalência Patrimonial,+/- Equivalência Patrimonial,DRE,DRE
+Resultado de Venda de Bens do Ativo Não Circulante,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Resultado do exercício proveniente de atividades descontinuadas,Outros não recorrentes e/ou não operacionais,DRE,DRE
+Resultado financeiro líquido,-  Despesas Financeiras,DRE,DRE
++/- Resultados Abrangentes,+/- Resultados Abrangentes,DRE,DRE
+Revenda de mercadorias para mercado interno,Vendas Totais,DRE,DRE
+Revendas,Vendas Totais,DRE,DRE
+Revendas a prazo,Vendas Totais,DRE,DRE
+Revendas a vista,Vendas Totais,DRE,DRE
+Salários e encargos,- Despesas Administrativas,DRE,DRE
+Sales and distribution costs,- Despesas com Vendas,DRE,DRE
+Serviços Cancelados,-Impostos,DRE,DRE
+Serviços prestados,Vendas Totais,DRE,DRE
+SG&A,- Despesas Administrativas,DRE,DRE
+SGA,- Despesas Administrativas,DRE,DRE
+Simples federal,-Impostos,DRE,DRE
+(-) simples nacional,-Impostos,DRE,DRE
+Tarifas bancárias,-  Despesas Financeiras,DRE,DRE
+Taxes on income,- Impostos Pagos,DRE,DRE
+Total da receita de vendas e serviços,Vendas Totais,DRE,DRE
+Tributárias,- Despesas Administrativas,DRE,DRE
+tributos diferidos,+/- Impostos Diferidos,DRE,DRE
+(-) tributos diretos de operações de assistência à saúde,-Impostos,DRE,DRE
+TRIBUTOS E CONTRIBUICOES S/ VENDAS,-Impostos,DRE,DRE
+Tributos Incidentes sobre as receitas,-Impostos,DRE,DRE
+Variação Cambial Ativa,+/- Variações Cambiais,DRE,DRE
+Variação cambial líquida,+/- Variações Cambiais,DRE,DRE
+Variação Cambial Passiva,+/- Variações Cambiais,DRE,DRE
+Variação Monetária Ativa,+/- Variações Cambiais,DRE,DRE
+Variação Monetária Passia,+/- Variações Cambiais,DRE,DRE
+"Variações monetárias e cambiais, líquidas",+/- Variações Cambiais,DRE,DRE
+VEÍCULOS ADMINISTRATIVOS,- Despesas Administrativas,DRE,DRE
+Venda de Bens Patrimoniais,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Venda de imóveis,Vendas Totais,DRE,DRE
+Venda de imóveis a prazo,Vendas Totais,DRE,DRE
+Venda de imóveis a vista,Vendas Totais,DRE,DRE
+Venda de produtos e serviços,Vendas Totais,DRE,DRE
+Venda mercado externo,Vendas Totais,DRE,DRE
+Venda mercado interno,Vendas Totais,DRE,DRE
+Vendas,- Despesas com Vendas,DRE,DRE
+Vendas Canceladas e Devoluções,-Impostos,DRE,DRE
+vendas de bens do ativo imobilizado,+/- Resultado de alienação do Imobilizado,DRE,DRE
+Vendas de mercadorias,Vendas Totais,DRE,DRE
+Vendas ME,Vendas Totais,DRE,DRE
+Vendas mercado externo,Vendas Totais,DRE,DRE
+Vendas mercado interno,Vendas Totais,DRE,DRE
+Vendas MI,Vendas Totais,DRE,DRE
+vlr. contábil dos bens alienados,+/- Resultado de alienação do Imobilizado,DRE,DRE
+ADIANTAMENTO A EMPREGADOS,Salários,Passivo,Circulante
+Adiantamento de clientes,Adiantamento de Clientes,Passivo,Circulante
+Adiantamento de clientes em garantia financeira,Adiantamento de Clientes,Passivo,Circulante
+Adiantamento de sócios,Mútuo Financeiro,Passivo,Circulante
+Adiantamento para aumento de capital,Mútuo Financeiro,Passivo,Circulante
+Adiantamento para futuro aumento de capital,Mútuo Financeiro,Passivo,Circulante
+adiantamentos a sócios,Mútuo Financeiro,Passivo,Circulante
+Adiantamentos de clientes,Adiantamento de Clientes,Passivo,Circulante
+Adiantamentos recebidos,Adiantamento de Clientes,Passivo,Circulante
+Adto Futuro Aumento de Capital,Mútuo Financeiro,Passivo,Circulante
+AFAC,Mútuo Financeiro,Passivo,Circulante
+Antecipação de recebíveis,Bancos,Passivo,Circulante
+antecipacoes de clientes,Adiantamento de Clientes,Passivo,Circulante
+Apropriações Mensais,Salários,Passivo,Circulante
+Aquisição de controladas,Outras Dividas Financeiras,Passivo,Circulante
+Arrendamento Mercantil,Passivo de Arrendamento Circulante,Passivo,Circulante
+Arrendamentos a pagar,Passivo de Arrendamento Circulante,Passivo,Circulante
+BANCO COM CONTAS NEGATIVAS,Bancos,Passivo,Circulante
+Banco Santander,Bancos,Passivo,Circulante
+Bancos conta empréstimo,Bancos,Passivo,Circulante
+Bancos conta empréstimos,Bancos,Passivo,Circulante
+Bancos conta financiamento,Bancos,Passivo,Circulante
+Bancos conta financiamentos,Bancos,Passivo,Circulante
+beneficios e encargos sociais,Salários,Passivo,Circulante
+Cartões de crédito,Outros Operacionais (PC),Passivo,Circulante
+Cheques a pagar,Outros Operacionais (PC),Passivo,Circulante
+COFINS,Impostos,Passivo,Circulante
+Comissões a pagar,Outros Operacionais (PC),Passivo,Circulante
+Consórcios a pagar,Bancos,Passivo,Circulante
+consórcios contemplados de curto prazo,Bancos,Passivo,Circulante
+conta corrente coligada,Mútuo Financeiro,Passivo,Circulante
+conta corrente de cooperados,Outros Operacionais (PC),Passivo,Circulante
+CONTA CORRENTE DOS COTISTAS,Mútuo Financeiro,Passivo,Circulante
+Contas a pagar,Outros Operacionais (PC),Passivo,Circulante
+Contas a pagar com partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+Contas a pagar de partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+Contas a Pagar - Fornecedores CP,Fornecedores,Passivo,Circulante
+Contas a Pagar Mútuos,Mútuo Financeiro,Passivo,Circulante
+Contas Transitórias,Outros Operacionais (PC),Passivo,Circulante
+Contract liabilities,Adiantamento de Clientes,Passivo,Circulante
+contrato de mutuo,Mútuo Financeiro,Passivo,Circulante
+Contribuições Sociais a Recolher,Impostos,Passivo,Circulante
+CREDITO DE CLIENTES,Adiantamento de Clientes,Passivo,Circulante
+CREDITO DE PESSOAS LIGADAS JURIDICA,Mútuo Financeiro,Passivo,Circulante
+Créditos não consumidos pelos usuários,Adiantamento de Clientes,Passivo,Circulante
+creditos pessoas ligadas,Mútuo Financeiro,Passivo,Circulante
+Credores diversos,Outros Operacionais (PC),Passivo,Circulante
+credores por permuta,Outros Operacionais (PC),Passivo,Circulante
+CSLL,Impostos,Passivo,Circulante
+Debêntures,Bancos,Passivo,Circulante
+Débito com partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+Débitos de operações de assistência à saúde,Outros Operacionais (PC),Passivo,Circulante
+Débitos de pessoas ligadas - Mútuo,Mútuo Financeiro,Passivo,Circulante
+Débitos diversos,Outros Operacionais (PC),Passivo,Circulante
+Debitos fiscais,Impostos,Passivo,Circulante
+Debitos sociais,Salários,Passivo,Circulante
+Débitos trabalhistas,Salários,Passivo,Circulante
+Débitos tributários,Impostos,Passivo,Circulante
+Débitos tributários parcelados,Impostos,Passivo,Circulante
+Derivativos,Ajustes derivativos / cambio (+),Passivo,Circulante
+Derivativos - hedge,Ajustes derivativos / cambio (+),Passivo,Circulante
+Desconto de duplicatas,Bancos,Passivo,Circulante
+Desconto de títulos,Bancos,Passivo,Circulante
+Distribuição de lucros,Dividendos a Pagar,Passivo,Circulante
+Dívida Fiscal CP,Dividas Fiscais de Curto Prazo,Passivo,Circulante
+Dívidas Bancárias,Bancos,Passivo,Circulante
+Dividendos e juros sobre o capital próprio a pagar,Dividendos a Pagar,Passivo,Circulante
+Duplicatas a pagar,Fornecedores,Passivo,Circulante
+Duplicatas descontadas,Bancos,Passivo,Circulante
+Empréstimo capital de giro,Bancos,Passivo,Circulante
+Empréstimos,Bancos,Passivo,Circulante
+Empréstimos a pessoas ligadas,Mútuo Financeiro,Passivo,Circulante
+emprestimos bancarios,Bancos,Passivo,Circulante
+EMPRESTIMOS CAIXA ECONOMICA FEDERAL,Bancos,Passivo,Circulante
+Empréstimos capital de giro,Bancos,Passivo,Circulante
+emprestimos com partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+Empréstimos CP,Bancos,Passivo,Circulante
+empréstimos de curto prazo,Bancos,Passivo,Circulante
+Empréstimos de sócios,Mútuo Financeiro,Passivo,Circulante
+Empréstimos dos sócios,Mútuo Financeiro,Passivo,Circulante
+Empréstimos e financiamentos,Bancos,Passivo,Circulante
+Empréstimos e financiamentos a pagar,Bancos,Passivo,Circulante
+Empréstimos e financiamentos bancários,Bancos,Passivo,Circulante
+EMPRESTIMOS ENTRE COLIGADAS E CONTROLADAS,Mútuo Financeiro,Passivo,Circulante
+"Empréstimos, financiamentos e debêntures",Bancos,Passivo,Circulante
+emprestimos socios,Mútuo Financeiro,Passivo,Circulante
+Enc Sociais Recolher,Salários,Passivo,Circulante
+(-) encargos a apropriar,Bancos,Passivo,Circulante
+(-) encargos financeiros a apropriar,Bancos,Passivo,Circulante
+encargos sociais,Salários,Passivo,Circulante
+Encargos sociais e trabalhistas,Salários,Passivo,Circulante
+Encargos Sociais e tributárias,Salários,Passivo,Circulante
+faturamento antecipado,Adiantamento de Clientes,Passivo,Circulante
+faturas pagas,Outros Operacionais (PC),Passivo,Circulante
+FERIAS,Salários,Passivo,Circulante
+FGTS a recolher,Salários,Passivo,Circulante
+Financ Veículos e PeçasFloor Plan,Fornecedores - Partes Relacionadas,Passivo,Circulante
+Financiamento a construção,Bancos,Passivo,Circulante
+Financiamento de Construção SFH,Bancos,Passivo,Circulante
+Financiamento para aquisição de imóveis,Bancos,Passivo,Circulante
+Financiamentos,Bancos,Passivo,Circulante
+financiamentos de curto prazo,Bancos,Passivo,Circulante
+Floor Plan,Fornecedores - Partes Relacionadas,Passivo,Circulante
+FOLHA DE PAGAMENTO DIRIGENTES,Salários,Passivo,Circulante
+.fornec./matls.merc.externo,Fornecedores,Passivo,Circulante
+-.fornec./matls.merc.interno,Fornecedores,Passivo,Circulante
+Fornecedores,Fornecedores,Passivo,Circulante
+Fornecedores a pagar,Fornecedores,Passivo,Circulante
+Fornecedores Coligadas,Fornecedores - Partes Relacionadas,Passivo,Circulante
+Fornecedores/credores,Fornecedores,Passivo,Circulante
+FORNECEDORES CURTO PRAZO,Fornecedores,Passivo,Circulante
+FORNECEDORES DE CONSUMO,Fornecedores,Passivo,Circulante
+FORNECEDORES DE MATERIAIS E SERVICOS,Fornecedores,Passivo,Circulante
+FORNECEDORES DE MERC PARA REVENDA,Fornecedores,Passivo,Circulante
+Fornecedores diversos,Fornecedores,Passivo,Circulante
+Fornecedores gerais,Fornecedores,Passivo,Circulante
+Fornecedores ME,Fornecedores,Passivo,Circulante
+Fornecedores mercado externo,Fornecedores,Passivo,Circulante
+Fornecedores mercado interno,Fornecedores,Passivo,Circulante
+Fornecedores MI,Fornecedores,Passivo,Circulante
+Fornecedores no exterior,Fornecedores,Passivo,Circulante
+Fornecedores no país,Fornecedores,Passivo,Circulante
+Fornecedores - Partes Relacionadas,Fornecedores - Partes Relacionadas,Passivo,Circulante
+fornecedores-risco sacado,Confirming,Passivo,Circulante
+fretes,Outros Operacionais (PC),Passivo,Circulante
+fretes contratados,Outros Operacionais (PC),Passivo,Circulante
+FRETES DE TERCEIROS CONTRATADOS,Outros Operacionais (PC),Passivo,Circulante
+HONORÁRIOS A PAGAR,Salários,Passivo,Circulante
+ICMS,Impostos,Passivo,Circulante
+Imposto de renda e contribuição social a recolher,Impostos,Passivo,Circulante
+imposto de renda e csll,Impostos,Passivo,Circulante
+Impostos a pagar,Impostos,Passivo,Circulante
+impostos a pagar ou a recolher,Impostos,Passivo,Circulante
+Impostos a recolher,Impostos,Passivo,Circulante
+Impostos diferidos,Outros Não Operacionais (PC),Passivo,Circulante
+Impostos e contribuições a recolher,Impostos,Passivo,Circulante
+Impostos parcelados,Dividas Fiscais de Curto Prazo,Passivo,Circulante
+Impostos Sobre Vendas a Recolher,Impostos,Passivo,Circulante
+IMPOSTOS TAXAS E CONTRIBUICOES A PAGAR,Impostos,Passivo,Circulante
+Income taxes,Impostos,Passivo,Circulante
+Inss a recolher,Salários,Passivo,Circulante
+Instituições financeiras,Bancos,Passivo,Circulante
+Instrumentos financeiros,Bancos,Passivo,Circulante
+Instrumentos financeiros derivativos,Ajustes derivativos / cambio (+),Passivo,Circulante
+Instrumentos financeiros derivativos não realizados,Ajustes derivativos / cambio (+),Passivo,Circulante
+Instrumentos financeiros derivativos não realizados Longo prazo,Ajustes derivativos / cambio (+),Passivo,Circulante
+IRPJ CSLL Diferidos,Outros Não Operacionais (PC),Passivo,Circulante
+IRPJ E CONTRIBUIÇÃO SOCIAL DIFERIDA,Outros Não Operacionais (PC),Passivo,Circulante
+IRPJ e CSLL a pagar,Impostos,Passivo,Circulante
+IRRF A COMPENSAR,Impostos,Passivo,Circulante
+(-) juros a apropriar sobre empréstimos curto prazo,Bancos,Passivo,Circulante
+(-) juros a apropriar sobre financiamentos curto,Bancos,Passivo,Circulante
+Juros sobre Capital Próprio,Dividendos a Pagar,Passivo,Circulante
+Lease liabilities,Passivo de Arrendamento Circulante,Passivo,Circulante
+Lease Operacional,Passivo de Arrendamento Circulante,Passivo,Circulante
+leasing,Bancos,Passivo,Circulante
+Liabilities directly related to the disposal group,Outros Operacionais (PC),Passivo,Circulante
+Loans and borrowings,Bancos,Passivo,Circulante
+Lucros a distribuir,Dividendos a Pagar,Passivo,Circulante
+MÚTUO ENTRE COLIGADAS,Mútuo Financeiro,Passivo,Circulante
+Mútuos,Mútuo Financeiro,Passivo,Circulante
+Mútuos com partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+MUTUOS PARTES RELACIONADAS,Mútuo Financeiro,Passivo,Circulante
+OBRIGAÇÕES BANCÁRIAS,Bancos,Passivo,Circulante
+Obrigações com Acionistas,Mútuo Financeiro,Passivo,Circulante
+Obrigações com Empresas Ligadas,Mútuo Financeiro,Passivo,Circulante
+Obrigações com o pessoal,Salários,Passivo,Circulante
+Obrigações com plano de pensão,Outros Operacionais (PC),Passivo,Circulante
+Obrigações e encargos sobre a folha de pagamento,Salários,Passivo,Circulante
+obrigacoes financeiras,Bancos,Passivo,Circulante
+Obrigações fiscais a recolher,Impostos,Passivo,Circulante
+Obrigações Fiscais Estaduais,Impostos,Passivo,Circulante
+Obrigações Fiscais Municipais,Impostos,Passivo,Circulante
+obrigações fiscais/tributárias,Impostos,Passivo,Circulante
+Obrigacoes por arrendamento,Passivo de Arrendamento Circulante,Passivo,Circulante
+Obrigações Previdenciárias,Salários,Passivo,Circulante
+Obrigações sociais a recolher,Salários,Passivo,Circulante
+Obrigações sociais e trabalhistas,Salários,Passivo,Circulante
+Obrigações sociais e trabalhistas a recolher,Salários,Passivo,Circulante
+obrigacoes sociais parceladas,Outras Dividas Financeiras,Passivo,Circulante
+Obrigações trabalhista e previdenciária,Salários,Passivo,Circulante
+Obrigações trabalhistas,Salários,Passivo,Circulante
+Obrigações trabalhistas e previdenciárias,Salários,Passivo,Circulante
+Obrigações tributárias,Impostos,Passivo,Circulante
+Operações de Mutuo,Mútuo Financeiro,Passivo,Circulante
+Other liabilities,Outros Operacionais (PC),Passivo,Circulante
+Outras contas,Outros Operacionais (PC),Passivo,Circulante
+Outras contas a pagar,Outros Operacionais (PC),Passivo,Circulante
+Outras Contas Operacionais,Outros Operacionais (PC),Passivo,Circulante
+Outras obrigações,Outros Operacionais (PC),Passivo,Circulante
+outras provisões,Outros Operacionais (PC),Passivo,Circulante
+Outros empréstimos,Bancos,Passivo,Circulante
+OUTROS IMPOSTOS E CONTRIBUIÇÕES,Impostos,Passivo,Circulante
+Outros Passivos,Outros Operacionais (PC),Passivo,Circulante
+Outros passivos circulantes,Outros Operacionais (PC),Passivo,Circulante
+Parcelamento de tributos,Dividas Fiscais de Curto Prazo,Passivo,Circulante
+Parcelamento especial,Impostos,Passivo,Circulante
+PARCELAMENTO OBRIG SOCIAIS TRIBUTARIAS,Outras Dividas Financeiras,Passivo,Circulante
+Parcelamento Previdenciário,Outras Dividas Financeiras,Passivo,Circulante
+parcelamentos curto prazo,Outras Dividas Financeiras,Passivo,Circulante
+PARCELAMENTOS DE OBRIGAÇÕES,Outras Dividas Financeiras,Passivo,Circulante
+Parcelamentos federais a recolher,Outras Dividas Financeiras,Passivo,Circulante
+Parcelamentos Municipais,Outras Dividas Financeiras,Passivo,Circulante
+Parcelamentos RFB,Outras Dividas Financeiras,Passivo,Circulante
+Parcelamentos SEFAZ,Outras Dividas Financeiras,Passivo,Circulante
+PARCELAMENTOS SOCIAIS TRIBUTARIAS,Outras Dividas Financeiras,Passivo,Circulante
+PARCELAMENTOS TRIBUTÁRIOS,Outras Dividas Financeiras,Passivo,Circulante
+Partes Relacionadas,Mútuo Financeiro,Passivo,Circulante
+Passivo de arrendamento,Passivo de Arrendamento Circulante,Passivo,Circulante
+Passivo fiscal corrente,Impostos,Passivo,Circulante
+Passivo fiscal diferido,Outros Não Operacionais (PC),Passivo,Circulante
+passivos com partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+Passivos de contratos de comercialização de energia,Outros Operacionais (PC),Passivo,Circulante
+permutas,Outros Operacionais (PC),Passivo,Circulante
+PIS a pagar,Impostos,Passivo,Circulante
+Pró-Labore a Pagar,Salários,Passivo,Circulante
+Prolabore a pagar,Salários,Passivo,Circulante
+Prov CSLL a recolher,Impostos,Passivo,Circulante
+Prov IRPJ a recolher,Impostos,Passivo,Circulante
+Provisão de contingências,Outros Não Operacionais (PC),Passivo,Circulante
+provisao de ferias e 13° salario,Salários,Passivo,Circulante
+Provisão para contingências,Outros Não Operacionais (PC),Passivo,Circulante
+provisao para contribuicao social,Impostos,Passivo,Circulante
+PROVISAO Para CSLL,Impostos,Passivo,Circulante
+provisão para férias e encargos,Salários,Passivo,Circulante
+provisao para o imposto de renda,Impostos,Passivo,Circulante
+Provisão para riscos cíveis e trabalhistas,Outros Não Operacionais (PC),Passivo,Circulante
+PROVISÃO PCONTRIB SOCIAL,Impostos,Passivo,Circulante
+Provisão pdespesas com pessoal,Salários,Passivo,Circulante
+PROVISÃO PIMPOSTO DE RENDA,Impostos,Passivo,Circulante
+PROVISÕES,Outros Não Operacionais (PC),Passivo,Circulante
+Provisões de impostos,Salários,Passivo,Circulante
+Provisões diversas,Outros Não Operacionais (PC),Passivo,Circulante
+provisoes p/ encargos sociais,Salários,Passivo,Circulante
+Provisões para contingências,Outros Não Operacionais (PC),Passivo,Circulante
+PROVISÕES TRABALHISTAS,Salários,Passivo,Circulante
+receita diferida,Outros Operacionais (PC),Passivo,Circulante
+receitas a apropriar,Outros Operacionais (PC),Passivo,Circulante
+Remunerações a pagar,Salários,Passivo,Circulante
+reserva para aumento de capital,Mútuo Financeiro,Passivo,Circulante
+Reserva para Futuro Aumento de Capital,Mútuo Financeiro,Passivo,Circulante
+Risco sacado pagar,Confirming,Passivo,Circulante
+Salários a pagar,Salários,Passivo,Circulante
+Salários e encargos a pagar,Salários,Passivo,Circulante
+Salários e encargos a recolher,Salários,Passivo,Circulante
+Salarios e obrigacoes sociais,Salários,Passivo,Circulante
+Salários e ordenados a pagar,Salários,Passivo,Circulante
+"Salários, provisões e contribuições sociais",Salários,Passivo,Circulante
+Saldos bancários a descoberto,Bancos,Passivo,Circulante
+Seguros,Outros Operacionais (PC),Passivo,Circulante
+Seguros a pagar,Outros Operacionais (PC),Passivo,Circulante
+Simples nacional a recolher,Impostos,Passivo,Circulante
+SÓCIOS ADMINISTRADORES E PESSOAS LIGADAS,Mútuo Financeiro,Passivo,Circulante
+Sócios c/empréstimo,Mútuo Financeiro,Passivo,Circulante
+Sócios c/particular,Mútuo Financeiro,Passivo,Circulante
+Sócios conta administradores,Mútuo Financeiro,Passivo,Circulante
+Sócios conta corrente,Mútuo Financeiro,Passivo,Circulante
+Sócios conta empréstimo,Mútuo Financeiro,Passivo,Circulante
+SOCIOS CONTA ESPECIAL,Mútuo Financeiro,Passivo,Circulante
+Sócios conta lucros,Dividendos a Pagar,Passivo,Circulante
+Sócios conta particular,Mútuo Financeiro,Passivo,Circulante
+Títulos descontados,Bancos,Passivo,Circulante
+Trade payables,Fornecedores,Passivo,Circulante
+tributos a recolher sobre o lucro,Impostos,Passivo,Circulante
+TRIBUTOS A RECUPERAR COMPENSAR,Impostos,Passivo,Circulante
+tributos diferidos,Outros Não Operacionais (PC),Passivo,Circulante
+Tributos pagar,Impostos,Passivo,Circulante
+valores a pagar para partes relacionadas,Mútuo Financeiro,Passivo,Circulante
+venda entrega futura,Adiantamento de Clientes,Passivo,Circulante
+vendas antecipadas,Adiantamento de Clientes,Passivo,Circulante
+Adiantamento de clientes em garantia financeira,Outros Operacionais (PNC),Passivo,Não Circulante
+Adiantamento de sócios,Mútuo Financeiro LP,Passivo,Não Circulante
+Adiantamento para aumento de capital,Mútuo Financeiro LP,Passivo,Não Circulante
+Adiantamento para futuro aumento de capital,Mútuo Financeiro LP,Passivo,Não Circulante
+adiantamentos a sócios,Mútuo Financeiro LP,Passivo,Não Circulante
+Adiantamentos de clientes,Outros Operacionais (PNC),Passivo,Não Circulante
+Adto Futuro Aumento de Capital,Mútuo Financeiro LP,Passivo,Não Circulante
+AFAC,Mútuo Financeiro LP,Passivo,Não Circulante
+AFAC Adiant p Futuro Aum Capital,Mútuo Financeiro LP,Passivo,Não Circulante
+Aquisição de controladas,Outras Dividas Financeiras LP,Passivo,Não Circulante
+arrendamento a pagar,Passivo de Arrendamento LP,Passivo,Não Circulante
+Arrendamento mercantil,Passivo de Arrendamento LP,Passivo,Não Circulante
+AVP Direito de uso,Passivo de Arrendamento LP,Passivo,Não Circulante
+BANCO COM CONTAS NEGATIVAS,Bancos LP,Passivo,Não Circulante
+Banco Santander,Bancos LP,Passivo,Não Circulante
+Bancos conta empréstimo,Bancos LP,Passivo,Não Circulante
+Bancos conta empréstimos,Bancos LP,Passivo,Não Circulante
+Bancos conta financiamento,Bancos LP,Passivo,Não Circulante
+Bancos conta financiamentos,Bancos LP,Passivo,Não Circulante
+Cartões de crédito,Outros Operacionais (PNC),Passivo,Não Circulante
+Cheques a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Comissões a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Consórcios a pagar,Bancos LP,Passivo,Não Circulante
+consórcios contemplados,Bancos LP,Passivo,Não Circulante
+CONSÓRCIOS CONTEMPLADOS DE LONGO PRAZO,Bancos LP,Passivo,Não Circulante
+conta corrente coligada,Mútuo Financeiro LP,Passivo,Não Circulante
+CONTA CORRENTE DOS COTISTAS,Mútuo Financeiro LP,Passivo,Não Circulante
+Conta Corrente passiva,Mútuo Financeiro LP,Passivo,Não Circulante
+Contas a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Contas a pagar com partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Contas a pagar de partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Contingências,Provisões,Passivo,Não Circulante
+contrato de mutuo,Mútuo Financeiro LP,Passivo,Não Circulante
+CREDITO DE PESSOAS LIGADAS JURIDICA,Mútuo Financeiro LP,Passivo,Não Circulante
+Crédito de sócios,Mútuo Financeiro LP,Passivo,Não Circulante
+Créditos com Quotistas,Mútuo Financeiro LP,Passivo,Não Circulante
+Créditos de Interligadasadt Aumento capital,Mútuo Financeiro LP,Passivo,Não Circulante
+Créditos de terceiros,Outros Operacionais (PNC),Passivo,Não Circulante
+creditos pessoas ligadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Credores diversos,Outros Operacionais (PNC),Passivo,Não Circulante
+Credores por imóveis compromissados,Outros Operacionais (PNC),Passivo,Não Circulante
+credores por permuta,Outros Operacionais (PNC),Passivo,Não Circulante
+Custo Diferido,Outros Operacionais (PNC),Passivo,Não Circulante
+Custo Exercícios Futuros,Outros Operacionais (PNC),Passivo,Não Circulante
+Custos diferidos,Outros Operacionais (PNC),Passivo,Não Circulante
+Debêntures,Bancos LP,Passivo,Não Circulante
+Débito com partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Débitos de operações de assistência à saúde,Outros Operacionais (PNC),Passivo,Não Circulante
+Débitos de pessoas ligadas - Mútuo,Mútuo Financeiro LP,Passivo,Não Circulante
+Debitos fiscais,Dividas Fiscais LP,Passivo,Não Circulante
+Débitos tributários,Dividas Fiscais LP,Passivo,Não Circulante
+Débitos tributários parcelados,Dividas Fiscais LP,Passivo,Não Circulante
+Deferred tax liabilities,Outros Não Operacionais (PNC),Passivo,Não Circulante
+Derivativos,Ajustes derivativos / cambio (PNC),Passivo,Não Circulante
+Derivativos - hedge,Ajustes derivativos / cambio (PNC),Passivo,Não Circulante
+(-) despesas diferidas,Outros Operacionais (PNC),Passivo,Não Circulante
+Distratos de clientes a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Distribuição de lucros,Mútuo Financeiro LP,Passivo,Não Circulante
+Dívidas Bancárias,Bancos LP,Passivo,Não Circulante
+Dividendos e juros sobre o capital próprio a pagar,Mútuo Financeiro LP,Passivo,Não Circulante
+Duplicatas a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Employee benefits,Provisões,Passivo,Não Circulante
+Empréstimo capital de giro,Bancos LP,Passivo,Não Circulante
+Empréstimos,Bancos LP,Passivo,Não Circulante
+Empréstimos a pessoas ligadas,Mútuo Financeiro LP,Passivo,Não Circulante
+EMPRESTIMOS CAIXA ECONOMICA FEDERAL,Bancos LP,Passivo,Não Circulante
+Empréstimos capital de giro,Bancos LP,Passivo,Não Circulante
+emprestimos com partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Empréstimos CP,Bancos LP,Passivo,Não Circulante
+empréstimos de longo prazo,Bancos LP,Passivo,Não Circulante
+Empréstimos de sócios,Mútuo Financeiro LP,Passivo,Não Circulante
+Empréstimos dos sócios,Mútuo Financeiro LP,Passivo,Não Circulante
+Empréstimos e financiamentos,Bancos LP,Passivo,Não Circulante
+Empréstimos e financiamentos a pagar,Bancos LP,Passivo,Não Circulante
+Empréstimos e financiamentos bancários,Bancos LP,Passivo,Não Circulante
+EMPRESTIMOS ENTRE COLIGADAS E CONTROLADAS,Mútuo Financeiro LP,Passivo,Não Circulante
+"Empréstimos, financiamentos e debêntures",Bancos LP,Passivo,Não Circulante
+emprestimos socios,Mútuo Financeiro LP,Passivo,Não Circulante
+(-) encargos a apropriar,Bancos LP,Passivo,Não Circulante
+Encargos a Transcorrer,Bancos LP,Passivo,Não Circulante
+(-) encargos financeiros a apropriar,Bancos LP,Passivo,Não Circulante
+Encargos Sociais e tributárias,Dividas Fiscais LP,Passivo,Não Circulante
+Financiamento a construção,Bancos LP,Passivo,Não Circulante
+Financiamento de Construção SFH,Bancos LP,Passivo,Não Circulante
+Financiamento para aquisição de imóveis,Bancos LP,Passivo,Não Circulante
+Financiamentos,Bancos LP,Passivo,Não Circulante
+FINANCIAMENTOS DE LONGO PRAZO,Bancos LP,Passivo,Não Circulante
+Fornecedores,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores/credores,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores diversos,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores gerais,Outros Operacionais (PNC),Passivo,Não Circulante
+fornecedores longo prazo,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores ME,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores mercado externo,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores mercado interno,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores MI,Outros Operacionais (PNC),Passivo,Não Circulante
+Fornecedores no exterior,Outros Operacionais (PNC),Passivo,Não Circulante
+fornecedores-risco sacado,Bancos LP,Passivo,Não Circulante
+FRETES DE TERCEIROS CONTRATADOS,Outros Operacionais (PNC),Passivo,Não Circulante
+Imposto de renda e contribuição social a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Imposto de renda e contribuição social diferidos,Outros Não Operacionais (PNC),Passivo,Não Circulante
+Impostos a pagar,Dividas Fiscais LP,Passivo,Não Circulante
+impostos a pagar ou a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Impostos a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Impostos diferidos,Outros Não Operacionais (PNC),Passivo,Não Circulante
+Impostos e contribuições a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Impostos parcelados,Dividas Fiscais LP,Passivo,Não Circulante
+IMPOSTOS PARCELADOS LONGO PRAZO,Dividas Fiscais LP,Passivo,Não Circulante
+IMPOSTOS TAXAS E CONTRIBUICOES A PAGAR,Dividas Fiscais LP,Passivo,Não Circulante
+Instituições Financeiras,Bancos LP,Passivo,Não Circulante
+Instrumentos financeiros,Bancos LP,Passivo,Não Circulante
+Instrumentos financeiros derivativos,Ajustes derivativos / cambio (PNC),Passivo,Não Circulante
+IRPJ CSLL Diferidos,Outros Não Operacionais (PNC),Passivo,Não Circulante
+IRPJ e CSLL a pagar,Dividas Fiscais LP,Passivo,Não Circulante
+JUROS A APROPRIAR SOBRE FINANCIAMENTOS LONGo,Bancos LP,Passivo,Não Circulante
+Lease liabilities,Passivo de Arrendamento LP,Passivo,Não Circulante
+leasing,Bancos LP,Passivo,Não Circulante
+leasing e consorcios,Bancos LP,Passivo,Não Circulante
+Loans and borrowings,Bancos LP,Passivo,Não Circulante
+Lucros a distribuir,Mútuo Financeiro LP,Passivo,Não Circulante
+MÚTUO ENTRE COLIGADAS,Mútuo Financeiro LP,Passivo,Não Circulante
+Mútuos,Mútuo Financeiro LP,Passivo,Não Circulante
+Mútuos com partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+MUTUOS PARTES RELACIONADAS,Mútuo Financeiro LP,Passivo,Não Circulante
+OBRIGAÇÕES BANCÁRIAS,Bancos LP,Passivo,Não Circulante
+Obrigações com Acionistas,Mútuo Financeiro LP,Passivo,Não Circulante
+Obrigações com Empresas Ligadas,Mútuo Financeiro LP,Passivo,Não Circulante
+obrigacoes financeiras,Bancos LP,Passivo,Não Circulante
+Obrigações fiscais a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Obrigações Fiscais Estaduais,Dividas Fiscais LP,Passivo,Não Circulante
+Obrigações Fiscais Municipais,Dividas Fiscais LP,Passivo,Não Circulante
+obrigações fiscais/tributárias,Dividas Fiscais LP,Passivo,Não Circulante
+Obrigações por arrendamento,Passivo de Arrendamento LP,Passivo,Não Circulante
+obrigacoes sociais parceladas,Dividas Fiscais LP,Passivo,Não Circulante
+Obrigações sociais trabalhistas e tributárias,Outros Operacionais (PNC),Passivo,Não Circulante
+Obrigações Tributárias,Dividas Fiscais LP,Passivo,Não Circulante
+Operações de Mutuo,Mútuo Financeiro LP,Passivo,Não Circulante
+Outras contas,Outros Operacionais (PNC),Passivo,Não Circulante
+Outras contas a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Outras Contas Operacionais,Outros Operacionais (PNC),Passivo,Não Circulante
+Outras Dividas Financeiras LP,Outras Dividas Financeiras LP,Passivo,Não Circulante
+Outras obrigações,Outros Operacionais (PNC),Passivo,Não Circulante
+Outras Provisões,Provisões,Passivo,Não Circulante
+Outros,Outros Operacionais (PNC),Passivo,Não Circulante
+OUTROS IMPOSTOS E CONTRIBUIÇÕES,Dividas Fiscais LP,Passivo,Não Circulante
+Outros Passivos,Outros Operacionais (PNC),Passivo,Não Circulante
+Outros passivos não circulantes,Outros Operacionais (PNC),Passivo,Não Circulante
+Parcelamento Especial,Dividas Fiscais LP,Passivo,Não Circulante
+PARCELAMENTO OBRIG SOCIAIS TRIBUTARIAS,Dividas Fiscais LP,Passivo,Não Circulante
+Parcelamento Previdenciário,Dividas Fiscais LP,Passivo,Não Circulante
+PARCELAMENTOS DE OBRIGAÇÕES,Dividas Fiscais LP,Passivo,Não Circulante
+Parcelamentos de tributos,Dividas Fiscais LP,Passivo,Não Circulante
+Parcelamentos federais a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+Parcelamentos Municipais,Dividas Fiscais LP,Passivo,Não Circulante
+Parcelamentos SEFAZ,Dividas Fiscais LP,Passivo,Não Circulante
+PARCELAMENTOS SOCIAIS TRIBUTARIAS,Dividas Fiscais LP,Passivo,Não Circulante
+PARCELAMENTOS TRIBUTÁRIOS,Dividas Fiscais LP,Passivo,Não Circulante
+Partes Relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Passivo Ambiental,Provisões,Passivo,Não Circulante
+Passivo de arrendamentento,Passivo de Arrendamento LP,Passivo,Não Circulante
+Passivo de arrendamento,Passivo de Arrendamento LP,Passivo,Não Circulante
+Passivo fiscal corrente,Dividas Fiscais LP,Passivo,Não Circulante
+Passivo fiscal diferido,Outros Não Operacionais (PNC),Passivo,Não Circulante
+passivos com partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Passivos de contratos de comercialização de energia,Outros Operacionais (PNC),Passivo,Não Circulante
+permutas,Outros Operacionais (PNC),Passivo,Não Circulante
+Povisão pContigperda Invesdebi,Provisões,Passivo,Não Circulante
+Provisão de contingências,Provisões,Passivo,Não Circulante
+Provisão Gastos Comercialização,Provisões,Passivo,Não Circulante
+Provisão para demandas judiciais,Provisões,Passivo,Não Circulante
+Provisão para passivo ambiental,Provisões,Passivo,Não Circulante
+Provisão para perdas em processos judiciais,Provisões,Passivo,Não Circulante
+Provisão para riscos cíveis e trabalhistas,Provisões,Passivo,Não Circulante
+Provisões,Provisões,Passivo,Não Circulante
+Provisões de impostos,Provisões,Passivo,Não Circulante
+Provisões diversas,Provisões,Passivo,Não Circulante
+Provisões para contingências,Provisões,Passivo,Não Circulante
+Provisões para riscos fiscais trabalhistas,Provisões,Passivo,Não Circulante
+Provisões para riscos fiscais trabalhistas e passivo,Provisões,Passivo,Não Circulante
+Provisões para riscos legais,Provisões,Passivo,Não Circulante
+Provisões técnicas de operações de assistência a saúde,Outros Não Operacionais (PNC),Passivo,Não Circulante
+Receita de Exercícios Futuros,Outros Operacionais (PNC),Passivo,Não Circulante
+Receitas de exercícios futuros,Outros Operacionais (PNC),Passivo,Não Circulante
+Receitas diferidas,Outros Operacionais (PNC),Passivo,Não Circulante
+reserva para aumento de capital,Mútuo Financeiro LP,Passivo,Não Circulante
+Reserva para Futuro Aumento de Capital,Mútuo Financeiro LP,Passivo,Não Circulante
+Resultado de exercícios futuros,Outros Operacionais (PNC),Passivo,Não Circulante
+Resultados de exercícios futuros,Outros Operacionais (PNC),Passivo,Não Circulante
+Resultados diferido,Outros Operacionais (PNC),Passivo,Não Circulante
+Resultados diferidos,Outros Operacionais (PNC),Passivo,Não Circulante
+Risco sacado pagar,Bancos LP,Passivo,Não Circulante
+Seguros,Outros Operacionais (PNC),Passivo,Não Circulante
+Seguros a pagar,Outros Operacionais (PNC),Passivo,Não Circulante
+Simples nacional a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+SÓCIOS ADMINISTRADORES E PESSOAS LIGADAS,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios c/empréstimo,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios c/particular,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios conta administradores,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios conta corrente,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios conta empréstimo,Mútuo Financeiro LP,Passivo,Não Circulante
+SOCIOS CONTA ESPECIAL,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios conta lucros,Mútuo Financeiro LP,Passivo,Não Circulante
+Sócios conta particular,Mútuo Financeiro LP,Passivo,Não Circulante
+tributos a recolher,Dividas Fiscais LP,Passivo,Não Circulante
+TRIBUTOS A RECUPERAR COMPENSAR,Dividas Fiscais LP,Passivo,Não Circulante
+tributos diferidos,Outros Não Operacionais (PNC),Passivo,Não Circulante
+tributos parcelados,Dividas Fiscais LP,Passivo,Não Circulante
+valores a pagar para partes relacionadas,Mútuo Financeiro LP,Passivo,Não Circulante
+Ações em tesouraria,Outras Reservas,Passivo,PL
+Ajustes credores de exercícios anteriores,Outras Reservas,Passivo,PL
+Ajustes de avaliação patrimonial,Outras Reservas,Passivo,PL
+Ajustes de exercícios anteriores,Outras Reservas,Passivo,PL
+Ajustes de reavaliação,Outras Reservas,Passivo,PL
+Ajustes devedores de exercícios anteriores,Outras Reservas,Passivo,PL
+(-) capital a integralizar,Capital Social,Passivo,PL
+Capital social,Capital Social,Passivo,PL
+Capital social integralizado,Capital Social,Passivo,PL
+Capital social realizado,Capital Social,Passivo,PL
+Capital subscrito,Capital Social,Passivo,PL
+Déficit acumulado,Lucros Acumulados,Passivo,PL
+DISTRIBUIÇÃO DE LUCROS,Lucros Acumulados,Passivo,PL
+Lucro do exercício,Lucros Acumulados,Passivo,PL
+LUCRO DO PERIODO,Lucros Acumulados,Passivo,PL
+Lucros acumulados,Lucros Acumulados,Passivo,PL
+Lucros do exercício,Lucros Acumulados,Passivo,PL
+Lucros ou prejuízos acumulados,Lucros Acumulados,Passivo,PL
+Lucros (prejuízos) acumulados,Lucros Acumulados,Passivo,PL
+Lucros (prejuízos) do exercício,Lucros Acumulados,Passivo,PL
+Noncontrolling interests,Outras Reservas,Passivo,PL
+Outras reservas,Outras Reservas,Passivo,PL
+Outros resultados abrangentes,Outras Reservas,Passivo,PL
+PARTICIPAÇÕES MINORITÁRIAS,PARTICIPAÇÕES MINORITÁRIAS,Passivo,PL
+Prejuizo do exercício,Lucros Acumulados,Passivo,PL
+Prejuízos acumulados,Lucros Acumulados,Passivo,PL
+Prémio de Emissão,Outras Reservas,Passivo,PL
+Reserva de capital,Outras Reservas,Passivo,PL
+reserva de incentivos fiscais,Outras Reservas,Passivo,PL
+Reserva de lucros,Lucros Acumulados,Passivo,PL
+Reserva de lucros a realizar,Lucros Acumulados,Passivo,PL
+Reserva de reavaliação,Outras Reservas,Passivo,PL
+Reservas de capital,Outras Reservas,Passivo,PL
+Reservas de reavaliação,Outras Reservas,Passivo,PL
+Reservas legais,Outras Reservas,Passivo,PL
+Reserves,Outras Reservas,Passivo,PL
+Resultado a destinar,Lucros Acumulados,Passivo,PL
+Resultado do exercício,Lucros Acumulados,Passivo,PL
+Resultados acumulados,Lucros Acumulados,Passivo,PL
+Retained earnings,Lucros Acumulados,Passivo,PL
+Share capital and contributions by shareholders,Capital Social,Passivo,PL
+Superávit acumulado,Lucros Acumulados,Passivo,PL
+Superávit ou déficit acumulado,Lucros Acumulados,Passivo,PL
+Superávits ou déficits acumulados,Lucros Acumulados,Passivo,PL

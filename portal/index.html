@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="ALLocator v2 - alocação de demonstrações financeiras com invariante contábil verificada por construção."
+    />
+    <title>ALLocator v2</title>
+    <!--
+      O tema é aplicado ANTES do React montar, lendo o mesmo `localStorage` que o
+      Layout usa. Sem isto o portal pisca branco antes de virar escuro em toda
+      navegação - e num portal de análise que se usa o dia inteiro isso incomoda.
+    -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('allocator:tema');
+          if (!t) {
+            t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'escuro' : 'claro';
+          }
+          document.documentElement.dataset.tema = t;
+        } catch (e) {
+          document.documentElement.dataset.tema = 'claro';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="raiz"></div>
+    <noscript>
+      O ALLocator roda o pipeline contábil inteiro no navegador. Sem JavaScript
+      habilitado não há como calcular o balanço.
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

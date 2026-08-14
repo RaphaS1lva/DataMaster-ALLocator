@@ -1,0 +1,9 @@
+# Dependências SÓ de teste. Ficam separadas de requirements.txt para não entrar
+# na imagem de produção.
+#
+# Os testes de leitura geram os PDFs em memória, escrevendo o arquivo à mão
+# (objetos + xref + stream de conteúdo sem compressão, fonte Courier). Por isso
+# NÃO há reportlab aqui: fixture que depende de gerador de PDF de terceiros
+# esconde justamente o que se quer testar - a coordenada de cada palavra.
+-r requirements.txt
+pytest==9.1.1

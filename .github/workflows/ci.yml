@@ -1,0 +1,179 @@
+name: CI
+
+# Gate de qualidade. Diferente da v1, onde o eval existia mas nunca rodava
+# automaticamente e o `sys.exit(1)` só disparava em erro de rede - ou seja, uma
+# queda de acurácia passava sem ninguém notar.
+#
+# Aqui o build FALHA quando:
+#   · alguma das 56 posições de Ativo/Passivo não entra em exatamente um total
+#   · alguma regra do dicionário aponta para destino inexistente ou subtotal
+#   · o invariante contábil não fecha no golden dataset real
+#   · a normalização divergir entre JS, Python e SQL
+#   · um guardrail de segurança parar de barrar o que deveria
+#   · o portal não compilar
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # -------------------------------------------------------------------------
+  nucleo-contabil:
+    name: Núcleo contábil (invariante)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Sem dependência: o núcleo é puro por decisão de arquitetura, e o teste
+      # `imports.test.mjs` garante que continue assim.
+      - name: Testes do núcleo (60)
+        working-directory: portal
+        run: node --test test/*.test.mjs
+
+  # -------------------------------------------------------------------------
+  base-de-conhecimento:
+    name: Cobertura das fórmulas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Prova em build time que o grafo de fórmulas é completo e sem duplicata.
+      - name: Validar knowledge/ (falha se a cobertura quebrar)
+        run: python -X utf8 scripts/gen_knowledge.py --check
+
+      # Se os artefatos gerados divergirem do knowledge/, alguém editou um
+      # .gen.js à mão - a fonte de verdade e o que roda ficariam diferentes.
+      - name: Artefatos gerados estão em sincronia com a fonte
+        run: |
+          python -X utf8 scripts/gen_knowledge.py
+          if ! git diff --exit-code --stat; then
+            echo "::error::os arquivos gerados divergem de knowledge/. Rode 'python scripts/gen_knowledge.py' e commite."
+            exit 1
+          fi
+
+  # -------------------------------------------------------------------------
+  servidor:
+    name: Servidor (leitura, guardrails, memória)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'   # necessário para o teste de paridade do normalizeText
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Instalar dependências
+        working-directory: server
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      # Aqui o pytest real existe, então o shim de stdlib não é usado. Rodar nos
+      # dois modos é de propósito: garante que o shim não mascara nada.
+      - name: Testes com pytest real
+        run: python -m pytest server/tests -q
+
+      - name: Testes com o runner próprio (valida o shim)
+        run: python -X utf8 server/run_tests.py
+
+  # -------------------------------------------------------------------------
+  portal:
+    name: Build do portal
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # `npm ci` exige package-lock.json. O lockfile não pôde ser gerado na
+      # máquina de desenvolvimento (o registry do npm está bloqueado por proxy
+      # corporativo: UNABLE_TO_GET_ISSUER_CERT_LOCALLY), então o primeiro build
+      # cai para `npm install` e PUBLICA o lockfile como artefato - baixe,
+      # commite, e a partir daí o `npm ci` passa a valer, com instalação
+      # reprodutível.
+      - name: Instalar dependências
+        working-directory: portal
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci --no-audit --no-fund
+          else
+            echo "::warning::package-lock.json ausente - usando 'npm install'. Baixe o artefato 'package-lock' e commite para ter build reprodutível."
+            npm install --no-audit --no-fund
+          fi
+
+      - name: Build
+        working-directory: portal
+        run: npm run build
+
+      - name: Publicar o lockfile gerado
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-lock
+          path: portal/package-lock.json
+          if-no-files-found: ignore
+
+  # -------------------------------------------------------------------------
+  red-team:
+    name: Red team (admissibilidade e injeção)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Roda SEM instalar dependência nenhuma: os guardrails são lógica pura de
+      # stdlib justamente para que a verificação de segurança não dependa da
+      # rede nem de instalação. Se um dia um deles passar a exigir uma lib, este
+      # job falha - e é esse o alarme que queremos.
+      - name: Guardrails sem dependências externas
+        run: |
+          python -X utf8 server/run_tests.py seguranca -v
+          python -X utf8 server/run_tests.py llm_guardrails -v
+
+  # -------------------------------------------------------------------------
+  eval:
+    name: Eval (gate de métricas)
+    runs-on: ubuntu-latest
+    needs: [nucleo-contabil, servidor]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # O eval SAI COM 1 quando qualquer métrica viola seu limiar. É a diferença
+      # em relação à v1, onde o harness existia mas só falhava em erro de rede,
+      # uma queda de acurácia passava sem ninguém notar.
+      - name: Avaliação com limiares
+        run: python -X utf8 server/eval/run_eval.py
+
+      - name: Registrar as métricas no resumo do job
+        if: always()
+        run: |
+          {
+            echo '### Métricas do eval'
+            echo '```json'
+            python -X utf8 server/eval/run_eval.py --json --sem-limiar || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

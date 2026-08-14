@@ -1,0 +1,3094 @@
+{
+ "_fonte": "Fleury S.A. - ITR 2T26 (informação pública, CVM/RI)",
+ "_gerado_por": "scripts/dump_leitura.py + scripts/extrair_golden_demonstracao.py",
+ "_porque": "Golden dataset de DEMONSTRAÇÃO PUBLICADA. O outro golden (balancete SPE) tem código contábil, hierarquia por prefixo e natureza D/C em coluna própria; este não tem NENHUMA das três: sem código, sem indentação (as 53 linhas de conta do Balanço estão todas em x0=44,76) e embrulhado em 47 páginas de nota, parecer e índice.",
+ "documento": {
+  "nPaginas": 50,
+  "paginasAdmitidasPeloGateDePagina": [
+   6,
+   7,
+   8,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   36,
+   37,
+   38,
+   39,
+   42,
+   43,
+   44,
+   46,
+   47,
+   48,
+   49
+  ],
+  "linhasSeTodasEntrassem": 1222,
+  "paginasDeDemonstracao": [
+   6,
+   7,
+   8
+  ]
+ },
+ "fatos": {
+  "escala": "milhares de reais",
+  "bp": {
+   "pagina": 6,
+   "contas": 42,
+   "sinteticas": 9,
+   "descartadas": 7,
+   "colunas": 4,
+   "totalAtivoConsolidado30062026": 13558475.0,
+   "totalPassivoPlConsolidado30062026": 13558475.0,
+   "totalAtivoControladora30062026": 11689351.0,
+   "totalAtivoConsolidado31122025": 13220481.0
+  },
+  "dre": {
+   "pagina": 7,
+   "contas": 10,
+   "sinteticas": 5,
+   "colunas": 4,
+   "lucroLiquidoControladora3m2026": 221850.0,
+   "lucroLiquidoControladora6m2026": 423062.0
+  },
+  "cabecalhoRemontado": [
+   "Controladora 3 meses 30/06/2026",
+   "Controladora 3 meses 30/06/2025",
+   "Controladora 6 meses 30/06/2026",
+   "Controladora 6 meses 30/06/2025"
+  ]
+ },
+ "paginas": [
+  {
+   "pagina": 6,
+   "tipo": "BP",
+   "score": 0.85,
+   "cabecalho": [
+    "Controladora 30/06/2026",
+    "Controladora 31/12/2025",
+    "Consolidado 30/06/2026",
+    "Consolidado 31/12/2025"
+   ],
+   "colunas": [
+    352.11,
+    417.99,
+    484.11,
+    553.01
+   ],
+   "linhas": [
+    {
+     "rotulo": "Balanço Patrimonial",
+     "x0": 42.6,
+     "top": 71.24,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Em milhares de reais R$",
+     "x0": 42.6,
+     "top": 81.85,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Controladora Consolidado",
+     "x0": 328.8,
+     "top": 111.26,
+     "nivel": 1,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Ativo Nota 30/06/2026 31/12/2025 30/06/2026 31/12/2025",
+     "x0": 44.76,
+     "top": 121.94,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Circulante Caixa e equivalentes de caixa",
+     "x0": 44.76,
+     "top": 133.22,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 3181.0,
+      "Controladora 31/12/2025": 5080.0,
+      "Consolidado 30/06/2026": 19060.0,
+      "Consolidado 31/12/2025": 21772.0
+     }
+    },
+    {
+     "rotulo": "Títulos e valores mobiliários",
+     "x0": 44.76,
+     "top": 154.58,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 1071565.0,
+      "Controladora 31/12/2025": 1495042.0,
+      "Consolidado 30/06/2026": 1880069.0,
+      "Consolidado 31/12/2025": 2140619.0
+     }
+    },
+    {
+     "rotulo": "Contas a receber",
+     "x0": 44.76,
+     "top": 165.38,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 1161401.0,
+      "Controladora 31/12/2025": 985633.0,
+      "Consolidado 30/06/2026": 2094735.0,
+      "Consolidado 31/12/2025": 1747166.0
+     }
+    },
+    {
+     "rotulo": "Estoques",
+     "x0": 44.76,
+     "top": 176.06,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 70204.0,
+      "Controladora 31/12/2025": 79860.0,
+      "Consolidado 30/06/2026": 156590.0,
+      "Consolidado 31/12/2025": 180702.0
+     }
+    },
+    {
+     "rotulo": "Impostos a recuperar",
+     "x0": 44.76,
+     "top": 186.74,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 202579.0,
+      "Controladora 31/12/2025": 219564.0,
+      "Consolidado 30/06/2026": 243400.0,
+      "Consolidado 31/12/2025": 248153.0
+     }
+    },
+    {
+     "rotulo": "Dividendos a receber Hermes Pardini",
+     "x0": 44.76,
+     "top": 197.42,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 57070.0,
+      "Controladora 31/12/2025": 57070.0,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Outros ativos",
+     "x0": 44.76,
+     "top": 208.1,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 109549.0,
+      "Controladora 31/12/2025": 57515.0,
+      "Consolidado 30/06/2026": 145076.0,
+      "Consolidado 31/12/2025": 83053.0
+     }
+    },
+    {
+     "rotulo": "Total circulante",
+     "x0": 44.76,
+     "top": 218.78,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 2675549.0,
+      "Controladora 31/12/2025": 2899764.0,
+      "Consolidado 30/06/2026": 4538930.0,
+      "Consolidado 31/12/2025": 4421465.0
+     }
+    },
+    {
+     "rotulo": "Títulos e valores mobiliários",
+     "x0": 44.76,
+     "top": 229.58,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 149089.0,
+      "Controladora 31/12/2025": 122859.0,
+      "Consolidado 30/06/2026": 138544.0,
+      "Consolidado 31/12/2025": 112622.0
+     }
+    },
+    {
+     "rotulo": "Impostos a recuperar",
+     "x0": 44.76,
+     "top": 240.26,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 8754.0,
+      "Consolidado 31/12/2025": 9945.0
+     }
+    },
+    {
+     "rotulo": "Imposto de renda e contribuição social diferidos",
+     "x0": 44.76,
+     "top": 250.94,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 10269.0,
+      "Consolidado 31/12/2025": 11058.0
+     }
+    },
+    {
+     "rotulo": "Depósitos judiciais",
+     "x0": 44.76,
+     "top": 261.62,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 4907.0,
+      "Controladora 31/12/2025": 11131.0,
+      "Consolidado 30/06/2026": 13274.0,
+      "Consolidado 31/12/2025": 19488.0
+     }
+    },
+    {
+     "rotulo": "Contas a receber",
+     "x0": 44.76,
+     "top": 272.3,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 4742.0,
+      "Consolidado 31/12/2025": 9532.0
+     }
+    },
+    {
+     "rotulo": "Outros ativos",
+     "x0": 44.76,
+     "top": 282.98,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 28736.0,
+      "Controladora 31/12/2025": 33663.0,
+      "Consolidado 30/06/2026": 61144.0,
+      "Consolidado 31/12/2025": 67116.0
+     }
+    },
+    {
+     "rotulo": "Total do realizável a longo prazo",
+     "x0": 44.76,
+     "top": 293.78,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 182732.0,
+      "Controladora 31/12/2025": 167653.0,
+      "Consolidado 30/06/2026": 236727.0,
+      "Consolidado 31/12/2025": 229761.0
+     }
+    },
+    {
+     "rotulo": "Investimentos",
+     "x0": 44.76,
+     "top": 304.46,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 4961084.0,
+      "Controladora 31/12/2025": 4509232.0,
+      "Consolidado 30/06/2026": 169324.0,
+      "Consolidado 31/12/2025": 111772.0
+     }
+    },
+    {
+     "rotulo": "Imobilizado",
+     "x0": 44.76,
+     "top": 315.14,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 816368.0,
+      "Controladora 31/12/2025": 832547.0,
+      "Consolidado 30/06/2026": 1404052.0,
+      "Consolidado 31/12/2025": 1379255.0
+     }
+    },
+    {
+     "rotulo": "Intangível",
+     "x0": 44.76,
+     "top": 325.82,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 2321532.0,
+      "Controladora 31/12/2025": 2385791.0,
+      "Consolidado 30/06/2026": 6006075.0,
+      "Consolidado 31/12/2025": 5979637.0
+     }
+    },
+    {
+     "rotulo": "Direito de uso",
+     "x0": 44.76,
+     "top": 336.5,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 732086.0,
+      "Controladora 31/12/2025": 702708.0,
+      "Consolidado 30/06/2026": 1203367.0,
+      "Consolidado 31/12/2025": 1098591.0
+     }
+    },
+    {
+     "rotulo": "Total não circulante",
+     "x0": 44.76,
+     "top": 347.18,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 9013802.0,
+      "Controladora 31/12/2025": 8597931.0,
+      "Consolidado 30/06/2026": 9019545.0,
+      "Consolidado 31/12/2025": 8799016.0
+     }
+    },
+    {
+     "rotulo": "Total do ativo",
+     "x0": 44.76,
+     "top": 357.98,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 11689351.0,
+      "Controladora 31/12/2025": 11497695.0,
+      "Consolidado 30/06/2026": 13558475.0,
+      "Consolidado 31/12/2025": 13220481.0
+     }
+    },
+    {
+     "rotulo": "Passivo e Patrimônio Líquido",
+     "x0": 44.76,
+     "top": 375.98,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Circulante Fornecedores",
+     "x0": 44.76,
+     "top": 386.66,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 375575.0,
+      "Controladora 31/12/2025": 385681.0,
+      "Consolidado 30/06/2026": 840735.0,
+      "Consolidado 31/12/2025": 800133.0
+     }
+    },
+    {
+     "rotulo": "Financiamentos",
+     "x0": 44.76,
+     "top": 408.02,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 5330.0,
+      "Controladora 31/12/2025": 14528.0,
+      "Consolidado 30/06/2026": 41631.0,
+      "Consolidado 31/12/2025": 17358.0
+     }
+    },
+    {
+     "rotulo": "Debêntures",
+     "x0": 44.76,
+     "top": 418.71,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 557886.0,
+      "Controladora 31/12/2025": 214745.0,
+      "Consolidado 30/06/2026": 557886.0,
+      "Consolidado 31/12/2025": 214745.0
+     }
+    },
+    {
+     "rotulo": "Arrendamento",
+     "x0": 44.76,
+     "top": 429.38,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 173838.0,
+      "Controladora 31/12/2025": 190699.0,
+      "Consolidado 30/06/2026": 319569.0,
+      "Consolidado 31/12/2025": 318732.0
+     }
+    },
+    {
+     "rotulo": "Obrigações trabalhistas",
+     "x0": 44.76,
+     "top": 440.3,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 237306.0,
+      "Controladora 31/12/2025": 266482.0,
+      "Consolidado 30/06/2026": 406046.0,
+      "Consolidado 31/12/2025": 407632.0
+     }
+    },
+    {
+     "rotulo": "Obrigações e parcelamentos tributários",
+     "x0": 44.76,
+     "top": 450.98,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 36132.0,
+      "Controladora 31/12/2025": 27864.0,
+      "Consolidado 30/06/2026": 79919.0,
+      "Consolidado 31/12/2025": 59250.0
+     }
+    },
+    {
+     "rotulo": "IRPJ e CSLL a recolher",
+     "x0": 44.76,
+     "top": 461.66,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": 231.0,
+      "Consolidado 30/06/2026": 33089.0,
+      "Consolidado 31/12/2025": 38280.0
+     }
+    },
+    {
+     "rotulo": "Contas a pagar -aquisiçõesde empresas",
+     "x0": 44.76,
+     "top": 472.35,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 31679.0,
+      "Controladora 31/12/2025": 30286.0,
+      "Consolidado 30/06/2026": 68124.0,
+      "Consolidado 31/12/2025": 79339.0
+     }
+    },
+    {
+     "rotulo": "Juros sobre capital próprio e dividendos a pagar",
+     "x0": 44.76,
+     "top": 483.03,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 71116.0,
+      "Controladora 31/12/2025": 290621.0,
+      "Consolidado 30/06/2026": 71216.0,
+      "Consolidado 31/12/2025": 291836.0
+     }
+    },
+    {
+     "rotulo": "Outros passivos",
+     "x0": 44.76,
+     "top": 493.7,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 6223.0,
+      "Controladora 31/12/2025": 7695.0,
+      "Consolidado 30/06/2026": 20744.0,
+      "Consolidado 31/12/2025": 18375.0
+     }
+    },
+    {
+     "rotulo": "Total circulante",
+     "x0": 44.76,
+     "top": 504.5,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 1495085.0,
+      "Controladora 31/12/2025": 1428832.0,
+      "Consolidado 30/06/2026": 2438959.0,
+      "Consolidado 31/12/2025": 2245680.0
+     }
+    },
+    {
+     "rotulo": "Não circulante Financiamentos",
+     "x0": 44.76,
+     "top": 515.18,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 510.0,
+      "Consolidado 31/12/2025": 892.0
+     }
+    },
+    {
+     "rotulo": "Debêntures",
+     "x0": 44.76,
+     "top": 536.54,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 3447853.0,
+      "Controladora 31/12/2025": 3797474.0,
+      "Consolidado 30/06/2026": 3447853.0,
+      "Consolidado 31/12/2025": 3797474.0
+     }
+    },
+    {
+     "rotulo": "Arrendamento",
+     "x0": 44.76,
+     "top": 547.23,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 648370.0,
+      "Controladora 31/12/2025": 603179.0,
+      "Consolidado 30/06/2026": 1041536.0,
+      "Consolidado 31/12/2025": 922242.0
+     }
+    },
+    {
+     "rotulo": "Imposto de renda e contribuição social diferidos",
+     "x0": 44.76,
+     "top": 557.91,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 341811.0,
+      "Controladora 31/12/2025": 327705.0,
+      "Consolidado 30/06/2026": 527353.0,
+      "Consolidado 31/12/2025": 557540.0
+     }
+    },
+    {
+     "rotulo": "Provisão para riscos tributários, trabalhistas e cíveis",
+     "x0": 44.76,
+     "top": 568.71,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 16074.0,
+      "Controladora 31/12/2025": 27498.0,
+      "Consolidado 30/06/2026": 168203.0,
+      "Consolidado 31/12/2025": 180504.0
+     }
+    },
+    {
+     "rotulo": "Obrigações tributárias",
+     "x0": 44.76,
+     "top": 579.39,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 550.0,
+      "Consolidado 31/12/2025": 850.0
+     }
+    },
+    {
+     "rotulo": "Contas a pagar -aquisiçõesde empresas",
+     "x0": 44.76,
+     "top": 590.07,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 251580.0,
+      "Controladora 31/12/2025": 240667.0,
+      "Consolidado 30/06/2026": 344139.0,
+      "Consolidado 31/12/2025": 348031.0
+     }
+    },
+    {
+     "rotulo": "Dividendos a pagar",
+     "x0": 44.76,
+     "top": 600.75,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 71000.0,
+      "Controladora 31/12/2025": 71000.0,
+      "Consolidado 30/06/2026": 71000.0,
+      "Consolidado 31/12/2025": 71000.0
+     }
+    },
+    {
+     "rotulo": "Total não circulante",
+     "x0": 44.76,
+     "top": 611.42,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 4776688.0,
+      "Controladora 31/12/2025": 5067523.0,
+      "Consolidado 30/06/2026": 5601144.0,
+      "Consolidado 31/12/2025": 5878533.0
+     }
+    },
+    {
+     "rotulo": "Patrimônio líquido Capital social 24a.",
+     "x0": 44.76,
+     "top": 622.11,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 2736029.0,
+      "Controladora 31/12/2025": 2736029.0,
+      "Consolidado 30/06/2026": 2736029.0,
+      "Consolidado 31/12/2025": 2736029.0
+     }
+    },
+    {
+     "rotulo": "Reserva de capital",
+     "x0": 44.76,
+     "top": 643.58,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 1928698.0,
+      "Controladora 31/12/2025": 1915603.0,
+      "Consolidado 30/06/2026": 1928698.0,
+      "Consolidado 31/12/2025": 1915603.0
+     }
+    },
+    {
+     "rotulo": "Reservas de lucro",
+     "x0": 44.76,
+     "top": 654.27,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 332450.0,
+      "Controladora 31/12/2025": 332450.0,
+      "Consolidado 30/06/2026": 332450.0,
+      "Consolidado 31/12/2025": 332450.0
+     }
+    },
+    {
+     "rotulo": "Ações em tesouraria 24.d",
+     "x0": 44.76,
+     "top": 664.95,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": -55478.0,
+      "Controladora 31/12/2025": -35559.0,
+      "Consolidado 30/06/2026": -55478.0,
+      "Consolidado 31/12/2025": -35559.0
+     }
+    },
+    {
+     "rotulo": "Ajustes de avaliação patrimonial",
+     "x0": 44.76,
+     "top": 675.63,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 52817.0,
+      "Controladora 31/12/2025": 52817.0,
+      "Consolidado 30/06/2026": 52817.0,
+      "Consolidado 31/12/2025": 52817.0
+     }
+    },
+    {
+     "rotulo": "Lucro do período",
+     "x0": 44.76,
+     "top": 686.31,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 423062.0,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 423062.0,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "Patrimônio líquido dos controladores",
+     "x0": 44.76,
+     "top": 697.11,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 5417578.0,
+      "Controladora 31/12/2025": 5001340.0,
+      "Consolidado 30/06/2026": 5417578.0,
+      "Consolidado 31/12/2025": 5001340.0
+     }
+    },
+    {
+     "rotulo": "Participação de não controladores",
+     "x0": 44.76,
+     "top": 707.79,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": 100794.0,
+      "Consolidado 31/12/2025": 94928.0
+     }
+    },
+    {
+     "rotulo": "Total do patrimônio líquido",
+     "x0": 44.76,
+     "top": 718.47,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 5417578.0,
+      "Controladora 31/12/2025": 5001340.0,
+      "Consolidado 30/06/2026": 5518372.0,
+      "Consolidado 31/12/2025": 5096268.0
+     }
+    },
+    {
+     "rotulo": "Total do passivo e patrimônio líquido",
+     "x0": 44.76,
+     "top": 729.15,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": 11689351.0,
+      "Controladora 31/12/2025": 11497695.0,
+      "Consolidado 30/06/2026": 13558475.0,
+      "Consolidado 31/12/2025": 13220481.0
+     }
+    },
+    {
+     "rotulo": "As notas explicativas são parte integrante das demonstrações financeiras.",
+     "x0": 42.6,
+     "top": 750.37,
+     "nivel": 0,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": null
+     }
+    },
+    {
+     "rotulo": "2de",
+     "x0": 519.48,
+     "top": 778.93,
+     "nivel": 2,
+     "valores": {
+      "Controladora 30/06/2026": null,
+      "Controladora 31/12/2025": null,
+      "Consolidado 30/06/2026": null,
+      "Consolidado 31/12/2025": 46.0
+     }
+    }
+   ]
+  },
+  {
+   "pagina": 7,
+   "tipo": "DRE",
+   "score": 0.85,
+   "cabecalho": [
+    "Controladora",
+    "Controladora #2",
+    "Controladora #3",
+    "Controladora #4"
+   ],
+   "colunas": [
+    382.84,
+    438.75,
+    494.91,
+    553.01
+   ],
+   "linhas": [
+    {
+     "rotulo": "Demonstração do resultado e resultado abrangente",
+     "x0": 42.6,
+     "top": 63.8,
+     "nivel": 0,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "Períodos findos em",
+     "x0": 42.6,
+     "top": 74.72,
+     "nivel": 0,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "Em milhares de reais R$, exceto lucro por ação",
+     "x0": 42.6,
+     "top": 85.33,
+     "nivel": 0,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "Controladora",
+     "x0": 411.72,
+     "top": 119.42,
+     "nivel": 4,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "Período de três meses Período de seis meses",
+     "x0": 336.6,
+     "top": 130.1,
+     "nivel": 2,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "de junho de junho",
+     "x0": 371.63,
+     "top": 139.22,
+     "nivel": 3,
+     "valores": {
+      "Controladora": 30.0,
+      "Controladora #2": null,
+      "Controladora #3": 30.0,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "Nota",
+     "x0": 298.44,
+     "top": 149.9,
+     "nivel": 1,
+     "valores": {
+      "Controladora": 2026.0,
+      "Controladora #2": 2025.0,
+      "Controladora #3": 2026.0,
+      "Controladora #4": 2025.0
+     }
+    },
+    {
+     "rotulo": "Receita de prestação de serviços",
+     "x0": 44.76,
+     "top": 162.86,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 1346590.0,
+      "Controladora #2": 1181022.0,
+      "Controladora #3": 2649150.0,
+      "Controladora #4": 2276175.0
+     }
+    },
+    {
+     "rotulo": "Custo dos serviços prestados",
+     "x0": 44.76,
+     "top": 174.74,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -955294.0,
+      "Controladora #2": -838770.0,
+      "Controladora #3": -1862556.0,
+      "Controladora #4": -1590222.0
+     }
+    },
+    {
+     "rotulo": "Lucro Bruto",
+     "x0": 44.76,
+     "top": 186.62,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 391296.0,
+      "Controladora #2": 342252.0,
+      "Controladora #3": 786594.0,
+      "Controladora #4": 685953.0
+     }
+    },
+    {
+     "rotulo": "(Despesas) receitas operacionais Gerais e administrativas",
+     "x0": 44.76,
+     "top": 198.5,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -118427.0,
+      "Controladora #2": -104924.0,
+      "Controladora #3": -241614.0,
+      "Controladora #4": -220743.0
+     }
+    },
+    {
+     "rotulo": "Despesas comerciais",
+     "x0": 44.76,
+     "top": 222.14,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -17195.0,
+      "Controladora #2": -10418.0,
+      "Controladora #3": -30647.0,
+      "Controladora #4": -20730.0
+     }
+    },
+    {
+     "rotulo": "Outras receitas (despesas) operacionais, líquidas",
+     "x0": 44.76,
+     "top": 234.02,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 6588.0,
+      "Controladora #2": 6814.0,
+      "Controladora #3": 5874.0,
+      "Controladora #4": 8461.0
+     }
+    },
+    {
+     "rotulo": "Equivalência patrimonial e realização de valor justo",
+     "x0": 44.76,
+     "top": 245.9,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 89521.0,
+      "Controladora #2": 39091.0,
+      "Controladora #3": 158516.0,
+      "Controladora #4": 105197.0
+     }
+    },
+    {
+     "rotulo": "Lucro operacional antes do resultadofinanceiro",
+     "x0": 44.76,
+     "top": 256.58,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 351783.0,
+      "Controladora #2": 272815.0,
+      "Controladora #3": 678723.0,
+      "Controladora #4": 558138.0
+     }
+    },
+    {
+     "rotulo": "Receitas financeiras",
+     "x0": 44.76,
+     "top": 278.54,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 52845.0,
+      "Controladora #2": 63814.0,
+      "Controladora #3": 110526.0,
+      "Controladora #4": 126666.0
+     }
+    },
+    {
+     "rotulo": "Despesas financeiras",
+     "x0": 44.76,
+     "top": 290.42,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -174562.0,
+      "Controladora #2": -181589.0,
+      "Controladora #3": -348334.0,
+      "Controladora #4": -343735.0
+     }
+    },
+    {
+     "rotulo": "Resultado financeiro",
+     "x0": 44.76,
+     "top": 302.3,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -121717.0,
+      "Controladora #2": -117775.0,
+      "Controladora #3": -237808.0,
+      "Controladora #4": -217069.0
+     }
+    },
+    {
+     "rotulo": "Lucro antes do imposto de renda e da contribuição social",
+     "x0": 44.76,
+     "top": 312.98,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 230066.0,
+      "Controladora #2": 155040.0,
+      "Controladora #3": 440915.0,
+      "Controladora #4": 341069.0
+     }
+    },
+    {
+     "rotulo": "Imposto de renda e contribuição social Corrente",
+     "x0": 44.76,
+     "top": 325.94,
+     "nivel": 0,
+     "valores": {
+      "Controladora": -33772.0,
+      "Controladora #2": -50305.0,
+      "Controladora #3": -49682.0,
+      "Controladora #4": -57620.0
+     }
+    },
+    {
+     "rotulo": "Diferido",
+     "x0": 44.76,
+     "top": 349.7,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 25556.0,
+      "Controladora #2": 47564.0,
+      "Controladora #3": 31829.0,
+      "Controladora #4": 48136.0
+     }
+    },
+    {
+     "rotulo": "Lucro líquido do período",
+     "x0": 44.76,
+     "top": 361.46,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 221850.0,
+      "Controladora #2": 152299.0,
+      "Controladora #3": 423062.0,
+      "Controladora #4": 331585.0
+     }
+    },
+    {
+     "rotulo": "Outros resultados abrangentes Resultado abrangente total do período",
+     "x0": 44.76,
+     "top": 387.02,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 221850.0,
+      "Controladora #2": 152299.0,
+      "Controladora #3": 423062.0,
+      "Controladora #4": 331585.0
+     }
+    },
+    {
+     "rotulo": "Lucro por ação atribuível aos acionistas daCompanhia Lucro básico por ação (média ponderada)",
+     "x0": 44.76,
+     "top": 424.23,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 0.41,
+      "Controladora #2": 0.28,
+      "Controladora #3": 0.78,
+      "Controladora #4": 0.61
+     }
+    },
+    {
+     "rotulo": "Lucro diluído por ação (média ponderada)",
+     "x0": 44.76,
+     "top": 448.1,
+     "nivel": 0,
+     "valores": {
+      "Controladora": 0.41,
+      "Controladora #2": 0.28,
+      "Controladora #3": 0.78,
+      "Controladora #4": 0.61
+     }
+    },
+    {
+     "rotulo": "As notas explicativas são parte integrante das demonstrações financeiras.",
+     "x0": 42.6,
+     "top": 486.96,
+     "nivel": 0,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": null
+     }
+    },
+    {
+     "rotulo": "3de",
+     "x0": 519.48,
+     "top": 778.93,
+     "nivel": 5,
+     "valores": {
+      "Controladora": null,
+      "Controladora #2": null,
+      "Controladora #3": null,
+      "Controladora #4": 46.0
+     }
+    }
+   ]
+  },
+  {
+   "pagina": 8,
+   "tipo": "DRE",
+   "score": 0.85,
+   "cabecalho": [
+    "Consolidado",
+    "Consolidado #2",
+    "Consolidado #3",
+    "Consolidado #4"
+   ],
+   "colunas": [
+    386.06,
+    441.02,
+    496.12,
+    553.01
+   ],
+   "linhas": [
+    {
+     "rotulo": "Demonstração do resultado e resultado abrangente",
+     "x0": 42.6,
+     "top": 63.8,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Períodos findos em",
+     "x0": 42.6,
+     "top": 74.72,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Em milhares de reais R$, exceto lucro por ação",
+     "x0": 42.6,
+     "top": 85.33,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Consolidado",
+     "x0": 420.12,
+     "top": 114.98,
+     "nivel": 5,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Período de três meses Período de seis meses",
+     "x0": 343.8,
+     "top": 125.78,
+     "nivel": 2,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "de junho de junho",
+     "x0": 378.83,
+     "top": 134.9,
+     "nivel": 4,
+     "valores": {
+      "Consolidado": 30.0,
+      "Consolidado #2": null,
+      "Consolidado #3": 30.0,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Nota",
+     "x0": 311.05,
+     "top": 145.58,
+     "nivel": 1,
+     "valores": {
+      "Consolidado": 2026.0,
+      "Consolidado #2": 2025.0,
+      "Consolidado #3": 2026.0,
+      "Consolidado #4": 2025.0
+     }
+    },
+    {
+     "rotulo": "Receita de prestação de serviços",
+     "x0": 44.76,
+     "top": 158.54,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 2316654.0,
+      "Consolidado #2": 2024533.0,
+      "Consolidado #3": 4539772.0,
+      "Consolidado #4": 4039606.0
+     }
+    },
+    {
+     "rotulo": "Custo dos serviços prestados",
+     "x0": 44.76,
+     "top": 170.42,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -1672515.0,
+      "Consolidado #2": -1496555.0,
+      "Consolidado #3": -3267567.0,
+      "Consolidado #4": -2939510.0
+     }
+    },
+    {
+     "rotulo": "Lucro Bruto",
+     "x0": 44.76,
+     "top": 182.3,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 644139.0,
+      "Consolidado #2": 527978.0,
+      "Consolidado #3": 1272205.0,
+      "Consolidado #4": 1100096.0
+     }
+    },
+    {
+     "rotulo": "(Despesas) receitas operacionais Gerais e administrativas",
+     "x0": 44.76,
+     "top": 194.06,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -199715.0,
+      "Consolidado #2": -178949.0,
+      "Consolidado #3": -407853.0,
+      "Consolidado #4": -375213.0
+     }
+    },
+    {
+     "rotulo": "Despesas comerciais",
+     "x0": 44.76,
+     "top": 217.82,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -47969.0,
+      "Consolidado #2": -41424.0,
+      "Consolidado #3": -94322.0,
+      "Consolidado #4": -83205.0
+     }
+    },
+    {
+     "rotulo": "Outras receitas (despesas) operacionais, líquidas",
+     "x0": 44.76,
+     "top": 229.7,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 672.0,
+      "Consolidado #2": 2082.0,
+      "Consolidado #3": -28.0,
+      "Consolidado #4": 3493.0
+     }
+    },
+    {
+     "rotulo": "Equivalência patrimonial e realização de valor justo",
+     "x0": 44.76,
+     "top": 241.46,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -5365.0,
+      "Consolidado #2": -2776.0,
+      "Consolidado #3": -10426.0,
+      "Consolidado #4": -5047.0
+     }
+    },
+    {
+     "rotulo": "Lucro operacional antes do resultado financeiro",
+     "x0": 44.76,
+     "top": 253.34,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 391762.0,
+      "Consolidado #2": 306911.0,
+      "Consolidado #3": 759576.0,
+      "Consolidado #4": 640124.0
+     }
+    },
+    {
+     "rotulo": "Receitas financeiras",
+     "x0": 44.76,
+     "top": 277.1,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 79499.0,
+      "Consolidado #2": 80601.0,
+      "Consolidado #3": 160314.0,
+      "Consolidado #4": 159701.0
+     }
+    },
+    {
+     "rotulo": "Despesas financeiras",
+     "x0": 44.76,
+     "top": 288.86,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -190785.0,
+      "Consolidado #2": -198558.0,
+      "Consolidado #3": -386660.0,
+      "Consolidado #4": -381028.0
+     }
+    },
+    {
+     "rotulo": "Resultado financeiro",
+     "x0": 44.76,
+     "top": 300.74,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -111286.0,
+      "Consolidado #2": -117957.0,
+      "Consolidado #3": -226346.0,
+      "Consolidado #4": -221327.0
+     }
+    },
+    {
+     "rotulo": "Lucro antes do imposto de renda e da contribuição social",
+     "x0": 44.76,
+     "top": 312.62,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 280476.0,
+      "Consolidado #2": 188954.0,
+      "Consolidado #3": 533230.0,
+      "Consolidado #4": 418797.0
+     }
+    },
+    {
+     "rotulo": "Imposto de renda e contribuição social Corrente",
+     "x0": 44.76,
+     "top": 324.5,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -90160.0,
+      "Consolidado #2": -88710.0,
+      "Consolidado #3": -144865.0,
+      "Consolidado #4": -135550.0
+     }
+    },
+    {
+     "rotulo": "Diferido",
+     "x0": 44.76,
+     "top": 348.14,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 29016.0,
+      "Consolidado #2": 44306.0,
+      "Consolidado #3": 28621.0,
+      "Consolidado #4": 37133.0
+     }
+    },
+    {
+     "rotulo": "Lucro líquido do período",
+     "x0": 44.76,
+     "top": 360.02,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 219332.0,
+      "Consolidado #2": 144550.0,
+      "Consolidado #3": 416986.0,
+      "Consolidado #4": 320380.0
+     }
+    },
+    {
+     "rotulo": "Atribuível aos sócios: Controladores",
+     "x0": 44.76,
+     "top": 385.46,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 221850.0,
+      "Consolidado #2": 152299.0,
+      "Consolidado #3": 423062.0,
+      "Consolidado #4": 331585.0
+     }
+    },
+    {
+     "rotulo": "Não controladores",
+     "x0": 44.76,
+     "top": 409.22,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": -2518.0,
+      "Consolidado #2": -7749.0,
+      "Consolidado #3": -6076.0,
+      "Consolidado #4": -11205.0
+     }
+    },
+    {
+     "rotulo": "Outros resultados abrangentes Resultado abrangente total do período",
+     "x0": 44.76,
+     "top": 446.54,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": 219332.0,
+      "Consolidado #2": 144550.0,
+      "Consolidado #3": 416986.0,
+      "Consolidado #4": 320380.0
+     }
+    },
+    {
+     "rotulo": "Lucro por ação atribuível aos acionistas da Companhia",
+     "x0": 44.76,
+     "top": 483.86,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Lucro básico por ação (média ponderada)",
+     "x0": 44.76,
+     "top": 495.75,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "Lucro diluído por ação (média ponderada)",
+     "x0": 44.76,
+     "top": 507.62,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "As notas explicativas são parte integrante das demonstrações financeiras.",
+     "x0": 42.6,
+     "top": 550.08,
+     "nivel": 0,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": null
+     }
+    },
+    {
+     "rotulo": "4de",
+     "x0": 519.48,
+     "top": 778.93,
+     "nivel": 6,
+     "valores": {
+      "Consolidado": null,
+      "Consolidado #2": null,
+      "Consolidado #3": null,
+      "Consolidado #4": 46.0
+     }
+    }
+   ]
+  }
+ ],
+ "notaExplicativa": {
+  "pagina": 16,
+  "tipo": "BP",
+  "score": 1.0,
+  "cabecalho": [
+   "coluna 1",
+   "coluna 2",
+   "coluna 3",
+   "coluna 4",
+   "30/06/2026",
+   "coluna 6"
+  ],
+  "linhas": [
+   {
+    "rotulo": "a)",
+    "x0": 60.6,
+    "top": 91.76,
+    "nivel": 3,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "30/06/2026",
+    "x0": 398.16,
+    "top": 108.72,
+    "nivel": 6,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Nível Nível Nível",
+    "x0": 324.6,
+    "top": 120.6,
+    "nivel": 5,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": 1.0,
+     "30/06/2026": 2.0,
+     "coluna 6": 3.0
+    }
+   },
+   {
+    "rotulo": "Caixa e equivalentes de caixa",
+    "x0": 46.08,
+    "top": 133.32,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": 19060.0,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Títulos e valores mobiliários",
+    "x0": 46.08,
+    "top": 145.08,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": 2018613.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Outros créditos opção de compra",
+    "x0": 46.08,
+    "top": 156.96,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 27708.0
+    }
+   },
+   {
+    "rotulo": "Ativos financeiros",
+    "x0": 46.08,
+    "top": 168.84,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": 19060.0,
+     "30/06/2026": 2018613.0,
+     "coluna 6": 27708.0
+    }
+   },
+   {
+    "rotulo": "Arrendamento",
+    "x0": 46.08,
+    "top": 191.4,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -1361105.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Financiamentos, exceto risco sacado",
+    "x0": 46.08,
+    "top": 203.28,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -34500.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Risco sacado",
+    "x0": 46.08,
+    "top": 215.16,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -7641.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Debêntures",
+    "x0": 46.08,
+    "top": 226.92,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -4005739.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Parcelamentos",
+    "x0": 46.08,
+    "top": 238.8,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -5374.0,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Contas a pagar aquisiçõesde empresas",
+    "x0": 46.08,
+    "top": 250.68,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -398962.0,
+     "coluna 6": -13301.0
+    }
+   },
+   {
+    "rotulo": "Passivos financeiros",
+    "x0": 46.08,
+    "top": 262.56,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": -5813321.0,
+     "coluna 6": -13301.0
+    }
+   },
+   {
+    "rotulo": "Saldos em de junho de",
+    "x0": 46.08,
+    "top": 285.12,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": 2026.0,
+     "coluna 3": null,
+     "coluna 4": 19060.0,
+     "30/06/2026": -3794708.0,
+     "coluna 6": 14407.0
+    }
+   },
+   {
+    "rotulo": "Em de dezembro de",
+    "x0": 46.08,
+    "top": 307.68,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": 31.0,
+     "coluna 2": 2025.0,
+     "coluna 3": null,
+     "coluna 4": 21772.0,
+     "30/06/2026": -3434412.0,
+     "coluna 6": 19756.0
+    }
+   },
+   {
+    "rotulo": "Devido à natureza dos saldos, pressupõe-se que o valor justo dos saldos de instrumentos financeiros da",
+    "x0": 42.6,
+    "top": 330.8,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Companhia esteja próximo ao seu valor contábil. O comparativo entre os valores apurados e valores justos não",
+    "x0": 42.6,
+    "top": 347.24,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "apresentou divergências materiais.",
+    "x0": 42.6,
+    "top": 363.68,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "3. Aquisições e Reorganizações Societárias",
+    "x0": 42.6,
+    "top": 392.68,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Em de maio de ocorreu a conclusão da aquisição de 100% das ações de emissão da GIP Medicina",
+    "x0": 42.6,
+    "top": 445.88,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": 29.0,
+     "coluna 2": 2026.0,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Diagnóstica S.A., que opera sob a marca Femme atuando nos segmentos de análises clínicas, medicina ambulatorial, diagnóstica, terapêutica, vacinação e imunização, com foco na saúde da mulher, por meio de",
+    "x0": 42.6,
+    "top": 462.32,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 12.0
+    }
+   },
+   {
+    "rotulo": "unidades na cidade de São Paulo. A sociedade foi adquirida pelo montante de R$ milhões, sendo R$",
+    "x0": 42.6,
+    "top": 495.08,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": 67.1,
+     "coluna 6": 42.1
+    }
+   },
+   {
+    "rotulo": "milhões pagos à vista e R$ milhões retidos para fins de ajuste do preço de compra/indenização.",
+    "x0": 42.6,
+    "top": 511.52,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": 25.0,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Com a conclusão da combinação de negócios do Femme em 29/05/2026, as informações financeiras passarão a",
+    "x0": 42.6,
+    "top": 538.88,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "ser consolidadas nas demonstrações financeiras do Grupo Fleury a partir do terceiro trimestre, exceto o saldo do",
+    "x0": 42.6,
+    "top": 555.32,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "balanço de abertura que consta neste trimestre.",
+    "x0": 42.6,
+    "top": 571.64,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "i.",
+    "x0": 54.24,
+    "top": 599.0,
+    "nivel": 2,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Os ativos e passivos combinados adquiridos na data de obtenção do controle estão demonstrados a seguir:",
+    "x0": 42.6,
+    "top": 625.16,
+    "nivel": 0,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": null
+    }
+   },
+   {
+    "rotulo": "Ativo 29/05/2026 Passivo 29/05/2026 Caixa e equivalentes de caixa Fornecedores",
+    "x0": 46.08,
+    "top": 651.48,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 8247.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 55541.0
+    }
+   },
+   {
+    "rotulo": "Contas a receber Financiamentos",
+    "x0": 46.08,
+    "top": 674.88,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 69039.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 129695.0
+    }
+   },
+   {
+    "rotulo": "Estoques Arrendamento",
+    "x0": 46.08,
+    "top": 686.4,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 1750.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 91360.0
+    }
+   },
+   {
+    "rotulo": "Impostos a recuperar Obrigações e parcelamentos tributários",
+    "x0": 46.08,
+    "top": 697.92,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 8429.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 9078.0
+    }
+   },
+   {
+    "rotulo": "Outros ativos Obrigações trabalhistas",
+    "x0": 46.08,
+    "top": 709.33,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 4628.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 14922.0
+    }
+   },
+   {
+    "rotulo": "Imobilizado Provisão para riscos, trabalhistas e cíveis",
+    "x0": 46.08,
+    "top": 720.84,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 59257.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 5287.0
+    }
+   },
+   {
+    "rotulo": "Intangível Outros passivos",
+    "x0": 46.08,
+    "top": 732.36,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 6391.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 1768.0
+    }
+   },
+   {
+    "rotulo": "Direito de uso Passivo",
+    "x0": 46.08,
+    "top": 743.89,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 72767.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 307651.0
+    }
+   },
+   {
+    "rotulo": "Patrimônio líquido(a)",
+    "x0": 278.04,
+    "top": 755.4,
+    "nivel": 4,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": -77143.0
+    }
+   },
+   {
+    "rotulo": "Total ativo Total passivo e Patrimônio Líquido",
+    "x0": 46.08,
+    "top": 766.92,
+    "nivel": 1,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": 230508.0,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 230508.0
+    }
+   },
+   {
+    "rotulo": "12de",
+    "x0": 513.84,
+    "top": 785.17,
+    "nivel": 7,
+    "valores": {
+     "coluna 1": null,
+     "coluna 2": null,
+     "coluna 3": null,
+     "coluna 4": null,
+     "30/06/2026": null,
+     "coluna 6": 46.0
+    }
+   }
+  ]
+ },
+ "leitura": {
+  "fonte": "pdf-texto",
+  "selecionadas": [
+   "p6",
+   "p7"
+  ],
+  "periodos": [
+   "31/12/2025",
+   "30/06/2026"
+  ],
+  "linhas": [
+   {
+    "origem": "Circulante Caixa e equivalentes de caixa",
+    "codigo": "10101",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 19060.0,
+     "31/12/2025": 21772.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Títulos e valores mobiliários",
+    "codigo": "10102",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 1880069.0,
+     "31/12/2025": 2140619.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Contas a receber",
+    "codigo": "10103",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 2094735.0,
+     "31/12/2025": 1747166.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Estoques",
+    "codigo": "10104",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 156590.0,
+     "31/12/2025": 180702.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Impostos a recuperar",
+    "codigo": "10105",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 243400.0,
+     "31/12/2025": 248153.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Dividendos a receber Hermes Pardini",
+    "codigo": "10106",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {},
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Outros ativos",
+    "codigo": "10107",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 145076.0,
+     "31/12/2025": 83053.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total circulante",
+    "codigo": "101",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 4538930.0,
+     "31/12/2025": 4421465.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Títulos e valores mobiliários",
+    "codigo": "1020101",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 138544.0,
+     "31/12/2025": 112622.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Impostos a recuperar",
+    "codigo": "1020102",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 8754.0,
+     "31/12/2025": 9945.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Imposto de renda e contribuição social diferidos",
+    "codigo": "1020103",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 10269.0,
+     "31/12/2025": 11058.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Depósitos judiciais",
+    "codigo": "1020104",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 13274.0,
+     "31/12/2025": 19488.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Contas a receber",
+    "codigo": "1020105",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 4742.0,
+     "31/12/2025": 9532.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Outros ativos",
+    "codigo": "1020106",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 61144.0,
+     "31/12/2025": 67116.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total do realizável a longo prazo",
+    "codigo": "10201",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Sim",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 236727.0,
+     "31/12/2025": 229761.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Investimentos",
+    "codigo": "10202",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 169324.0,
+     "31/12/2025": 111772.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Imobilizado",
+    "codigo": "10203",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 1404052.0,
+     "31/12/2025": 1379255.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Intangível",
+    "codigo": "10204",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 6006075.0,
+     "31/12/2025": 5979637.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Direito de uso",
+    "codigo": "10205",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 1203367.0,
+     "31/12/2025": 1098591.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total não circulante",
+    "codigo": "102",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 9019545.0,
+     "31/12/2025": 8799016.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total do ativo",
+    "codigo": "1",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 0,
+    "totalizador": "Sim",
+    "familia": "BP-ATIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 13558475.0,
+     "31/12/2025": 13220481.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Circulante Fornecedores",
+    "codigo": "20101",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 840735.0,
+     "31/12/2025": 800133.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Financiamentos",
+    "codigo": "20102",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 41631.0,
+     "31/12/2025": 17358.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Debêntures",
+    "codigo": "20103",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 557886.0,
+     "31/12/2025": 214745.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Arrendamento",
+    "codigo": "20104",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 319569.0,
+     "31/12/2025": 318732.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Obrigações trabalhistas",
+    "codigo": "20105",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 406046.0,
+     "31/12/2025": 407632.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Obrigações e parcelamentos tributários",
+    "codigo": "20106",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 79919.0,
+     "31/12/2025": 59250.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "IRPJ e CSLL a recolher",
+    "codigo": "20107",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 33089.0,
+     "31/12/2025": 38280.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Contas a pagar -aquisiçõesde empresas",
+    "codigo": "20108",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 68124.0,
+     "31/12/2025": 79339.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Juros sobre capital próprio e dividendos a pagar",
+    "codigo": "20109",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 71216.0,
+     "31/12/2025": 291836.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Outros passivos",
+    "codigo": "20110",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 20744.0,
+     "31/12/2025": 18375.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total circulante",
+    "codigo": "201",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 2438959.0,
+     "31/12/2025": 2245680.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Não circulante Financiamentos",
+    "codigo": "20201",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 510.0,
+     "31/12/2025": 892.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Debêntures",
+    "codigo": "20202",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 3447853.0,
+     "31/12/2025": 3797474.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Arrendamento",
+    "codigo": "20203",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 1041536.0,
+     "31/12/2025": 922242.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Imposto de renda e contribuição social diferidos",
+    "codigo": "20204",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 527353.0,
+     "31/12/2025": 557540.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Provisão para riscos tributários, trabalhistas e cíveis",
+    "codigo": "20205",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 168203.0,
+     "31/12/2025": 180504.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Obrigações tributárias",
+    "codigo": "20206",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 550.0,
+     "31/12/2025": 850.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Contas a pagar -aquisiçõesde empresas",
+    "codigo": "20207",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 344139.0,
+     "31/12/2025": 348031.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Dividendos a pagar",
+    "codigo": "20208",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 71000.0,
+     "31/12/2025": 71000.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total não circulante",
+    "codigo": "202",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 5601144.0,
+     "31/12/2025": 5878533.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Patrimônio líquido Capital social 24a.",
+    "codigo": "2030101",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 2736029.0,
+     "31/12/2025": 2736029.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Reserva de capital",
+    "codigo": "2030102",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 1928698.0,
+     "31/12/2025": 1915603.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Reservas de lucro",
+    "codigo": "2030103",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 332450.0,
+     "31/12/2025": 332450.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Ações em tesouraria 24.d",
+    "codigo": "2030104",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": -55478.0,
+     "31/12/2025": -35559.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Ajustes de avaliação patrimonial",
+    "codigo": "2030105",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 52817.0,
+     "31/12/2025": 52817.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Lucro do período",
+    "codigo": "2030106",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 423062.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Patrimônio líquido dos controladores",
+    "codigo": "20301",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Sim",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 5417578.0,
+     "31/12/2025": 5001340.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Participação de não controladores",
+    "codigo": "20302",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Não",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 100794.0,
+     "31/12/2025": 94928.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total do patrimônio líquido",
+    "codigo": "203",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 5518372.0,
+     "31/12/2025": 5096268.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Total do passivo e patrimônio líquido",
+    "codigo": "2",
+    "pagina": 6,
+    "nivelIndentacao": 0,
+    "nivel": 0,
+    "totalizador": "Sim",
+    "familia": "BP-PASSIVO",
+    "valoresPorSlot": {
+     "30/06/2026": 13558475.0,
+     "31/12/2025": 13220481.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p6"
+   },
+   {
+    "origem": "Receita de prestação de serviços",
+    "codigo": "501010101",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 4,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 2649150.0,
+     "31/12/2025": 2276175.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Custo dos serviços prestados",
+    "codigo": "501010102",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 4,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -1862556.0,
+     "31/12/2025": -1590222.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Lucro Bruto",
+    "codigo": "5010101",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Sim",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 786594.0,
+     "31/12/2025": 685953.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "(Despesas) receitas operacionais Gerais e administrativas",
+    "codigo": "5010102",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -241614.0,
+     "31/12/2025": -220743.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Despesas comerciais",
+    "codigo": "5010103",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -30647.0,
+     "31/12/2025": -20730.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Outras receitas (despesas) operacionais, líquidas",
+    "codigo": "5010104",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 5874.0,
+     "31/12/2025": 8461.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Equivalência patrimonial e realização de valor justo",
+    "codigo": "5010105",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 158516.0,
+     "31/12/2025": 105197.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Lucro operacional antes do resultadofinanceiro",
+    "codigo": "50101",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Sim",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 678723.0,
+     "31/12/2025": 558138.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Receitas financeiras",
+    "codigo": "5010201",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 110526.0,
+     "31/12/2025": 126666.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Despesas financeiras",
+    "codigo": "5010202",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 3,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -348334.0,
+     "31/12/2025": -343735.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Resultado financeiro",
+    "codigo": "50102",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 2,
+    "totalizador": "Sim",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -237808.0,
+     "31/12/2025": -217069.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Lucro antes do imposto de renda e da contribuição social",
+    "codigo": "501",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Sim",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 440915.0,
+     "31/12/2025": 341069.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Imposto de renda e contribuição social Corrente",
+    "codigo": "502",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": -49682.0,
+     "31/12/2025": -57620.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Diferido",
+    "codigo": "503",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 1,
+    "totalizador": "Não",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 31829.0,
+     "31/12/2025": 48136.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   },
+   {
+    "origem": "Lucro líquido do período",
+    "codigo": "5",
+    "pagina": 7,
+    "nivelIndentacao": 0,
+    "nivel": 0,
+    "totalizador": "Sim",
+    "familia": "DRE",
+    "valoresPorSlot": {
+     "30/06/2026": 423062.0,
+     "31/12/2025": 331585.0
+    },
+    "naturezaPorSlot": {},
+    "demonstracao": "p7"
+   }
+  ],
+  "escala": {
+   "fator": 1000.0,
+   "unidade": "milhares de reais"
+  }
+ }
+}
