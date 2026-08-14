@@ -1,5 +1,5 @@
 {
-  "apiDados": "",
+  "apiDados": "https://allocator-api.onrender.com",
   "apiInferencia": "",
   "tokenApi": "",
   "versao": "2.0.0"
