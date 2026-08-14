@@ -49,7 +49,7 @@ export default function Login() {
         <div className="painel">
           <div className="painel-cabecalho">
             <div>
-              <h1>ALLocator v2</h1>
+              <h1>DataMaster ALLocatorAI</h1>
               <div className="fraco">
                 Alocação de demonstrações financeiras com a identidade contábil verificada
                 por construção, não conferida no fim.

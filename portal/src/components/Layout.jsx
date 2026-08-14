@@ -230,8 +230,8 @@ export default function Layout() {
     <div className="app">
       <nav className="barra" aria-label="Navegação principal">
         <div className="barra-marca">
-          <strong>ALLocator</strong>
-          <span>v2 · invariante contábil verificada</span>
+          <strong>DataMaster ALLocatorAI</strong>
+          <span>Planilhamento de Balanços e DRE</span>
         </div>
 
         {NAVEGACAO.map((n) => (
