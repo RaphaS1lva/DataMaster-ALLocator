@@ -74,6 +74,119 @@ async function carregarModuloConfig(sufixo) {
   return import(`../src/lib/config.js?t=${sufixo}`);
 }
 
+// ---------------------------------------------------------------------------
+// DOIS CANAIS DE AUTENTICAÇÃO
+//
+// O servidor lê a sessão de `X-Sessao` (`usuario_atual` em
+// server/app/db/rotas.py declara `x_sessao: str = Header(default="")`) e a chave
+// compartilhada de `Authorization` (`exigir_token` em main.py).
+//
+// O portal mandava o JWT da sessão em `Authorization`. Efeito no ar: o login
+// funcionava - é a única rota que não exige sessão - e TODA rota de dados
+// devolvia 401 "Sessão ausente". No painel isso aparecia como 0 clientes, 0
+// análises e "não consegui carregar o histórico", ou seja, como banco vazio.
+// E a dica de 401 culpava o token de API, o que desviou o diagnóstico duas vezes.
+// ---------------------------------------------------------------------------
+
+/**
+ * Captura os headers de uma requisição de dados, sem tocar a rede.
+ *
+ * Usa import SEM query de propósito: `repo.js` importa `'./config.js'`, e um
+ * `config.js?t=123` seria outra instância do módulo - a config preparada aqui não
+ * seria a que o repositório enxerga, `modoLocal()` daria `true` e nenhuma
+ * requisição aconteceria. Foi exatamente o erro da primeira versão deste teste.
+ */
+async function capturarHeaders({ tokenApi = '' } = {}) {
+  const originalFetch = globalThis.fetch;
+  const originalStorage = globalThis.localStorage;
+  const originalLocation = globalThis.location;
+  const capturadas = [];
+  globalThis.fetch = async (url, init) => {
+    capturadas.push({ url, headers: init?.headers ?? {} });
+    return { ok: true, status: 200, json: async () => [] };
+  };
+  globalThis.localStorage = storageFalso({
+    'allocator:sessao': JSON.stringify({
+      token: 'jwt-da-sessao', usuario: { id: 'u1' }, local: false,
+    }),
+  });
+  globalThis.location = { hostname: 'exemplo.github.io' };
+  try {
+    const config = await import('../src/lib/config.js');
+    config.salvarConfig({ apiDados: 'https://dados.example.com', tokenApi });
+    const repo = await import('../src/lib/repo.js');
+    await repo.listarClientes();
+    return capturadas;
+  } finally {
+    globalThis.fetch = originalFetch;
+    globalThis.localStorage = originalStorage;
+    globalThis.location = originalLocation;
+  }
+}
+
+test('★ a SESSÃO viaja em X-Sessao, nunca em Authorization', async () => {
+  const capturadas = await capturarHeaders();
+
+  assert.equal(capturadas.length, 1, 'esperava uma requisição ao plano de dados');
+  const h = capturadas[0].headers;
+  assert.equal(h['X-Sessao'], 'jwt-da-sessao',
+    'sem X-Sessao o servidor responde 401 "Sessão ausente" em TODA rota de dados');
+  assert.ok(!h.Authorization,
+    'sem tokenApi configurado, Authorization não deve existir');
+  assert.ok(capturadas[0].url.includes('/dados/clientes'),
+    `prefixo /dados ausente: ${capturadas[0].url}`);
+});
+
+test('★ a INFERÊNCIA também recebe a sessão, sem o chamador pedir', async () => {
+  // Se a única credencial aceita em /read fosse o ALLOCATOR_API_TOKEN, cada
+  // pessoa convidada a testar o portal teria de colar o segredo à mão - e
+  // publicá-lo no runtime-config.json para evitar isso o exporia num repositório
+  // PÚBLICO, acabando com a proteção. Ver `exigir_token` em server/app/main.py.
+  const originalFetch = globalThis.fetch;
+  const originalStorage = globalThis.localStorage;
+  const originalLocation = globalThis.location;
+  const capturadas = [];
+  globalThis.fetch = async (url, init) => {
+    capturadas.push({ url, headers: init?.headers ?? {} });
+    return { ok: true, status: 200, json: async () => ({ status: 'ok' }) };
+  };
+  globalThis.localStorage = storageFalso({
+    'allocator:sessao': JSON.stringify({ token: 'jwt-da-sessao', local: false }),
+  });
+  globalThis.location = { hostname: 'exemplo.github.io' };
+  try {
+    const config = await import('../src/lib/config.js');
+    config.salvarConfig({ apiInferencia: 'https://tunel.example.com' });
+    const api = await import('../src/lib/api.js');
+    await api.health();
+    assert.equal(capturadas.length, 1);
+    assert.equal(capturadas[0].headers['X-Sessao'], 'jwt-da-sessao',
+      'sem a sessão, /read exigiria o segredo compartilhado colado à mão');
+  } finally {
+    globalThis.fetch = originalFetch;
+    globalThis.localStorage = originalStorage;
+    globalThis.location = originalLocation;
+  }
+});
+
+test('a chave da sessão é uma só nos dois módulos', async () => {
+  // Duas constantes iguais divergem. O sintoma seria sessão que existe e não é
+  // enviada, e o diagnóstico levaria horas.
+  const api = await import('../src/lib/api.js');
+  const repo = await import('../src/lib/repo.js');
+  assert.equal(repo.CHAVES.sessao, api.CHAVE_SESSAO);
+});
+
+test('sessão e chave de API CONVIVEM quando as duas existem', async () => {
+  // Uma implantação endurecida pode pôr `exigir_token` também nas rotas de dados.
+  const capturadas = await capturarHeaders({ tokenApi: 'chave-compartilhada' });
+
+  const h = capturadas[0].headers;
+  assert.equal(h['X-Sessao'], 'jwt-da-sessao');
+  assert.equal(h.Authorization, 'Bearer chave-compartilhada',
+    'a chave da API não pode ser substituída pela sessão');
+});
+
 test('carregarConfig - localStorage tem PRECEDÊNCIA sobre runtime-config.json', async () => {
   const doArquivo = {
     apiDados: 'https://do-arquivo.example.com',

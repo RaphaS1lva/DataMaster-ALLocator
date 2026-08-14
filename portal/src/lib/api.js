@@ -92,19 +92,77 @@ function exigirBase(qual) {
 }
 
 /**
- * Cabeçalhos com Bearer.
+ * Cabeçalhos de autenticação. DOIS CANAIS, e eles não se substituem.
  *
- * `token` explícito sobrepõe o `tokenApi` da configuração: no plano de dados quem
- * autentica é o USUÁRIO (JWT emitido por `/dados/auth/login`, cujo `usuario_id`
- * o servidor põe no WHERE de toda consulta), e não a chave compartilhada da API.
+ *   `Authorization: Bearer <tokenApi>`  chave compartilhada da API. É o que
+ *                                       `exigir_token` confere em /read,
+ *                                       /julgamental e /parecer.
+ *   `X-Sessao: <jwt>`                   sessão do USUÁRIO, emitida por
+ *                                       /dados/auth/login. É o que
+ *                                       `usuario_atual` confere em todas as
+ *                                       rotas /dados/*.
+ *
+ * POR QUE DOIS, E O QUE CUSTOU CONFUNDI-LOS
+ * -----------------------------------------
+ * Esta função mandava o JWT da sessão em `Authorization`, e o servidor lê a
+ * sessão de `X-Sessao` (ver `usuario_atual` em server/app/db/rotas.py). Efeito:
+ * o login funcionava - é a única rota que não exige sessão - e TODA rota de
+ * dados devolvia 401 "Sessão ausente". No portal isso aparecia como painel com
+ * 0 clientes, 0 análises e "não consegui carregar o histórico", ou seja, como se
+ * o banco estivesse vazio.
+ *
+ * Pior: `dicaPara(401)` atribuía a culpa ao token de API. Duas sessões de
+ * diagnóstico foram gastas conferindo token, CORS e hash de senha por causa
+ * dessa mensagem.
+ *
+ * Os dois cabeçalhos CONVIVEM de propósito: uma implantação endurecida pode pôr
+ * `exigir_token` também nas rotas de dados, e aí a requisição precisa levar a
+ * chave da API e a sessão do usuário ao mesmo tempo.
  */
-function cabecalhos(token, extra = {}) {
-  const efetivo = token || getConfig().tokenApi;
+function cabecalhos({ sessao = '', token = '' } = {}, extra = {}) {
   const h = { ...extra };
+  const chaveApi = token || getConfig().tokenApi;
   // Bearer só quando existe. A API roda aberta em dev (e AVISA no log); mandar
   // "Bearer " vazio faria a comparação de string falhar com 401.
-  if (efetivo) h.Authorization = `Bearer ${efetivo}`;
+  if (chaveApi) h.Authorization = `Bearer ${chaveApi}`;
+  if (sessao) h['X-Sessao'] = sessao;
   return h;
+}
+
+/**
+ * Chave da sessão no `localStorage`. Definida AQUI e importada por `repo.js`.
+ *
+ * A direção do import é `repo.js -> api.js`; declarar a chave no repositório e
+ * lê-la aqui criaria ciclo. Uma segunda cópia da string seria pior: duas
+ * constantes iguais divergem, e o sintoma seria sessão que existe mas não é
+ * enviada - o mesmo tipo de bug de `normalizeText` com quatro implementações.
+ */
+export const CHAVE_SESSAO = 'allocator:sessao';
+
+/**
+ * Token da sessão corrente, lido do navegador.
+ *
+ * POR QUE O PLANO DE INFERÊNCIA TAMBÉM RECEBE A SESSÃO
+ * ----------------------------------------------------
+ * `/read` e `/julgamental` exigem credencial. Se a única aceita fosse o
+ * `ALLOCATOR_API_TOKEN`, cada pessoa convidada a TESTAR o portal teria de colar o
+ * segredo à mão - e publicá-lo no `runtime-config.json` para evitar isso o
+ * exporia num repositório público, acabando com a proteção.
+ *
+ * Mandando a sessão, quem fez login já está autorizado: o servidor de inferência
+ * valida a assinatura com o mesmo `JWT_SECRET` do plano de dados. Ver
+ * `exigir_token` em server/app/main.py.
+ *
+ * Safari em navegação privada LANÇA ao acessar `localStorage`, daí o try.
+ */
+function sessaoDoNavegador() {
+  try {
+    const cru = globalThis.localStorage?.getItem(CHAVE_SESSAO);
+    if (!cru) return '';
+    return String(JSON.parse(cru)?.token || '');
+  } catch {
+    return '';
+  }
 }
 
 /**
@@ -152,10 +210,27 @@ async function extrairDetalhe(resposta) {
   }
 }
 
-/** Dica de ação por código HTTP. Diz o que fazer, não só o que falhou. */
-function dicaPara(status) {
+/**
+ * Dica de ação por código HTTP. Diz o que fazer, não só o que falhou.
+ *
+ * O 401 usa o DETALHE do servidor para escolher a dica, e isso não é refinamento:
+ * a versão anterior atribuía todo 401 ao token de API, e as rotas de dados
+ * devolvem 401 por SESSÃO. A mensagem mandava conferir token, CORS e senha
+ * enquanto o problema era o cabeçalho da sessão - dica errada custa mais que dica
+ * ausente, porque direciona o diagnóstico para o lugar errado com confiança.
+ */
+function dicaPara(status, detalhe = '') {
+  const texto = String(detalhe || '').toLowerCase();
   switch (status) {
     case 401:
+      if (texto.includes('sess')) {
+        return 'A sessão expirou ou não foi enviada. Saia e entre de novo. '
+          + 'Se persistir, o servidor não está recebendo o cabeçalho X-Sessao.';
+      }
+      if (texto.includes('mail') || texto.includes('senha')) {
+        return 'E-mail ou senha não conferem. A mensagem é a mesma para os dois casos '
+          + 'de propósito: distinguir revelaria quais e-mails existem.';
+      }
       return 'O token de API está errado ou ausente. Confira o campo Token em Configurações.';
     case 404:
       return 'O job expirou ou a API reiniciou. Reenvie o arquivo.';
@@ -186,24 +261,30 @@ function dicaPara(status) {
  * @param {'dados'|'inferencia'} plano
  * @param {string} caminho começando com `/`
  * @param {{metodo?:string, corpo?:unknown, sinal?:AbortSignal, timeoutMs?:number,
- *          formData?:FormData, token?:string}} [opcoes]
+ *          formData?:FormData, token?:string, sessao?:string}} [opcoes]
+ *   `token` vai em `Authorization: Bearer` (chave compartilhada da API);
+ *   `sessao` vai em `X-Sessao` (JWT do usuário). Ver `cabecalhos`.
  */
 export async function requisitar(plano, caminho, opcoes = {}) {
   const base = exigirBase(plano);
   const {
-    metodo = 'GET', corpo, sinal, formData, token,
+    metodo = 'GET', corpo, sinal, formData, token, sessao,
     timeoutMs = formData ? TIMEOUT_UPLOAD_MS : TIMEOUT_REQUISICAO_MS,
   } = opcoes;
 
+  // `??` e não `||`: `repo.js` passa `''` deliberadamente no modo local, e isso
+  // significa "sem sessão". Só quando o chamador OMITE é que vale a do navegador,
+  // que é o caso das rotas de inferência.
+  const auth = { token, sessao: sessao ?? sessaoDoNavegador() };
   const teto = sinalComTeto(sinal, timeoutMs);
   try {
-    const init = { method: metodo, signal: teto.sinal, headers: cabecalhos(token) };
+    const init = { method: metodo, signal: teto.sinal, headers: cabecalhos(auth) };
     if (formData) {
       // NÃO defina Content-Type: o navegador precisa gerar o boundary do
       // multipart. Definir à mão produz um corpo que o FastAPI não parseia.
       init.body = formData;
     } else if (corpo !== undefined) {
-      init.headers = cabecalhos(token, { 'Content-Type': 'application/json' });
+      init.headers = cabecalhos(auth, { 'Content-Type': 'application/json' });
       init.body = JSON.stringify(corpo);
     }
 
@@ -211,7 +292,7 @@ export async function requisitar(plano, caminho, opcoes = {}) {
     if (!r.ok) {
       const detalhe = await extrairDetalhe(r);
       throw new ErroApi(detalhe || `A API respondeu ${r.status}.`, {
-        status: r.status, dica: dicaPara(r.status),
+        status: r.status, dica: dicaPara(r.status, detalhe),
       });
     }
     if (r.status === 204) return null;

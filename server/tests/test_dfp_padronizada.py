@@ -480,6 +480,55 @@ def test_continuacao_nao_forma_corrente_a_partir_de_pagina_que_nao_fecha() -> No
 
 
 # ---------------------------------------------------------------------------
+# 3c-bis. QUEM É TOTAL vem do CÓDIGO, não da árvore por soma
+# ---------------------------------------------------------------------------
+
+def test_folha_com_valor_igual_ao_pai_NAO_pode_virar_total() -> None:
+    """O defeito que furou a identidade em 4.509.232 no DFP do Fleury.
+
+        1.02.02        Investimentos                 4.509.232
+        1.02.02.01     Participações Societárias     4.509.232
+        1.02.02.01.02  Participações em Controladas  4.509.232
+
+    `arvore_por_soma` pressupõe o total DEPOIS das parcelas (layout do ITR). Na
+    padronizada da CVM o pai vem PRIMEIRO, então ao processar a última linha a
+    lista de pendentes termina com uma de valor IDÊNTICO - sufixo de tamanho 1 que
+    soma exatamente o candidato. Ela foi adotada e a FOLHA MAIS PROFUNDA virou
+    total, saindo da soma do Ativo.
+
+    Onde há código, o código decide: total é quem outro código ESTENDE.
+    """
+    from app.reading.demonstracao import sinteticas_por_codigo
+
+    codigos = ["1", "1.01", "1.01.01", "1.02", "1.02.02",
+               "1.02.02.01", "1.02.02.01.02", "1.02.03"]
+    sinteticas = sinteticas_por_codigo(codigos)
+
+    assert "1.02.02.01.02" not in sinteticas, "folha mais profunda virou total"
+    assert "1.02.03" not in sinteticas
+    assert "1.01.01" not in sinteticas
+    # e os pais continuam totais
+    assert {"1", "1.01", "1.02", "1.02.02", "1.02.02.01"} <= sinteticas
+
+
+def test_prefixo_exige_o_PONTO() -> None:
+    """`1.1` não é pai de `1.10`. Sem o ponto, a comparação inventaria pai."""
+    from app.reading.demonstracao import sinteticas_por_codigo
+
+    assert sinteticas_por_codigo(["1.1", "1.10"]) == set()
+    assert sinteticas_por_codigo(["1.1", "1.1.10"]) == {"1.1"}
+
+
+def test_sinteticas_por_codigo_tolera_lista_degenerada() -> None:
+    from app.reading.demonstracao import sinteticas_por_codigo
+
+    assert sinteticas_por_codigo([]) == set()
+    assert sinteticas_por_codigo(["", None, "  "]) == set()
+    # código repetido não pode virar pai de si mesmo
+    assert sinteticas_por_codigo(["1.01", "1.01"]) == set()
+
+
+# ---------------------------------------------------------------------------
 # 3d. SUBTOTAL DE APURAÇÃO da DRE - irmão, sem código aninhado
 # ---------------------------------------------------------------------------
 

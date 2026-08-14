@@ -70,22 +70,55 @@ app.add_middleware(
 ABERTA_SEM_TOKEN = os.getenv("ALLOCATOR_ABERTA", "").strip() in {"1", "true", "sim"}
 
 
-async def exigir_token(authorization: str = Header(default="")) -> None:
-    """Bearer compartilhado, FAIL-CLOSED.
+async def exigir_token(
+    authorization: str = Header(default=""),
+    x_sessao: str = Header(default=""),
+) -> None:
+    """Credencial para as rotas de serviço. DUAS aceitas, FAIL-CLOSED.
 
-    Sem `ALLOCATOR_API_TOKEN` configurada, nada é aceito. É o oposto da v1, onde
-    a ausência de configuração significava "aberto para o mundo" - e foi assim
-    que a API de inferência ficou pública sem ninguém decidir isso. Quem
-    descobrisse a URL podia queimar a cota de LLM do projeto.
+    1. `X-Sessao`: JWT de usuário emitido por `/dados/auth/login`.
+    2. `Authorization: Bearer`: `ALLOCATOR_API_TOKEN`, o segredo compartilhado.
 
-    A comparação usa `secrets.compare_digest` (em `auth.conferir_token_api`), e
-    não `==`: comparação de string sai no primeiro byte diferente, e a diferença
-    de tempo permite descobrir o segredo byte a byte.
+    POR QUE A SESSÃO TAMBÉM VALE
+    ----------------------------
+    Com apenas o segredo compartilhado, cada pessoa que fosse TESTAR o portal
+    precisaria colar o `ALLOCATOR_API_TOKEN` à mão nas Configurações. Publicá-lo no
+    `runtime-config.json` para evitar isso o exporia num repositório PÚBLICO, e aí
+    a proteção deixa de existir: quem achasse a URL usaria a GPU e a cota de LLM
+    de quem hospeda. Foi exatamente o incidente da v1.
+
+    A sessão resolve sem esse compromisso. O `JWT_SECRET` é o mesmo nas duas
+    implantações, então este servidor valida a assinatura de um token emitido pelo
+    plano de dados sem consultar nada - assinatura é prova, não é consulta. Quem
+    controla o acesso passa a ser a tabela `usuarios`: dar acesso é criar um
+    usuário, tirar é apagá-lo.
+
+    O segredo compartilhado continua existindo para script, `curl` e diagnóstico,
+    onde não há login.
+
+    A comparação do bearer usa `secrets.compare_digest` (em
+    `auth.conferir_token_api`), e não `==`: comparação de string sai no primeiro
+    byte diferente, e a diferença de tempo permite descobrir o segredo byte a byte.
     """
-    from .auth import api_protegida, conferir_token_api
+    from .auth import ErroAuth, api_protegida, conferir_token_api, validar_token
 
     if ABERTA_SEM_TOKEN:
         return
+
+    if x_sessao:
+        try:
+            validar_token(x_sessao)
+            return
+        except ErroAuth:
+            # Sessão apresentada e recusada: dizer isso, em vez de reclamar do
+            # token de serviço que o usuário nem deveria conhecer. Mensagem errada
+            # manda o diagnóstico para o lugar errado com confiança.
+            if not conferir_token_api(authorization):
+                raise HTTPException(
+                    401, "Sessão inválida ou expirada. Entre novamente.",
+                ) from None
+            return
+
     if not api_protegida():
         raise HTTPException(
             503,
@@ -94,7 +127,11 @@ async def exigir_token(authorization: str = Header(default="")) -> None:
             "ALLOCATOR_ABERTA=1.",
         )
     if not conferir_token_api(authorization):
-        raise HTTPException(401, "Token de API inválido ou ausente.")
+        raise HTTPException(
+            401,
+            "Credencial ausente. Faça login no portal (a sessão autoriza) ou "
+            "preencha o Token da API em Configurações.",
+        )
 
 
 @app.on_event("startup")

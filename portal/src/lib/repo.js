@@ -27,14 +27,16 @@
 // usuário. É armazenamento de demonstração, e a UI diz isso.
 
 import { getConfig } from './config.js';
-import { requisitar, ErroApi } from './api.js';
+import { requisitar, ErroApi, CHAVE_SESSAO } from './api.js';
 import { DICIONARIO_SEED } from '../core/data/dicionario.gen.js';
 
 export const CHAVES = Object.freeze({
   clientes: 'allocator:clientes',
   analises: 'allocator:analises',
   memoria: 'allocator:memoria',
-  sessao: 'allocator:sessao',
+  // Importada, não redeclarada: `api.js` também precisa dela para autorizar as
+  // rotas de inferência com a sessão, e duas constantes iguais divergem.
+  sessao: CHAVE_SESSAO,
 });
 
 /** `true` quando não há plano de dados: o repositório opera em `localStorage`. */
@@ -116,15 +118,23 @@ function tokenSessao() {
 const PREFIXO_DADOS = '/dados';
 
 /**
- * Requisição ao plano de dados com o JWT da sessão.
+ * Requisição ao plano de dados, com a sessão no cabeçalho `X-Sessao`.
  *
- * O JWT SOBREPÕE o `tokenApi` da configuração: aqui quem autentica é o usuário
- * (token próprio, cujo `usuario_id` o repositório do servidor põe no WHERE de
- * toda consulta), não a chave compartilhada da API.
+ * `sessao` e NÃO `token`: são dois canais diferentes e o servidor os lê em
+ * lugares diferentes. `usuario_atual` (server/app/db/rotas.py) declara
+ * `x_sessao: str = Header(default="")`; `exigir_token` (main.py) lê
+ * `Authorization`. Mandar o JWT em `Authorization` fazia o login passar - única
+ * rota sem sessão - e TODA rota de dados devolver 401 "Sessão ausente", o que na
+ * tela parecia banco vazio.
+ *
+ * Os dois viajam juntos quando ambos existem: o `tokenApi` da configuração entra
+ * em `Authorization` por conta do `cabecalhos`, e a sessão aqui. Uma implantação
+ * que ponha `exigir_token` também nas rotas de dados continua funcionando sem
+ * mudança neste módulo.
  */
 function dados(caminho, opcoes = {}) {
   return requisitar('dados', `${PREFIXO_DADOS}${caminho}`, {
-    ...opcoes, token: tokenSessao(),
+    ...opcoes, sessao: tokenSessao(),
   });
 }
 

@@ -266,21 +266,54 @@ async def embutir(textos: Sequence[str]) -> list[list[float]]:
     raise ErroProvedor("nenhum modelo de embedding respondeu | " + " | ".join(erros), provedor="ollama")
 
 
+def _chave_modelo(nome: object) -> str:
+    """Nome de modelo do Ollama em forma comparável.
+
+    CAIXA BAIXA porque o sufixo de quantização é escrito de forma inconsistente
+    pela própria comunidade: `q4_K_M`, `q4_k_m`, `q4_k_M` são o MESMO arquivo, e
+    qual delas fica registrada depende de como o `ollama pull` foi digitado.
+
+    Medido numa instalação real: `/api/tags` devolvia
+    `qwen2.5:7b-instruct-q4_k_M` (k minúsculo) e `MODELOS` declarava
+    `qwen2.5:7b-instruct-q4_K_M`. A comparação exata dizia
+    `instalado: False, disponivel: False` para o degrau PREFERIDO da escada de
+    texto - aquele que cabe inteiro na VRAM de 6 GB e é o melhor em português
+    contábil.
+
+    O roteamento não foi afetado (`_cascata` tenta e só desce em erro), mas o
+    `/health` afirmava o contrário do que era verdade. Num sistema cuja proposta é
+    tornar o estado visível, painel que mente é defeito, não cosmética: levaria o
+    operador a rebaixar um modelo que já funcionava.
+    """
+    return str(nome).strip().lower()
+
+
 async def status() -> dict[str, Any]:
     """O que está REALMENTE disponível agora (o portal mostra isto ao usuário)."""
     cliente = cliente_ollama()
     ollama_ok = await cliente.esta_disponivel()
     instalados = await cliente.modelos_disponiveis() if ollama_ok else []
-    # O Ollama devolve "nome:tag"; normalizamos ":latest" para comparar.
-    conjunto = {n for n in instalados} | {n.rsplit(":latest", 1)[0] for n in instalados if n.endswith(":latest")}
+    # O Ollama devolve "nome:tag"; normalizamos ":latest" e a CAIXA para comparar.
+    conjunto = {_chave_modelo(n) for n in instalados}
+    conjunto |= {
+        _chave_modelo(n).rsplit(":latest", 1)[0]
+        for n in instalados
+        if _chave_modelo(n).endswith(":latest")
+    }
 
     escada: dict[str, list[dict[str, Any]]] = {}
     for tipo, especificacoes in MODELOS.items():
         escada[tipo] = [
             {
                 **spec,
-                "instalado": ollama_ok and spec["nome"] in conjunto,
-                "disponivel": ollama_ok and spec["nome"] in conjunto and not _em_cooldown(str(spec["nome"])),
+                # `spec["nome"]` sai INTACTO na resposta: a comparação normaliza,
+                # a exibição preserva a grafia declarada.
+                "instalado": ollama_ok and _chave_modelo(spec["nome"]) in conjunto,
+                "disponivel": (
+                    ollama_ok
+                    and _chave_modelo(spec["nome"]) in conjunto
+                    and not _em_cooldown(str(spec["nome"]))
+                ),
             }
             for spec in especificacoes
         ]

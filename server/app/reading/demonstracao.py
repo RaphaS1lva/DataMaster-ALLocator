@@ -240,6 +240,44 @@ _RE_SUBTOTAL_DRE = re.compile(
 )
 
 
+def sinteticas_por_codigo(codigos: Iterable[object]) -> set[str]:
+    """Quais códigos são TOTAIS: os que outro código tem como prefixo estrito.
+
+    POR QUE ISTO SUBSTITUI `arvore_por_soma` QUANDO HÁ CÓDIGO
+    --------------------------------------------------------
+    `arvore_por_soma` pressupõe o total DEPOIS das parcelas, que é o layout do ITR
+    diagramado. A padronizada da CVM é TOP-DOWN: o pai vem primeiro e os filhos
+    embaixo. Nesse layout a heurística não só falha, ela inverte:
+
+        1.02.02        Investimentos                 4.509.232
+        1.02.02.01     Participações Societárias     4.509.232
+        1.02.02.01.02  Participações em Controladas  4.509.232
+
+    Ao processar a última linha, a lista de pendentes termina com uma linha de
+    valor IDÊNTICO - um sufixo de tamanho 1 que soma exatamente o candidato. Ela é
+    adotada, e a FOLHA MAIS PROFUNDA é declarada total.
+
+    Custo medido no DFP 2025 do Fleury: `Participações em Controladas` saiu da soma
+    do Ativo e a identidade furou em **4.509.232** nos três exercícios, com dois
+    erros de leitura Classe A. E o padrão pai-com-filho-único-de-mesmo-valor é a
+    regra na DFP, não a exceção (a cadeia de Aplicações Financeiras e a de
+    Intangíveis têm a mesma forma).
+
+    Onde o documento traz código, o código é evidência ESTRUTURAL e dispensa
+    heurística: um código é total quando existe outro que o estende. A comparação
+    exige o PONTO (`c + "."`) porque `1.1` não é pai de `1.10`.
+
+    A árvore por soma continua valendo onde não há código - é lá que ela é a única
+    fonte, e onde o layout é o que ela pressupõe.
+    """
+    lista = [str(c).strip() for c in codigos if str(c).strip()]
+    conjunto = set(lista)
+    return {
+        c for c in conjunto
+        if any(o != c and o.startswith(c + ".") for o in conjunto)
+    }
+
+
 def eh_subtotal_de_apuracao(rotulo: object) -> bool:
     """A linha é um subtotal de apuração da DRE?
 
@@ -635,6 +673,10 @@ def classificar(
         numerar(raiz, prefixo)
 
     doc_tem_codigo = _pagina_tem_coluna_de_codigo(com_valor)
+    sinteticas_doc = (
+        sinteticas_por_codigo([l.codigo for l in linhas if l.codigo])
+        if doc_tem_codigo else set()
+    )
 
     saida: list[LinhaClassificada] = []
     for pos, linha in enumerate(linhas):  # noqa: PLR1702
@@ -656,10 +698,10 @@ def classificar(
                 linha=linha,
                 familia=familia_de.get(k, "") or _familia_por_prefixo(linha.codigo),
                 codigo=linha.codigo,
-                # Subtotal por NOME entra junto com o confirmado por aritmética:
-                # no encadeamento de subtotais da DRE da CVM a aritmética só
-                # reconhece alguns, e o que escapa vira folha alocável.
-                sintetica=(arvore.eh_sintetica(k)
+                # PREFIXO, e não a árvore por soma. Ver `sinteticas_por_codigo`:
+                # `arvore_por_soma` pressupõe o total DEPOIS das parcelas, e a
+                # padronizada da CVM é top-down - ali ela transforma folha em total.
+                sintetica=(linha.codigo in sinteticas_doc
                            or eh_subtotal_de_apuracao(linha.rotulo)),
                 nivel=linha.codigo.count("."),
                 descartada=False,

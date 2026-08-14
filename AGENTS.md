@@ -5,11 +5,11 @@ Comandos, convenções e armadilhas deste repositório. Leia antes de mexer.
 ## Comandos
 
 ```powershell
-# Núcleo contábil (123 testes) - sempre rode depois de tocar em portal/src/core/
+# Núcleo contábil (127 testes) - sempre rode depois de tocar em portal/src/core/
 $env:Path += ';C:\Program Files\nodejs'
 cd portal; node --test "test/*.test.mjs"
 
-# Servidor (295 testes). Funciona COM ou SEM pytest.
+# Servidor (300 testes). Funciona COM ou SEM pytest.
 python -X utf8 server/run_tests.py
 python -X utf8 server/run_tests.py balancete -v   # filtra por nome do arquivo
 
