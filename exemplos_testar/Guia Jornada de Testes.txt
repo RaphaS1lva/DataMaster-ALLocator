@@ -1,0 +1,9 @@
+# Guia de Jornada para realização dos testes
+
+## Como testar
+1. Entre em https://raphas1lva.github.io/DataMaster-ALLocator/
+2. Clientes, cadastre um novo cliente para a sua carteira
+3. Etapa 1: nova análise, suba o arquivo
+4. Etapa 2: faça a conferência dos períodos a serem analisados
+5. Etapa 3: "julgar com IA", depois "completar com a residual do bloco"
+6. Etapa 4: analisar o resultado final e salvar a análise.
