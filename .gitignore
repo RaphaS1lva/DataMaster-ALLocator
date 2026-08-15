@@ -24,6 +24,12 @@ portal/.vite/
 *.pdf
 !server/eval/datasets/*.json
 
+# Documentos de EXEMPLO para os avaliadores testarem a ferramenta.
+# Exceção consciente à regra acima: só entram aqui documentos PÚBLICOS
+# (demonstração de companhia aberta, CVM/RI). Nunca dado de cliente.
+!exemplos_testar/
+!exemplos_testar/**
+
 # Ferramentas locais
 .claude/
 .idea/
